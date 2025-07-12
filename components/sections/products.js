@@ -1,4 +1,7 @@
+"use client";
 import ChromaGrid from '../../ui/chromaGrid.js';
+import { motion } from "framer-motion";
+
 
 function Products() {
     const items = [
@@ -23,10 +26,17 @@ function Products() {
     ];
   return (
     <div>
-        <h2 className="text-6xl font-bold text-center mb-8">Our <span className='text-[#989b2e]'>Products</span></h2>
+        <motion.h2
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.3, ease: "easeOut" }}
+            className="text-4xl md:text-6xl font-bold text-center mb-8"
+        >
+            Our <span className="text-[#989b2e]">Products</span>
+        </motion.h2>
         <ChromaGrid 
             items={items}
-            radius={300}
+            radius={400}
             damping={0.45}
             fadeOut={0.6}
             ease="power3.out"

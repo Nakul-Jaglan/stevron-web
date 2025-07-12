@@ -45,7 +45,7 @@ export const FloatingNav = ({
           duration: 0.2,
         }}
         className={cn(
-          "flex max-w-fit fixed top-5 inset-x-0 mx-auto border border-white/25 rounded-full bg-black backdrop-blur-lg shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] pr-2 pl-8 py-2  items-center justify-center space-x-8",
+          "flex max-w-fit fixed top-5 inset-x-0 mx-auto border border-white/25 rounded-full backdrop-blur-xl shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] pr-2 pl-8 py-2  items-center justify-center space-x-8",
           className
         )}>
         {/* Logo and Brand Name */}
@@ -88,13 +88,13 @@ export const FloatingNav = ({
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
                 transition={{ duration: 0.2 }}
-                className="absolute top-full mt-2 right-0 bg-black border border-white/25 rounded-lg shadow-lg min-w-[12px] z-10"
+                className="absolute top-full mt-2 right-0 bg-black backdrop-blur-lg border border-white/25 rounded-lg shadow-lg min-w-[12px] z-10"
               >
                 {languages.map((language) => (
                   <button
                     key={language.code}
                     onClick={() => handleLanguageChange(language)}
-                    className={`w-full text-left cursor-pointer px-4 py-2 text-lg hover:bg-white/10 transition-colors first:rounded-t-lg last:rounded-b-lg ${
+                    className={`w-full text-left cursor-pointer px-4 py-2 backdrop-blur-xl text-lg hover:bg-white/10 transition-colors first:rounded-t-lg last:rounded-b-lg ${
                       selectedLanguage === language.code ? 'text-blue-400' : 'text-white'
                     }`}
                   >

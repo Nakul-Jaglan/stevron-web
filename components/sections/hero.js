@@ -1,7 +1,7 @@
 "use client";
 import React, { useMemo } from "react";
 import { Canvas, useLoader } from "@react-three/fiber";
-import { Float, OrbitControls, Html } from "@react-three/drei";
+import { Float, Html } from "@react-three/drei";
 import * as THREE from "three";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -110,7 +110,7 @@ function Hero() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.7, ease: "easeOut" }}
-      className="w-full h-screen bg-black relative overflow-hidden"
+      className="w-full h-screen relative overflow-hidden"
     >
       <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-items-center h-full">
         <motion.div
@@ -170,12 +170,12 @@ function Hero() {
           <Canvas camera={{ position: [0, 0, 8], fov: 60 }}>
             {/* Products floating all over */}
             {allProducts.map((url, i) => (
-              <ProductSprite key={url} url={url} position={productPositions[i]} />
+              <ProductSprite key={url} url={url} position={productPositions[i]}/>
             ))}
             {/* Centerpiece */}
             <Centerpiece />
             {/* Controls for demo, can be removed for production */}
-            <OrbitControls enablePan={false} enableZoom={false} />
+            {/* <OrbitControls enablePan={false} enableZoom={false} /> */}
           </Canvas>
         </motion.div>
       </div>
