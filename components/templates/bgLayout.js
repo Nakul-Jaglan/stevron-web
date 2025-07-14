@@ -117,7 +117,7 @@ function BgLayout({ children, className = "" }) {
       <div className="fixed inset-0 bg-gradient-to-b from-black via-transparent to-black pointer-events-none z-0" />
       
       {/* Centralized Particle System */}
-      <GlobalParticles />
+      {/* <GlobalParticles /> */}
       
       <header className="relative z-50">
         <Header />

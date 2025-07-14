@@ -14,16 +14,8 @@ export default function Header() {
       link: "/about"
     },
     {
-      name: "Hand Tools",
-      link: "/hand-tools",
-    },
-    {
-      name: "AC Tools",
-      link: "/ac-tools",
-    },
-    {
-      name: "DC Tools",
-      link: "/dc-tools",
+      name: "Products",
+      link: "/products",
     },
     {
       name: "Contact Us",
