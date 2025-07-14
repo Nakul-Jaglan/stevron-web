@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Header from '../layouts/header.js';
 import Footer from '../layouts/footer.js';
+import NewHeader from '../layouts/newHeader.js';
+import NewFooter from '../layouts/newFooter.js';
 
 // Product image arrays
 const acTools = [
@@ -120,7 +122,8 @@ function BgLayout({ children, className = "" }) {
       {/* <GlobalParticles /> */}
       
       <header className="relative z-50">
-        <Header />
+        {/* <Header /> */}
+        <NewHeader/>
       </header>
 
       <main className={`relative z-20 ${className}`}>
@@ -128,7 +131,8 @@ function BgLayout({ children, className = "" }) {
       </main>
 
       <footer className="relative z-20">
-        <Footer />
+        {/* <Footer /> */}
+        <NewFooter/>
       </footer>
     </div>
   );
