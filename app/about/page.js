@@ -1,0 +1,613 @@
+"use client";
+import BgLayout from "@/components/templates/bgLayout";
+import { motion, useInView } from "framer-motion";
+import { useRef } from "react";
+import Link from "next/link";
+
+function AboutPage() {
+  const heroRef = useRef(null);
+  const storyRef = useRef(null);
+  const valuesRef = useRef(null);
+  const teamRef = useRef(null);
+  const achievementsRef = useRef(null);
+  const ctaRef = useRef(null);
+
+  const isHeroInView = useInView(heroRef, { once: true, amount: 0.2 });
+  const isStoryInView = useInView(storyRef, { once: true, amount: 0.2 });
+  const isValuesInView = useInView(valuesRef, { once: true, amount: 0.2 });
+  const isTeamInView = useInView(teamRef, { once: true, amount: 0.2 });
+  const isAchievementsInView = useInView(achievementsRef, { once: true, amount: 0.2 });
+  const isCtaInView = useInView(ctaRef, { once: true, amount: 0.2 });
+
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.15,
+        delayChildren: 0.1
+      }
+    }
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 60 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.8,
+        ease: "easeOut"
+      }
+    }
+  };
+
+  const values = [
+    {
+      icon: "🎯",
+      title: "Precision Engineering",
+      description: "Every Stevron tool is meticulously crafted with precision engineering to deliver consistent, reliable performance in the most demanding environments."
+    },
+    {
+      icon: "🛡️",
+      title: "Uncompromising Quality",
+      description: "We never compromise on quality. From premium materials to rigorous testing, every tool meets our exacting standards before it reaches your hands."
+    },
+    {
+      icon: "🔋",
+      title: "Innovation First",
+      description: "Our revolutionary ONE Battery Platform showcases our commitment to innovative solutions that simplify your workflow and maximize efficiency."
+    },
+    {
+      icon: "🤝",
+      title: "Professional Partnership",
+      description: "We\'re more than a tool manufacturer—we\'re your trusted partner, understanding the challenges you face and engineering solutions that work."
+    }
+  ];
+
+  const teamMembers = [
+    {
+      name: "Ashwin Tharoor",
+      role: "Chief Executive Officer",
+      bio: "Visionary leader driving Stevron\'s mission to revolutionize professional tools with over 20 years of industry experience.",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      name: "Sarah Johnson",
+      role: "Head of Engineering",
+      bio: "Leading our engineering team in developing cutting-edge tool technologies that set new industry standards.",
+      image: "https://images.unsplash.com/photo-1494790108755-2616b9434d90?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      name: "Michael Chen",
+      role: "Innovation Director",
+      bio: "Pioneering breakthrough technologies like our ONE Battery Platform that transform how professionals work.",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      name: "Emily Rodriguez",
+      role: "Quality Assurance Lead",
+      bio: "Ensuring every Stevron tool meets our rigorous quality standards through comprehensive testing and validation.",
+      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+    }
+  ];
+
+  const achievements = [
+    {
+      number: "21+",
+      label: "Countries",
+      description: "Global reach and distribution network"
+    },
+    {
+      number: "5 Mn+",
+      label: "Clients Worldwide",
+      description: "Trusted by professionals worldwide"
+    },
+    {
+      number: "4500+",
+      label: "Products",
+      description: "Diverse range of tools and accessories"
+    },
+    {
+      number: "15000+",
+      label: "Retail Partners",
+      description: "Customer satisfaction and loyalty"
+    }
+  ];
+
+  return (
+    <BgLayout>
+      <div className="min-h-screen">
+        {/* Hero Section */}
+        <section 
+          ref={heroRef}
+          className="relative min-h-screen flex items-center justify-center px-4 pt-20"
+        >
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            animate={isHeroInView ? "visible" : "hidden"}
+            className="max-w-6xl mx-auto text-center"
+          >
+            <motion.div
+              variants={itemVariants}
+              className="inline-flex items-center space-x-2 bg-gradient-to-r from-yellow-400/20 to-orange-500/20 border border-yellow-400/30 rounded-full px-6 py-3 mb-8"
+            >
+              <div className="w-2 h-2 bg-yellow-400 rounded-full animate-pulse"></div>
+              <span className="text-yellow-400 text-sm font-semibold tracking-wider uppercase">
+                About Stevron
+              </span>
+            </motion.div>
+
+            <motion.h1
+              variants={itemVariants}
+              className="text-6xl md:text-8xl font-bold text-white mb-8 leading-tight"
+            >
+              Built for{" "}
+              <span className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text text-transparent">
+                Those
+              </span> Who Build the {" "}
+              <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+                World
+              </span>
+            </motion.h1>
+
+            <motion.p
+              variants={itemVariants}
+              className="text-2xl text-white/80 max-w-4xl mx-auto leading-relaxed mb-12"
+            >
+              At Stevron, we craft powerful, precision-engineered tools for professionals who rely on performance every single day. From workshops to jobsites, we&apos;re here to simplify power and amplify results.
+            </motion.p>
+
+            <motion.div
+              variants={itemVariants}
+              className="flex flex-col sm:flex-row gap-6 justify-center items-center"
+            >
+              <Link href="/products">
+                <motion.button
+                  whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(255,196,0,0.3)" }}
+                  whileTap={{ scale: 0.95 }}
+                  className="bg-[#989b2e] text-white text-xl font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer"
+                >
+                  Explore Our Tools
+                </motion.button>
+              </Link>
+              <Link href="/contact">
+                <motion.button
+                  whileHover={{ scale: 1.05, borderColor: "rgba(255,196,0,0.8)" }}
+                  whileTap={{ scale: 0.95 }}
+                  className="border-2 border-white text-white text-xl font-bold px-8 py-4 rounded-full hover:bg-yellow-400/10 transition-all duration-300 cursor-pointer"
+                >
+                  Get In Touch
+                </motion.button>
+              </Link>
+            </motion.div>
+          </motion.div>
+
+          {/* Floating Elements */}
+          <motion.div
+            animate={{
+              y: [0, -20, 0],
+              rotate: [0, 5, -5, 0]
+            }}
+            transition={{
+              duration: 8,
+              repeat: Infinity,
+              ease: "easeInOut"
+            }}
+            className="absolute top-20 right-20 opacity-20"
+          >
+            <img src="/ac-tools/Router.png" alt="Tool" className="w-34 h-34 object-contain" />
+          </motion.div>
+          <motion.div
+            animate={{
+              y: [0, 15, 0],
+              rotate: [0, -3, 3, 0]
+            }}
+            transition={{
+              duration: 10,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: 2
+            }}
+            className="absolute bottom-40 left-20 opacity-20"
+          >
+            <img src="/dc-tools/20J Rotary Hammer.png" alt="Tool" className="w-30 h-30 object-contain" />
+          </motion.div>
+          <motion.div
+            animate={{
+              y: [0, -20, 0],
+              rotate: [0, 5, -5, 0]
+            }}
+            transition={{
+              duration: 8,
+              repeat: Infinity,
+              ease: "easeInOut"
+            }}
+            className="absolute top-20 left-20 opacity-20"
+          >
+            <img src="/dc-tools/60nm.png" alt="Tool" className="w-34 h-34 object-contain" />
+          </motion.div>
+          <motion.div
+            animate={{
+              y: [0, 15, 0],
+              rotate: [0, -3, 3, 0]
+            }}
+            transition={{
+              duration: 10,
+              repeat: Infinity,
+              ease: "easeInOut",
+              delay: 2
+            }}
+            className="absolute bottom-40 right-20 opacity-20"
+          >
+            <img src="/ac-tools/1100W-Impact-Drill.png" alt="Tool" className="w-30 h-30 object-contain" />
+          </motion.div>
+        </section>
+
+        {/* Our Story Section */}
+        <section 
+          ref={storyRef}
+          className="py-10 px-4"
+        >
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            animate={isStoryInView ? "visible" : "hidden"}
+            className="max-w-7xl mx-auto"
+          >
+            <div className="grid lg:grid-cols-2 gap-8 items-center">
+              <motion.div variants={itemVariants}>
+                <h2 className="text-5xl font-bold text-white mb-8 leading-tight">
+                  Our{" "}
+                  <span className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
+                    Story
+                  </span>
+                </h2>
+                <div className="space-y-6 text-lg text-white/80 leading-relaxed">
+                    <motion.p
+                        variants={itemVariants}
+                    >
+                        At Stevron, we don&apos;t just make tools—we build trust.
+                    </motion.p>
+                    <motion.p
+                        variants={itemVariants}
+                    >
+                        Born from Bonhoeffer&apos;s legacy of industrial precision, Stevron was created to serve a new generation of professionals and makers who demand more from their tools. Whether it&apos;s a contractor powering through a 12-hour shift or a workshop owner perfecting every detail, we design with one goal: to deliver power, simplified.
+
+                    </motion.p>
+                    <motion.p
+                        variants={itemVariants}
+                    >
+                        We started with a question: What if tools weren&apos;t just powerful, but smarter, tougher, and built for real-world work? From that question came our AC and DC power tool lines, our signature 1ne Battery platform, and a full range of ergonomic hand tools and accessories—each built to perform under pressure.
+                    </motion.p>
+                    <motion.p
+                        variants={itemVariants}
+                    >
+                        Every Stevron product reflects the grit of the people who use it. We believe in durable designs, honest pricing, and tools that stand up to years of use, not just a few jobs.
+                    </motion.p>
+                    <motion.h2
+                        variants={itemVariants}
+                        className="text-3xl font-bold text-white mt-8"
+                    >
+                        This isn&apos;t hype. This is hardware.
+                    </motion.h2>
+                    <motion.p
+                        variants={itemVariants}
+                        className="text-xl text-white/80 mt-4"
+                    >
+                        Because when your tools work harder, you work smarter.
+                    </motion.p>
+                </div>
+              </motion.div>
+
+              <motion.div 
+                variants={itemVariants}
+                className="relative"
+              >
+                <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                  className="relative"
+                >
+                  <img
+                    src="https://www.mechnovamachines.com/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1552664730-d307ca884978&w=1080&q=75"
+                    alt="Stevron Workshop"
+                    className="rounded-2xl shadow-2xl"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent rounded-2xl"></div>
+                </motion.div>
+                
+                {/* <motion.div
+                  animate={{
+                    scale: [1, 1.1, 1],
+                    opacity: [0.8, 1, 0.8]
+                  }}
+                  transition={{
+                    duration: 4,
+                    repeat: Infinity,
+                    ease: "easeInOut"
+                  }}
+                  className="absolute -top-4 -right-4 bg-gradient-to-r from-yellow-400 to-orange-500 text-black px-6 py-3 rounded-full text-lg font-bold shadow-lg"
+                >
+                  Est. 1998
+                </motion.div> */}
+              </motion.div>
+            </div>
+          </motion.div>
+        </section>
+
+        {/* Values Section */}
+        <section 
+          ref={valuesRef}
+          className="py-10 px-4"
+        >
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            animate={isValuesInView ? "visible" : "hidden"}
+            className="max-w-7xl mx-auto"
+          >
+            <motion.div variants={itemVariants} className="text-center mb-16">
+              <h2 className="text-5xl font-bold text-white mb-6 leading-tight">
+                Our{" "}
+                <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+                  Values
+                </span>
+              </h2>
+              <p className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
+                The principles that guide everything we do and drive our commitment to excellence.
+              </p>
+            </motion.div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {values.map((value, index) => (
+                <motion.div
+                  key={index}
+                  variants={itemVariants}
+                  className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-all duration-300 group text-center"
+                  whileHover={{ scale: 1.05, y: -10 }}
+                >
+                  <div className="text-6xl mb-6 group-hover:scale-110 transition-transform">
+                    {value.icon}
+                  </div>
+                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-[#989b2e] transition-colors">
+                    {value.title}
+                  </h3>
+                  <p className="text-white/80 leading-relaxed text-lg">
+                    {value.description}
+                  </p>
+                </motion.div>
+              ))}
+            </div>
+          </motion.div>
+        </section>
+
+        {/* Team Section */}
+        {/* <section 
+          ref={teamRef}
+          className="py-10 px-4"
+        >
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            animate={isTeamInView ? "visible" : "hidden"}
+            className="max-w-7xl mx-auto"
+          >
+            <motion.div variants={itemVariants} className="text-center mb-16">
+              <h2 className="text-5xl font-bold text-white mb-6 leading-tight">
+                Meet Our{" "}
+                <span className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
+                  Team
+                </span>
+              </h2>
+              <p className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
+                The passionate professionals behind Stevron&apos;s innovation and excellence.
+              </p>
+            </motion.div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {teamMembers.map((member, index) => (
+                <motion.div
+                  key={index}
+                  variants={itemVariants}
+                  className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all duration-300 group text-center"
+                  whileHover={{ scale: 1.05, y: -10 }}
+                >
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    className="relative mb-6"
+                  >
+                    <img
+                      src={member.image}
+                      alt={member.name}
+                      className="w-24 h-24 rounded-full mx-auto object-cover shadow-lg"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-full"></div>
+                  </motion.div>
+                  <h3 className="text-xl font-bold text-white mb-2 group-hover:text-yellow-400 transition-colors">
+                    {member.name}
+                  </h3>
+                  <p className="text-yellow-400 font-semibold mb-4">
+                    {member.role}
+                  </p>
+                  <p className="text-white/80 text-sm leading-relaxed">
+                    {member.bio}
+                  </p>
+                </motion.div>
+              ))}
+            </div>
+          </motion.div>
+        </section> */}
+
+        {/* Achievements Section */}
+        <section 
+          ref={achievementsRef}
+          className="py-10 px-4"
+        >
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            animate={isAchievementsInView ? "visible" : "hidden"}
+            className="max-w-7xl mx-auto"
+          >
+            <motion.div variants={itemVariants} className="text-center mb-16">
+              <h2 className="text-5xl font-bold text-white mb-6 leading-tight">
+                Our{" "}
+                <span className="bg-gradient-to-r from-pink-400 to-red-500 bg-clip-text text-transparent">
+                  Achievements
+                </span>
+              </h2>
+              <p className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
+                Numbers that reflect our commitment to excellence and customer satisfaction.
+              </p>
+            </motion.div>
+
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {achievements.map((achievement, index) => (
+                <motion.div
+                  key={index}
+                  variants={itemVariants}
+                  className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-all duration-300 group text-center"
+                  whileHover={{ scale: 1.05, y: -10 }}
+                >
+                  <motion.div
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1 }}
+                    transition={{ duration: 0.5, delay: 0.5 + index * 0.1 }}
+                    className="text-5xl font-bold group-hover:text-yellow-400 mb-4 text-[#989b2e] transition-colors duration-300"
+                  >
+                    {achievement.number}
+                  </motion.div>
+                  <h3 className="text-2xl font-bold text-white mb-2">
+                    {achievement.label}
+                  </h3>
+                  <p className="text-white/80 text-base leading-relaxed">
+                    {achievement.description}
+                  </p>
+                </motion.div>
+              ))}
+            </div>
+          </motion.div>
+        </section>
+
+        {/* CTA Section */}
+        <section 
+          ref={ctaRef}
+          className="py-10 px-4"
+        >
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            animate={isCtaInView ? "visible" : "hidden"}
+            className="max-w-4xl mx-auto text-center"
+          >
+            <motion.div
+              variants={itemVariants}
+              className="relative overflow-hidden"
+            >
+              {/* Background Animation */}
+              {/* <motion.div
+                animate={{
+                  scale: [1, 1.2, 1],
+                  opacity: [0.3, 0.6, 0.3]
+                }}
+                transition={{
+                  duration: 6,
+                  repeat: Infinity,
+                  ease: "easeInOut"
+                }}
+                className="absolute inset-0 bg-gradient-to-r from-yellow-400/20 to-orange-500/20 rounded-3xl blur-xl"
+              /> */}
+
+              <div className="relative z-10">
+                <motion.div
+                  animate={{
+                    scale: [1, 1.1, 1],
+                    rotate: [0, 5, -5, 0]
+                  }}
+                  transition={{
+                    duration: 8,
+                    repeat: Infinity,
+                    ease: "easeInOut"
+                  }}
+                  className="text-8xl mb-8"
+                >
+                  🚀
+                </motion.div>
+
+                <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
+                  Ready to Experience{" "}
+                  <span className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
+                    Stevron Quality?
+                  </span>
+                </h2>
+
+                <p className="text-xl text-white/80 mb-10 max-w-2xl mx-auto leading-relaxed">
+                  Join thousands of professionals who trust Stevron for their most demanding projects. 
+                  Discover the difference that true innovation and quality can make.
+                </p>
+
+                <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                  <Link href="/products">
+                    <motion.button
+                      whileHover={{ 
+                        scale: 1.05, 
+                        boxShadow: "0 25px 50px rgba(255,196,0,0.4)",
+                        y: -3
+                      }}
+                      whileTap={{ scale: 0.95 }}
+                      className="bg-[#989b2e] text-white text-xl font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer"
+                    >
+                      Shop Now
+                    </motion.button>
+                  </Link>
+                  
+                  <Link href="/contact">
+                    <motion.button
+                      whileHover={{ 
+                        scale: 1.05, 
+                        borderColor: "rgba(255,196,0,0.8)",
+                        y: -3
+                      }}
+                      whileTap={{ scale: 0.95 }}
+                      className="border-2 border-white text-white text-xl font-bold px-8 py-4 rounded-full hover:bg-yellow-400/10 transition-all duration-300 cursor-pointer"
+                    >
+                      Contact Us
+                    </motion.button>
+                  </Link>
+                </div>
+
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: 0.8 }}
+                  className="mt-10 flex flex-wrap items-center justify-center gap-8 text-white/60 text-sm"
+                >
+                  <div className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                    <span>Professional Grade</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
+                    <span>12+ Countries</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></div>
+                    <span>Global Warranty</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <div className="w-2 h-2 bg-yellow-400 rounded-full animate-pulse"></div>
+                    <span>ONE Battery Platform</span>
+                  </div>
+                </motion.div>
+              </div>
+            </motion.div>
+          </motion.div>
+        </section>
+      </div>
+    </BgLayout>
+  );
+}
+
+export default AboutPage;
