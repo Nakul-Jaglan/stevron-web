@@ -323,7 +323,7 @@ function AboutSec() {
                 whileHover={{ scale: 1.05, borderColor: "rgba(255,196,0,0.8)" }}
                 whileTap={{ scale: 0.95 }}
                 // className="border-2 border-white/30 text-white font-bold px-8 py-4 rounded-full hover:bg-white/10 transition-all duration-300"
-                className="border-2 border-white text-white text-xl font-bold px-8 py-4 rounded-full hover:bg-yellow-400/10 transition-all duration-300 cursor-pointer"
+                className="border border-white text-white text-xl font-bold px-8 py-4 rounded-full hover:bg-yellow-400/10 transition-all duration-300 cursor-pointer"
               >
                 View Products
               </motion.button>

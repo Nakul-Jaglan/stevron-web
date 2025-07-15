@@ -1,0 +1,52 @@
+{
+    "STV-001":{
+        "code": "STV-001",
+        "name": "Drill Machine",
+        "image": "/ac-tools/500W-Drill.png"
+    },
+    "STV-002":{
+        "code": "STV-002",
+        "name": "Angle Grinder",
+        "image": "/ac-tools/750W-Angle-Grinder.png"
+    },
+    "STV-003":{
+        "code": "STV-003",
+        "name": "Impact Drill",
+        "image": "/ac-tools/710W-Impact-Drill.png"
+    },
+    "STV-004":{
+        "code": "STV-004",
+        "name": "Rotary Hammer",
+        "image": "/dc-tools/20J Rotary Hammer.png"
+    },
+    "STV-005":{
+        "code": "STV-005",
+        "name": "Impact Wrench",
+        "image": "/dc-tools/800nm Impact Wrench_PNG.png"
+    },
+    "STV-006":{
+        "code": "STV-006",
+        "name": "Circular Saw",
+        "image": "/dc-tools/DC_Circular Saw.png"
+    },
+    "STV-007":{
+        "code": "STV-007",
+        "name": "Cut Off Saw",
+        "image": "/ac-tools/2400W Cut Off Saw.png"
+    },
+    "STV-008":{
+        "code": "STV-008",
+        "name": "Palm Sander",
+        "image": "/dc-tools/125mm Palm Sander.png"
+    },
+    "STV-009":{
+        "code": "STV-009",
+        "name": "Blower",
+        "image": "/dc-tools/DC Blower.png"
+    },
+    "STV-010":{
+        "code": "STV-010",
+        "name": "Polisher",
+        "image": "/ac-tools/1400W Polisher.png"
+    }
+}
