@@ -114,7 +114,7 @@ const GlobalParticles = React.memo(function GlobalParticles() {
 
 function BgLayout({ children, className = "" }) {
   return (
-    <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+    <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 ">
       {/* Global Background Overlay - Black to Transparent to Black */}
       <div className="fixed inset-0 bg-gradient-to-b from-black via-transparent to-black pointer-events-none z-0" />
       

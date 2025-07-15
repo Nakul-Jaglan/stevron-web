@@ -185,7 +185,7 @@ function NewFooter() {
               </p>
               <p className="text-white/70">
                 <span className="text-white font-semibold">Email:</span> 
-                <Link href="mailto:ashwin@stevrontools.com" className="hover:text-[#989b2e] transition-colors ml-1">
+                <Link href="mailto:ashwin@stevrontools.com" className="hover:text-[#989b2e] transition-colors ml-1 wrap-anywhere xl:wrap-normal">
                   ashwin@stevrontools.com
                 </Link>
               </p>
