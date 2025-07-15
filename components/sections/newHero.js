@@ -42,7 +42,7 @@ function NewHero() {
         secondary: { text: "Tool Sets", href: "/products/hand-tools/sets" }
       },
       image: "/ac-tools/350W-Trimmer.png",
-      bgGradient: "from-orange-600/20 via-red-600/20 to-pink-600/20"
+      bgGradient: "from-green-600/20 via-purple-600/20 to-blue-600/20"
     },
     {
       id: 4,
