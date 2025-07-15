@@ -18,7 +18,8 @@ function NewHero() {
         secondary: { text: "View Catalog", href: "/catalog/ac-tools" }
       },
       image: "/ac-tools/Router.png",
-      bgGradient: "from-blue-600/20 via-purple-600/20 to-pink-600/20"
+    //   bgGradient: "from-blue-600/20 via-purple-600/20 to-pink-600/20"
+      bgGradient: "from-green-600/20 via-teal-600/20 to-blue-600/20"
     },
     {
       id: 2,
@@ -42,7 +43,8 @@ function NewHero() {
         secondary: { text: "Tool Sets", href: "/products/hand-tools/sets" }
       },
       image: "/ac-tools/350W-Trimmer.png",
-      bgGradient: "from-green-600/20 via-purple-600/20 to-blue-600/20"
+    //   bgGradient: "from-green-600/20 via-purple-600/20 to-blue-600/20"
+      bgGradient: "from-green-600/20 via-teal-600/20 to-blue-600/20"
     },
     {
       id: 4,
@@ -54,7 +56,8 @@ function NewHero() {
         secondary: { text: "Bundle Deals", href: "/deals/accessories" }
       },
       image: "/dc-tools/60Nm.png",
-      bgGradient: "from-purple-600/20 via-indigo-600/20 to-blue-600/20"
+    //   bgGradient: "from-purple-600/20 via-indigo-600/20 to-blue-600/20"
+      bgGradient: "from-green-600/20 via-teal-600/20 to-blue-600/20"
     }
   ];
 
@@ -237,7 +240,7 @@ function NewHero() {
         </div>
 
         {/* Progress Bar */}
-        <div className="absolute bottom-0 left-0 h-1 bg-white/20 w-full">
+        {/* <div className="absolute bottom-0 left-0 h-1 bg-white/20 w-full">
           <motion.div
             key={currentSlide}
             initial={{ width: "0%" }}
@@ -246,7 +249,7 @@ function NewHero() {
             // className="h-full bg-gradient-to-r from-yellow-400 to-orange-500"
             className="h-full bg-[#989b2e] "
           />
-        </div>
+        </div> */}
       </div>
       <div>
         {/* Navigation Arrows */}
