@@ -98,7 +98,7 @@ function NewHero() {
         onMouseEnter={() => setIsAutoPlaying(false)}
         onMouseLeave={() => setIsAutoPlaying(true)}
       >
-        <div className="relative h-[50vh] flex">
+        <div className="relative h-[80vh] flex">
           {/* Left Side - Text Content */}
           <div className="w-1/2 flex flex-col justify-center p-12 relative z-10">
             <AnimatePresence mode="wait">
@@ -197,7 +197,7 @@ function NewHero() {
                   <img
                     src={slides[currentSlide].image}
                     alt={slides[currentSlide].title}
-                    className="max-h-80 w-auto object-contain drop-shadow-2xl"
+                    className="max-h-150 w-auto object-contain drop-shadow-2xl"
                   />
                   {/* Floating particles around image */}
                   <motion.div

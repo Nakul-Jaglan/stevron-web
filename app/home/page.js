@@ -1,3 +1,4 @@
+import AboutSec from "@/components/sections/aboutSec";
 import Hero from "@/components/sections/hero";
 import NewHero from "@/components/sections/newHero";
 import One from "@/components/sections/one";
@@ -12,7 +13,8 @@ export default function Home() {
           <NewHero/>
         </div>
         <One/>
-        <div className="h-[100vh]"/>
+        <AboutSec/>
+        {/* <div className="h-[100vh]"/> */}
       </main>
     </BgLayout>
   );
