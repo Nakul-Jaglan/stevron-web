@@ -249,6 +249,7 @@ function AboutPage() {
         <section 
           ref={storyRef}
           className="py-10 px-4"
+          id="story"
         >
           <motion.div
             variants={containerVariants}

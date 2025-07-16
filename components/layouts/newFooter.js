@@ -27,7 +27,7 @@ function NewFooter() {
       title: "Company",
       links: [
         { name: "About Us", href: "/about" },
-        { name: "Our Story", href: "/about/story" },
+        { name: "Our Story", href: "/about#story" },
         { name: "Careers", href: "/careers" },
         { name: "Press", href: "/press" }
       ]

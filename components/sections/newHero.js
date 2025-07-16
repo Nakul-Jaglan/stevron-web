@@ -155,7 +155,7 @@ function NewHero() {
                       whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(255,255,255,0.1)" }}
                       whileTap={{ scale: 0.95 }}
                     //   className="bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
-                      className="bg-[#989b2e] text-white text-xl font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+                      className="bg-[#989b2e] cursor-pointer text-white text-xl font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
                     >
                       {slides[currentSlide].cta.primary.text}
                     </motion.button>
@@ -164,7 +164,7 @@ function NewHero() {
                     <motion.button
                       whileHover={{ scale: 1.05, borderColor: "rgba(255,255,255,0.8)" }}
                       whileTap={{ scale: 0.95 }}
-                      className="border-2 border-white/30 text-white text-xl font-semibold px-8 py-4 rounded-full hover:bg-white/10 transition-all duration-300"
+                      className="border-2 cursor-pointer border-white/30 text-white text-xl font-semibold px-8 py-4 rounded-full hover:bg-white/10 transition-all duration-300"
                     >
                       {slides[currentSlide].cta.secondary.text}
                     </motion.button>

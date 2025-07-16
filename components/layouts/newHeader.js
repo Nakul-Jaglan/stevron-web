@@ -15,7 +15,7 @@ function NewHeader() {
   ];
 
   const navItems = [
-    { name: "Home", href: "/" },
+    { name: "Home", href: "/home" },
     { name: "About Us", href: "/about" },
     { name: "Products", href: "/products", hasDropdown: true },
     { name: "Blog", href: "/blog" },

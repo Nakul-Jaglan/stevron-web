@@ -190,16 +190,18 @@ function One() {
               variants={itemVariants}
               className="flex flex-wrap gap-4 pt-6"
             >
-              <Link href="/products/dc-tools">
-                <motion.button
-                  whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(255,196,0,0.3)" }}
-                  whileTap={{ scale: 0.95 }}
-                //   className="bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
-                  className="bg-[#989b2e] text-white text-xl font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer"
-                >
-                  Shop DC Tools
-                </motion.button>
-              </Link>
+              <div className="z-100">
+                <Link href="/products/dc-tools">
+                  <motion.button
+                    whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(255,196,0,0.3)" }}
+                    whileTap={{ scale: 0.95 }}
+                  //   className="bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+                    className="bg-[#989b2e] text-white text-xl font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer"
+                  >
+                    Shop DC Tools
+                  </motion.button>
+                </Link>
+              </div>
               <Link href="/technology/one-battery">
                 <motion.button
                   whileHover={{ scale: 1.05, borderColor: "rgba(255,196,0,0.8)" }}
