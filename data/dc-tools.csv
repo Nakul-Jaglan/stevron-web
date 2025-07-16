@@ -1,0 +1,144 @@
+﻿ID,CODE,Name,Description
+1,BNID45,Taladro Percutor Inalámbrico 45Nm,"Velocidad sin carga: 0-400/0-1400rpm
+Velocidad máxima de impacto:0-6000BPM/0-21000BPM 
+Par máx: 45Nm
+Portabrocas de metal
+Capacidad del portabrocas: 0,8-10mm
+Ajustes de par: 21+3
+Engranaje mecánico de 2 velocidades"
+2,BNDR45,Taladro Inalámbrico 45Nm (Sin Impacto),"Velocidad en vacío: 0-400/0-1400rpm
+Par máx: 45Nm
+Portabrocas de plástico
+Capacidad del portabrocas: 0,8-10 mm 
+Ajustes de par: 18+1
+Engranaje mecánico de 2 velocidades"
+3,BNCID60,Taladro Percutor Compacto 60Nm,"Velocidad en vacío: 0-500/0-2000rpm
+Velocidad máxima de impacto:0-8000bpm/ 0-32000bpm
+Par máximo: 60Nm
+Portabrocas de metal
+Capacidad del portabrocas: portabrocas metálico de 1,5-13 mm
+Ajustes de par: 20+3
+Engranaje mecánico de 2 velocidades"
+4,BNCID60K,Taladro Percutor Compacto 60Nm (Kit),"Velocidad en vacío: 0-500/0-2000rpm
+Velocidad máxima de impacto:0-8000bpm/ 0-32000bpm
+Par máximo: 60Nm
+Portabrocas de metal
+Capacidad del portabrocas: portabrocas metálico de 1,5-13 mm
+Ajustes de par: 20+3
+Engranaje mecánico de 2 velocidades"
+5,BNIW400,Llave de Impacto batería 400Nm,"Accionamiento cuadrado: 1/2»
+Velocidad en vacío: 0-1800/0-2200/0-2600rpm
+Velocidad de impacto: 0-2500/0-3000/0-3500bpm
+Par de apriete: 400Nm"
+6,BNIW4002B1,Llave de Impacto batería 400Nm (1 Bat 2.0Ah y 1 ch.),"Accionamiento cuadrado: 1/2»
+Velocidad en vacío: 0-1800/0-2200/0-2600rpm
+Velocidad de impacto: 0-2500/0-3000/0-3500bpm
+Par de apriete: 400Nm"
+7,BNIW4002B2,Llave de Impacto batería 400Nm (2 Bat 2.0Ah y 1 ch.),"Accionamiento cuadrado: 1/2»
+Velocidad en vacío: 0-1800/0-2200/0-2600rpm
+Velocidad de impacto: 0-2500/0-3000/0-3500bpm
+Par de apriete: 400Nm"
+8,BNIW6004B2,Llave de Impacto batería 600Nm (2 Bat 4.0Ah y 1 ch.),"
+Accionamiento cuadrado: 1/2»
+Velocidad en vacío: 0-1700/0-2100/0-2400rpm
+Velocidad de impacto: 0-2300/0-2700/0-3000bpm
+Par de apriete: 600Nm"
+9,BNIW6004B1,Llave de Impacto batería 600Nm (1 Bat 4.0Ah y 1 ch.),"
+Accionamiento cuadrado: 1/2»
+Velocidad en vacío: 0-1700/0-2100/0-2400rpm
+Velocidad de impacto: 0-2300/0-2700/0-3000bpm
+Par de apriete: 600Nm"
+10,BNIW8504B2,Llave de Impacto batería 850Nm (2 Bat 4.0Ah y 1 ch.),"Accionamiento cuadrado:1/2
+Velocidad en vacío: 0-600/0-1300/0-2400rpm
+Velocidad de impacto: 0-900/0-1700/0-2700bpm
+Par de apriete:850Nm"
+11,BNIW8504B1,Llave de Impacto batería 850Nm (1 Bat 4.0Ah y 1 ch.),"
+Accionamiento cuadrado:1/2
+Velocidad en vacío: 0-600/0-1300/0-2400rpm
+Velocidad de impacto: 0-900/0-1700/0-2700bpm
+Par de apriete:850Nm"
+12,BNCAG8504B1,Amoladora Angular batería 850W (1 Bat 4.0Ah y 1 ch.),"
+Velocidad en vacío: 2500-10000rpm
+Diámetro del disco: 4-1/2
+Rosca del eje: 5/8""-11UNC
+6 Velocidades "
+13,BNAG850,Amoladora Angular batería 850W,"
+Velocidad en vacío: 2500-10000rpm
+Diámetro del disco: 4-1/2
+Rosca del eje: 5/8""-11UNC
+6 Velocidades "
+14,BNRH20J4B1,Rotomartillo Inalámbrico 2.0J (1 Bat 4.0Ah y 1 ch.),"
+Velocidad en vacío: 0-1420rpm
+Velocidad de impacto: 0-4500bpm
+Energía de impacto: 2.0J
+Max.capacidad de perforación:
+ Hormigón: 22mm
+ Acero: 13mm
+ Madera: 28mm"
+15,BNRH25J,Rotomartillo Inalámbrico 2.5J,"Velocidad en vacío: 0-980 rpm
+Velocidad de impacto: 0-4350bpm
+Energía de impacto: 2.6J
+Capacidad de perforación máx:
+ Hormigón: 26mm
+ Acero: 13mm
+ Madera: 30mm"
+16,BNRH25J4B2,Rotomartillo Inalámbrico 2.5J (2 Bat 4.0Ah y 1 ch.),"Velocidad en vacío: 0-980 rpm
+Velocidad de impacto: 0-4350bpm
+Energía de impacto: 2.6J
+Capacidad de perforación máx:
+ Hormigón: 26mm
+ Acero: 13mm
+ Madera: 30mm"
+17,BNRH45JSDS,Rotomartillo SDS Inalámbrico 4.5J,"
+Velocidad en vacío: 0-930rpm
+Velocidad de impacto: 0-4400bpm
+Energía de impacto: 4.5J
+Max.capacidad de perforación:
+ Hormigón: 28mm
+ Acero: 13mm
+ Madera: 40mm"
+18,BNCS185,Sierra Circular batería 190mm,"
+Velocidad en vacío: 5200rpm
+Diámetro de la cuchilla: 185mm/190MM
+Tamaño del eje: 20mm
+Capacidad de corte
+Grado 45°: 45mm
+Grado 90°: 65mm"
+19,BNCSS,Lijadora de Hoja batería 12000rpm,"
+Velocidad en vacío: 2000/3500/5000/6500/8000/10000
+Distancia eccéntrica:2.7mm
+Ajustes de velocidad:6
+
+Diámetro del disco:125mm"
+20,BNBL2B1,Soplador batería (1 Bat 2.0Ah y 1 ch.),"Soplador y aspirador sin cable
+No-Load Speed:0-6000rpm/0-12000rpm/0-18000rpm
+Volumen de aire:3
+Velocidad del aire:144km/h 190.8km/h 252km/h"
+21,BNCBL2B1,Batería de Litio 2.0Ah,"Batería de iones de litio de 2,0 Ah
+"
+22,BNLB40,Batería de Litio 4.0Ah,"
+Batería de iones de litio de 4,0 Ah
+
+"
+23,BNLB50,Batería de Litio 5.0Ah,"
+Batería de iones de litio de 5,0 Ah
+
+"
+24,BNBC24A,Cargador de Batería 2.4A,"Tensión de entrada:110-120V~50/60Hz 
+Salida 
+Corriente de salida:2.4A
+PLUG VDE"
+25,BNBC35A,Cargador de Batería 3.5A,"Tensión de entrada:110-120V~50/60Hz 
+Voltaje de salida:21V
+Corriente de salida:3.5A
+PLUG VDE"
+26,BNDBC3A,Cargador de Batería Doble Puerto 3A,"Cargador de doble puerto 
+Voltaje de entrada:110-120V~50/60Hz
+Salida 
+Corriente de salida: 3A
+
+PLUG VDE"
+,,,
+,,,
+,,,
+,,,

@@ -294,7 +294,7 @@ function ContactPage() {
             }}
             className="absolute top-20 left-20 opacity-20"
           >
-            <img src="/dc-tools/60nm.png" alt="Tool" className="w-34 h-34 object-contain" />
+            <img src="/dc-tools/60Nm.png" alt="Tool" className="w-34 h-34 object-contain" />
           </motion.div>
           <motion.div
             animate={{

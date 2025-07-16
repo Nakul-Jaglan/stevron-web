@@ -155,7 +155,7 @@ function AboutSec() {
                 <img
                   src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
                   alt="Professional using Stevron tools"
-                  className="w-96 h-96 object-cover rounded-2xl shadow-2xl"
+                  className="w-100 object-cover rounded-2xl shadow-2xl"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent rounded-2xl"></div>
               </motion.div>
@@ -310,7 +310,7 @@ function AboutSec() {
           >
             <Link href="/about">
               <motion.button
-                whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(255,196,0,0.3)" }}
+                whileHover={{ scale: 1.05, boxShadow: "0 20px 30px #989b2e" }}
                 whileTap={{ scale: 0.95 }}
                 // className="bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
                 className="bg-[#989b2e] text-white text-xl font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer"
@@ -320,10 +320,10 @@ function AboutSec() {
             </Link>
             <Link href="/products">
               <motion.button
-                whileHover={{ scale: 1.05, borderColor: "rgba(255,196,0,0.8)" }}
+                whileHover={{ scale: 1.05, borderColor: "#989b2e" }}
                 whileTap={{ scale: 0.95 }}
                 // className="border-2 border-white/30 text-white font-bold px-8 py-4 rounded-full hover:bg-white/10 transition-all duration-300"
-                className="border border-white text-white text-xl font-bold px-8 py-4 rounded-full hover:bg-yellow-400/10 transition-all duration-300 cursor-pointer"
+                className="border border-white text-white text-xl font-bold px-8 py-4 rounded-full hover:bg-[#989b2e]/10 transition-all duration-300 cursor-pointer"
               >
                 View Products
               </motion.button>

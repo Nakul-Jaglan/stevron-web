@@ -254,7 +254,7 @@ function Faqs() {
                   <motion.button
                     whileHover={{ 
                       scale: 1.05, 
-                      boxShadow: "0 20px 40px rgba(255,196,0,0.3)",
+                      boxShadow: "0 20px 30px #989b2e",
                       y: -2
                     }}
                     whileTap={{ scale: 0.95 }}
@@ -269,12 +269,12 @@ function Faqs() {
                   <motion.button
                     whileHover={{ 
                       scale: 1.05, 
-                      borderColor: "rgba(255,196,0,0.8)",
+                      borderColor: "#989b2e",
                       y: -2
                     }}
                     whileTap={{ scale: 0.95 }}
                     // className="border-2 border-white/30 text-white font-bold px-8 py-4 rounded-full hover:bg-white/10 transition-all duration-300 text-lg min-w-[200px]"
-                    className="border-2 border-white text-white text-xl font-bold px-8 py-4 rounded-full hover:bg-yellow-400/10 transition-all duration-300 cursor-pointer"
+                    className="border-2 border-white text-white text-xl font-bold px-8 py-4 rounded-full hover:bg-[#989b2e]/10 transition-all duration-300 cursor-pointer"
                   >
                     Learn More
                   </motion.button>

@@ -138,7 +138,7 @@ function NewHero() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.4 }}
-                  className="text-white/80 text-2xl leading-relaxed max-w-lg"
+                  className="text-white/80 text-xl leading-relaxed max-w-lg"
                 >
                   {slides[currentSlide].description}
                 </motion.p>

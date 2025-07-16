@@ -159,7 +159,7 @@ function HomeProducts() {
         className="absolute bottom-0 right-1/4 w-80 h-80 bg-gradient-to-r from-blue-400/10 to-purple-500/10 rounded-full blur-3xl"
       />
 
-      <div className="max-w-7xl mx-auto">
+      <div className="mx-auto">
         {/* Section Header */}
         <motion.div
           variants={containerVariants}
@@ -327,7 +327,7 @@ function HomeProducts() {
         >
           <Link href="/products">
             <motion.button
-              whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(255,196,0,0.3)" }}
+              whileHover={{ scale: 1.05, boxShadow: "0 10px 25px #989b2e" }}
               whileTap={{ scale: 0.95 }}
             //   className="bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-bold px-12 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg"
               className="bg-[#989b2e] text-white text-xl font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer"

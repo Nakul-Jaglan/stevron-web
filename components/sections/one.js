@@ -87,7 +87,7 @@ function One() {
         className="absolute bottom-20 left-20 w-80 h-80 bg-gradient-to-r from-blue-400/20 to-purple-500/20 rounded-full blur-3xl"
       />
 
-      <div className="max-w-7xl mx-auto">
+      <div className="px-10 mx-auto">
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -161,10 +161,10 @@ function One() {
                 <motion.div
                   key={index}
                   variants={itemVariants}
-                  className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-4 hover:bg-white/10 transition-all duration-300 group"
+                  className=" backdrop-blur-sm rounded-2xl p-4 hover:bg-white/10 transition-all duration-100 group"
                   whileHover={{ scale: 1.02, y: -5 }}
                 >
-                  <div className="flex items-start space-x-4">
+                  <div className="flex items-center space-x-4">
                     <div className="text-3xl">{feature.icon}</div>
                     <div className="flex-1">
                       <div className="flex items-center justify-between mb-2">
@@ -193,7 +193,7 @@ function One() {
               <div className="z-100">
                 <Link href="/products/dc-tools">
                   <motion.button
-                    whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(255,196,0,0.3)" }}
+                    whileHover={{ scale: 1.05, boxShadow: "0 20px 40px #989b2e" }}
                     whileTap={{ scale: 0.95 }}
                   //   className="bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
                     className="bg-[#989b2e] text-white text-xl font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer"
@@ -204,9 +204,9 @@ function One() {
               </div>
               <Link href="/technology/one-battery">
                 <motion.button
-                  whileHover={{ scale: 1.05, borderColor: "rgba(255,196,0,0.8)" }}
+                  whileHover={{ scale: 1.05, borderColor: "#989b2e" }}
                   whileTap={{ scale: 0.95 }}
-                  className="border-2 border-white text-white text-xl font-bold px-8 py-4 rounded-full hover:bg-yellow-400/10 transition-all duration-300 cursor-pointer"
+                  className="border border-white text-white text-xl font-bold px-8 py-4 rounded-full hover:bg-[#989b2e]/10 transition-all duration-300 cursor-pointer"
                 >
                   Learn More
                 </motion.button>
@@ -239,12 +239,13 @@ function One() {
               {/* Glowing effect around battery */}
               <motion.div
               animate={{
-                scale: 1.15
+                scale: 0.95
               }}
               transition={{
                 duration: 0.5
               }}
-              className="absolute inset-0 bg-gradient-to-r from-yellow-400/30 to-orange-500/30 rounded-full blur-3xl -z-10"
+              // className="absolute inset-0 bg-gradient-to-r from-yellow-400/30 to-orange-500/30 rounded-full blur-3xl -z-10"
+              className="absolute inset-0 bg-[#989b2e] rounded-full blur-3xl -z-10"
               />
             </motion.div>
 
