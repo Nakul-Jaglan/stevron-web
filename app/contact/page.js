@@ -203,7 +203,7 @@ function ContactPage() {
             >
               <motion.button
                 onClick={() => formRef.current?.scrollIntoView({ behavior: 'smooth' })}
-                whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(59,130,246,0.3)" }}
+                whileHover={{ scale: 1.05, boxShadow: "0 20px 30px #989b2e" }}
                 whileTap={{ scale: 0.95 }}
                 // className="bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold px-12 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg"
                 className="bg-[#989b2e] text-white text-xl font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer"
@@ -212,10 +212,10 @@ function ContactPage() {
               </motion.button>
               <motion.button
                 onClick={() => contactRef.current?.scrollIntoView({ behavior: 'smooth' })}
-                whileHover={{ scale: 1.05, borderColor: "rgba(59,130,246,0.8)" }}
+                whileHover={{ scale: 1.05, borderColor: "#989b2e" }}
                 whileTap={{ scale: 0.95 }}
                 // className="border-2 border-white/30 text-white font-bold px-12 py-4 rounded-full hover:bg-white/10 transition-all duration-300 text-lg"
-                className="border-2 border-white/30 text-white text-xl font-bold px-8 py-4 rounded-full hover:bg-white/10 transition-all duration-300 cursor-pointer"
+                className="border-2 border-white/30 text-white text-xl font-bold px-8 py-4 rounded-full hover:bg-[#989b2e]/10 transition-all duration-300 cursor-pointer"
               >
                 Contact Info
               </motion.button>
@@ -544,7 +544,7 @@ function ContactPage() {
               <motion.button
                 type="submit"
                 disabled={isSubmitting}
-                whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(59,130,246,0.3)" }}
+                whileHover={{ scale: 1.05, boxShadow: "0 20px 40px #989b2e" }}
                 whileTap={{ scale: 0.95 }}
                 // className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 text-xl cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
                 className="w-full bg-[#989b2e] text-white font-bold py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 text-xl cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"

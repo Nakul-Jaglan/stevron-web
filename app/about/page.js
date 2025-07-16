@@ -165,7 +165,7 @@ function AboutPage() {
             >
               <Link href="/products">
                 <motion.button
-                  whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(255,196,0,0.3)" }}
+                  whileHover={{ scale: 1.05, boxShadow: "0 20px 30px #989b2e" }}
                   whileTap={{ scale: 0.95 }}
                   className="bg-[#989b2e] text-white text-xl font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer"
                 >
@@ -174,9 +174,9 @@ function AboutPage() {
               </Link>
               <Link href="/contact">
                 <motion.button
-                  whileHover={{ scale: 1.05, borderColor: "rgba(255,196,0,0.8)" }}
+                  whileHover={{ scale: 1.05, borderColor: "#989b2e" }}
                   whileTap={{ scale: 0.95 }}
-                  className="border-2 border-white text-white text-xl font-bold px-8 py-4 rounded-full hover:bg-yellow-400/10 transition-all duration-300 cursor-pointer"
+                  className="border-2 border-white text-white text-xl font-bold px-8 py-4 rounded-full hover:bg-[#989b2e]/10 transition-all duration-300 cursor-pointer"
                 >
                   Get In Touch
                 </motion.button>
@@ -554,7 +554,7 @@ function AboutPage() {
                     <motion.button
                       whileHover={{ 
                         scale: 1.05, 
-                        boxShadow: "0 25px 50px rgba(255,196,0,0.4)",
+                        boxShadow: "0 20px 30px #989b2e",
                         y: -3
                       }}
                       whileTap={{ scale: 0.95 }}
@@ -568,11 +568,11 @@ function AboutPage() {
                     <motion.button
                       whileHover={{ 
                         scale: 1.05, 
-                        borderColor: "rgba(255,196,0,0.8)",
+                        borderColor: "#989b2e",
                         y: -3
                       }}
                       whileTap={{ scale: 0.95 }}
-                      className="border-2 border-white text-white text-xl font-bold px-8 py-4 rounded-full hover:bg-yellow-400/10 transition-all duration-300 cursor-pointer"
+                      className="border-2 border-white text-white text-xl font-bold px-8 py-4 rounded-full hover:bg-[#989b2e]/10 transition-all duration-300 cursor-pointer"
                     >
                       Contact Us
                     </motion.button>

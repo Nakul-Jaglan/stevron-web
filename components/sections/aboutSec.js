@@ -333,7 +333,7 @@ function AboutSec() {
         </motion.div>
 
         {/* Stats Section */}
-        {/* <motion.div
+        <motion.div
           variants={containerVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
@@ -358,7 +358,7 @@ function AboutSec() {
               <div className="text-sm text-white/70">{stat.description}</div>
             </motion.div>
           ))}
-        </motion.div> */}
+        </motion.div>
 
         {/* Features Grid */}
         <motion.div

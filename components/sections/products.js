@@ -159,7 +159,7 @@ function HomeProducts() {
         className="absolute bottom-0 right-1/4 w-80 h-80 bg-gradient-to-r from-blue-400/10 to-purple-500/10 rounded-full blur-3xl"
       />
 
-      <div className="mx-auto">
+      <div className="max-w-[100%] mx-auto">
         {/* Section Header */}
         <motion.div
           variants={containerVariants}
