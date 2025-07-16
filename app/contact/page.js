@@ -194,7 +194,7 @@ function ContactPage() {
               variants={itemVariants}
               className="text-2xl text-white/80 max-w-3xl mx-auto leading-relaxed mb-12"
             >
-              Ready to experience the Stevron difference? We're here to help you find the perfect tools for your needs.
+              Ready to experience the Stevron difference? We&apos;re here to help you find the perfect tools for your needs.
             </motion.p>
 
             <motion.div
@@ -332,7 +332,7 @@ function ContactPage() {
                 </span>
               </h2>
               <p className="text-xl text-white/80 max-w-2xl mx-auto leading-relaxed">
-                Fill out the form below and we'll get back to you as soon as possible.
+                Fill out the form below and we&apos;ll get back to you as soon as possible.
               </p>
             </motion.div>
 
