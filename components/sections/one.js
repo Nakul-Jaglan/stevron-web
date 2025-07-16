@@ -105,7 +105,7 @@ function One() {
                 src="/one-logo.png"
                 alt="ONE Technology Logo"
                 className="h-16 w-auto"
-                whileHover={{ scale: 1.1, rotate: 5 }}
+                whileHover={{ scale: 1.1 }}
                 transition={{ type: "spring", stiffness: 300 }}
               />
               <div className="text-yellow-400 text-sm font-semibold tracking-wider uppercase">
@@ -221,15 +221,11 @@ function One() {
           >
             {/* Central Battery Image */}
             <motion.div
-            animate={{
-              y: [0, 30, 0],
-              rotate: [0, 10, -10, 0]
-            }}
-            transition={{
-              duration: 8,
-              repeat: Infinity,
-              ease: "easeInOut"
-            }}
+              transition={{
+                duration: 8,
+                repeat: Infinity,
+                ease: "easeInOut"
+              }}
             className="relative z-10"
             >
               <motion.img

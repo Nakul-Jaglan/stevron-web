@@ -233,9 +233,9 @@ function HomeProducts() {
                   whileHover={{ scale: 0.95 }}
                   transition={{ type: "spring", stiffness: 300 }}
                 >
-                  <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all duration-300 h-full">
+                  <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl  hover:bg-white/10 transition-all duration-300 h-full">
                     {/* Product Image */}
-                    <div className="relative mb-6 overflow-hidden rounded-xl bg-white/5 p-4 h-48 flex items-center justify-center">
+                    <div className="relative mb-6 overflow-hidden rounded-xl bg-white/5 p-4 flex items-center justify-center">
                       <motion.img
                         src={product.image}
                         alt={product.name}
@@ -263,7 +263,7 @@ function HomeProducts() {
                     </div>
 
                     {/* Product Info */}
-                    <div className="space-y-3">
+                    <div className="space-y-3 px-6 pb-6">
                       <div className="flex items-center justify-between">
                         <span className="text-yellow-400 text-base font-semibold">
                           {product.code}

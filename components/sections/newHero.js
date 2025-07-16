@@ -17,7 +17,7 @@ function NewHero() {
         primary: { text: "Shop AC Tools", href: "/products/ac-tools" },
         secondary: { text: "View Catalog", href: "/catalog/ac-tools" }
       },
-      image: "/ac-tools/Router.png",
+      image: "/square/p1.png",
     //   bgGradient: "from-blue-600/20 via-purple-600/20 to-pink-600/20"
       bgGradient: "from-green-600/20 via-teal-600/20 to-blue-600/20"
     },
@@ -30,7 +30,7 @@ function NewHero() {
         primary: { text: "Explore DC Tools", href: "/products/dc-tools" },
         secondary: { text: "Compare Models", href: "/compare/dc-tools" }
       },
-      image: "/dc-tools/20J Rotary Hammer.png",
+      image: "/square/p4.png",
       bgGradient: "from-green-600/20 via-teal-600/20 to-blue-600/20"
     },
     {
@@ -42,7 +42,7 @@ function NewHero() {
         primary: { text: "Browse Hand Tools", href: "/products/hand-tools" },
         secondary: { text: "Tool Sets", href: "/products/hand-tools/sets" }
       },
-      image: "/ac-tools/350W-Trimmer.png",
+      image: "/square/p8.png",
     //   bgGradient: "from-green-600/20 via-purple-600/20 to-blue-600/20"
       bgGradient: "from-green-600/20 via-teal-600/20 to-blue-600/20"
     },
@@ -55,7 +55,7 @@ function NewHero() {
         primary: { text: "Shop Accessories", href: "/products/accessories" },
         secondary: { text: "Bundle Deals", href: "/deals/accessories" }
       },
-      image: "/dc-tools/60Nm.png",
+      image: "/square/p6.png",
     //   bgGradient: "from-purple-600/20 via-indigo-600/20 to-blue-600/20"
       bgGradient: "from-green-600/20 via-teal-600/20 to-blue-600/20"
     }
@@ -67,7 +67,7 @@ function NewHero() {
     
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 3000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, [isAutoPlaying, slides.length]);
@@ -85,7 +85,7 @@ function NewHero() {
   };
 
   return (
-    <section className="relative min-h-[50vh] flex items-center justify-center mt-20 p-6">
+    <section className="relative min-h-[50vh] flex items-center justify-center mt-5 p-6">
       {/* Background with animated gradient */}
       <motion.div
         key={currentSlide}
@@ -97,11 +97,11 @@ function NewHero() {
 
       {/* Main Slider Container */}
       <div
-        className="relative w-full max-w-7xl mx-auto bg-black/80 backdrop-blur-xl border border-white/20 rounded-3xl shadow-2xl overflow-hidden"
+        // className="relative w-full max-w-7xl mx-auto bg-black/80 backdrop-blur-xl border border-white/20 rounded-3xl shadow-2xl overflow-hidden"
         onMouseEnter={() => setIsAutoPlaying(false)}
         onMouseLeave={() => setIsAutoPlaying(true)}
       >
-        <div className="relative h-[80vh] flex">
+        <div className="relative h-[90vh] flex">
           {/* Left Side - Text Content */}
           <div className="w-1/2 flex flex-col justify-center p-12 relative z-10">
             <AnimatePresence mode="wait">
@@ -118,7 +118,7 @@ function NewHero() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.2 }}
-                  className="text-[#989b2e] text-lg font-medium tracking-wide uppercase"
+                  className="text-[#989b2e] text-xl font-medium tracking-wide uppercase"
                 >
                   {slides[currentSlide].subtitle}
                 </motion.p>
@@ -128,7 +128,7 @@ function NewHero() {
                   initial={{ opacity: 0, y: 30 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.3 }}
-                  className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight"
+                  className="text-4xl md:text-6xl lg:text-8xl font-bold text-white leading-tight"
                 >
                   {slides[currentSlide].title}
                 </motion.h1>
@@ -138,7 +138,7 @@ function NewHero() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.4 }}
-                  className="text-white/80 text-lg leading-relaxed max-w-lg"
+                  className="text-white/80 text-2xl leading-relaxed max-w-lg"
                 >
                   {slides[currentSlide].description}
                 </motion.p>
@@ -155,7 +155,7 @@ function NewHero() {
                       whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(255,255,255,0.1)" }}
                       whileTap={{ scale: 0.95 }}
                     //   className="bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
-                      className="bg-[#989b2e] cursor-pointer text-white text-xl font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+                      className="bg-[#989b2e] cursor-pointer text-white text-2xl font-semibold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
                     >
                       {slides[currentSlide].cta.primary.text}
                     </motion.button>
@@ -164,7 +164,7 @@ function NewHero() {
                     <motion.button
                       whileHover={{ scale: 1.05, borderColor: "rgba(255,255,255,0.8)" }}
                       whileTap={{ scale: 0.95 }}
-                      className="border-2 cursor-pointer border-white/30 text-white text-xl font-semibold px-8 py-4 rounded-full hover:bg-white/10 transition-all duration-300"
+                      className="border-2 cursor-pointer border-white/30 text-white text-2xl font-semibold px-8 py-4 rounded-full hover:bg-white/10 transition-all duration-300"
                     >
                       {slides[currentSlide].cta.secondary.text}
                     </motion.button>
@@ -179,17 +179,14 @@ function NewHero() {
             <AnimatePresence mode="wait">
               <motion.div
                 key={currentSlide}
-                initial={{ opacity: 0, scale: 0.8, rotate: -10 }}
+                initial={{ opacity: 0, scale: 0.8, rotate: 0 }}
                 animate={{ opacity: 1, scale: 1, rotate: 0 }}
-                exit={{ opacity: 0, scale: 0.8, rotate: 10 }}
+                exit={{ opacity: 0, scale: 0.8, rotate: 0 }}
                 transition={{ duration: 0.6, ease: "easeInOut" }}
                 className="relative"
               >
                 <motion.div
-                  animate={{ 
-                    y: [0, -10, 0],
-                    rotate: [0, 2, -2, 0]
-                  }}
+                  
                   transition={{ 
                     duration: 4,
                     repeat: Infinity,
@@ -200,21 +197,17 @@ function NewHero() {
                   <img
                     src={slides[currentSlide].image}
                     alt={slides[currentSlide].title}
-                    className="max-h-150 w-auto object-contain drop-shadow-2xl"
+                    className=" w-auto object-contain drop-shadow-2xl"
                   />
                   {/* Floating particles around image */}
-                  <motion.div
-                    animate={{
-                      scale: [1, 1.2, 1],
-                      opacity: [0.3, 0.6, 0.3]
-                    }}
+                  {/* <motion.div
                     transition={{
                       duration: 3,
                       repeat: Infinity,
                       ease: "easeInOut"
                     }}
                     className="absolute inset-0 bg-gradient-to-r from-yellow-400/20 to-orange-500/20 rounded-full blur-3xl -z-10"
-                  />
+                  /> */}
                 </motion.div>
               </motion.div>
             </AnimatePresence>
@@ -222,7 +215,7 @@ function NewHero() {
         </div>
 
         {/* Slide Indicators */}
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex space-x-3 z-20">
+        {/* <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex space-x-3 z-20">
           {slides.map((_, index) => (
             <motion.button
               key={index}
@@ -237,7 +230,7 @@ function NewHero() {
               aria-label={`Go to slide ${index + 1}`}
             />
           ))}
-        </div>
+        </div> */}
 
         {/* Progress Bar */}
         {/* <div className="absolute bottom-0 left-0 h-1 bg-white/20 w-full">
@@ -257,7 +250,7 @@ function NewHero() {
           onClick={prevSlide}
           whileHover={{ scale: 1.1, x: -5 }}
           whileTap={{ scale: 0.9 }}
-          className="absolute left-6 top-1/2 -translate-y-1/2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 rounded-full p-3 text-white transition-all duration-300 z-20"
+          className="absolute left-3 top-1/2 -translate-y-1/2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 rounded-full p-3 text-white transition-all duration-300 z-20 cursor-pointer"
           aria-label="Previous slide"
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -269,7 +262,7 @@ function NewHero() {
           onClick={nextSlide}
           whileHover={{ scale: 1.1, x: 5 }}
           whileTap={{ scale: 0.9 }}
-          className="absolute right-6 top-1/2 -translate-y-1/2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 rounded-full p-3 text-white transition-all duration-300 z-20"
+          className="absolute right-3 top-1/2 -translate-y-1/2 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 rounded-full p-3 text-white transition-all duration-300 z-20 cursor-pointer"
           aria-label="Next slide"
         >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">

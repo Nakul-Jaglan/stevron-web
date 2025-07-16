@@ -333,7 +333,7 @@ function AboutSec() {
         </motion.div>
 
         {/* Stats Section */}
-        <motion.div
+        {/* <motion.div
           variants={containerVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
@@ -358,7 +358,7 @@ function AboutSec() {
               <div className="text-sm text-white/70">{stat.description}</div>
             </motion.div>
           ))}
-        </motion.div>
+        </motion.div> */}
 
         {/* Features Grid */}
         <motion.div
@@ -380,7 +380,7 @@ function AboutSec() {
               <h3 className="text-xl font-semibold text-white mb-3 group-hover:text-yellow-400 transition-colors">
                 {feature.title}
               </h3>
-              <p className="text-white/80 text-sm leading-relaxed">
+              <p className="text-white/80 text-base leading-relaxed">
                 {feature.description}
               </p>
             </motion.div>
