@@ -3,7 +3,7 @@
     "id": "1",
     "code": "BNEDR500",
     "name": "Taladro Electrico",
-    "image": "/ac-tools/BNEDR500.png",
+    "image": "/ac-tools/BNEDR500.webp",
     "description": "Voltage:110-120V~50/60Hz\nPotencia de entrada:450W\nVelocidad sin carga:0-3300rpm\nCapacidad máxima de perforación: 3/8\nTamaño del portabrocas: 10MM",
     "specifications": "110V | 60Hz: Colombia\n120V | 60Hz: Costa Rica, Dominican Rep., Ecuador, El Salvador, Honduras, Nicaragua, Panama, Venezuela, Guatemala\n127V | 60Hz: Mexico\n127/220V | 60Hz: Brazil\n220V | 50Hz: Argentina, Chile, Paraguay, Uruguay\n220V | 60Hz: Peru\n230V | 50Hz: Bolivia"
   },
@@ -11,7 +11,7 @@
     "id": "2",
     "code": "BNIMD710",
     "name": "Taladro de impacto",
-    "image": "/ac-tools/BNIMD710.png",
+    "image": "/ac-tools/BNIMD710.webp",
     "description": "Voltage:110-120V~50/60Hz\nPotencia de entrada:710W\nVelocidad sin carga:0-2800rpm\nCapacidad máxima de perforación: 1/2\nTamaño del portabrocas: 13MM/ 1/2''",
     "specifications": "110V | 60Hz: Colombia\n120V | 60Hz: Costa Rica, Dominican Rep., Ecuador, El Salvador, Honduras, Nicaragua, Panama, Venezuela, Guatemala\n127V | 60Hz: Mexico\n127/220V | 60Hz: Brazil\n220V | 50Hz: Argentina, Chile, Paraguay, Uruguay\n220V | 60Hz: Peru\n230V | 50Hz: Bolivia"
   },
@@ -19,15 +19,15 @@
     "id": "3",
     "code": "BNIMD850",
     "name": "Taladro de impacto",
-    "image": "/ac-tools/BNIMD850.png",
-    "description": "Voltage:110-120V~50/60Hz\nPotencia de entrada:810W\nVelocidad sin carga:0～2800r/min\nCapacidad máxima de perforación:1/2''\nTamaño del portabrocas: 13MM/ 1/2''",
+    "image": "/ac-tools/BNIMD850.webp",
+    "description": "Voltage:110-120V~50/60Hz\nPotencia de entrada:810W\nVelocidad sin carga:0~2800r/min\nCapacidad máxima de perforación:1/2''\nTamaño del portabrocas: 13MM/ 1/2''",
     "specifications": "110V | 60Hz: Colombia\n120V | 60Hz: Costa Rica, Dominican Rep., Ecuador, El Salvador, Honduras, Nicaragua, Panama, Venezuela, Guatemala\n127V | 60Hz: Mexico\n127/220V | 60Hz: Brazil\n220V | 50Hz: Argentina, Chile, Paraguay, Uruguay\n220V | 60Hz: Peru\n230V | 50Hz: Bolivia"
   },
   "BNIMD1100": {
     "id": "4",
     "code": "BNIMD1100",
     "name": "Taladro de impacto",
-    "image": "/ac-tools/BNIMD1100.png",
+    "image": "/ac-tools/BNIMD1100.webp",
     "description": "Voltage:110-120V~50/60Hz\nPotencia de entrada:1050W\nVelocidad sin carga:0-2800rpm\nCapacidad máxima de perforación:1/2''\nTamaño del portabrocas: 13MM/ 1/2''\nCaja de engranajes de aluminio",
     "specifications": "110V | 60Hz: Colombia\n120V | 60Hz: Costa Rica, Dominican Rep., Ecuador, El Salvador, Honduras, Nicaragua, Panama, Venezuela, Guatemala\n127V | 60Hz: Mexico\n127/220V | 60Hz: Brazil\n220V | 50Hz: Argentina, Chile, Paraguay, Uruguay\n220V | 60Hz: Peru\n230V | 50Hz: Bolivia"
   },
@@ -35,7 +35,7 @@
     "id": "5",
     "code": "BNPLS240",
     "name": "Lijadora de palma",
-    "image": "/ac-tools/BNPLS240.png",
+    "image": "/ac-tools/BNPLS240.webp",
     "description": "Voltaje: 110-120V~50/60Hz \nPotencia de entrada: 230W\nVelocidad en vacío: 15000rpm\nBase inferior 110mmx100mm",
     "specifications": "110V | 60Hz: Colombia\n120V | 60Hz: Costa Rica, Dominican Rep., Ecuador, El Salvador, Honduras, Nicaragua, Panama, Venezuela, Guatemala\n127V | 60Hz: Mexico\n127/220V | 60Hz: Brazil\n220V | 50Hz: Argentina, Chile, Paraguay, Uruguay\n220V | 60Hz: Peru\n230V | 50Hz: Bolivia"
   },
@@ -43,7 +43,7 @@
     "id": "6",
     "code": "BNRHM800SDS",
     "name": "Martillo perforador",
-    "image": "/ac-tools/BNRHM800SDS.png",
+    "image": "/ac-tools/BNRHM800SDS.webp",
     "description": "Voltage:110-120V~50/60Hz\nPotencia de entrada:800W\nVelocidad sin carga:0-1250rpm\nVelocidad de impacto:0-4900bpm\nEnergía de impacto:3.0J\nCapacidad de perforación máx:\n Hormigón:26mm\n Acero:13mm\n Madera:30mm",
     "specifications": "110V | 60Hz: Colombia\n120V | 60Hz: Costa Rica, Dominican Rep., Ecuador, El Salvador, Honduras, Nicaragua, Panama, Venezuela, Guatemala\n127V | 60Hz: Mexico\n127/220V | 60Hz: Brazil\n220V | 50Hz: Argentina, Chile, Paraguay, Uruguay\n220V | 60Hz: Peru\n230V | 50Hz: Bolivia"
   },
@@ -51,7 +51,7 @@
     "id": "7",
     "code": "BNRHM800",
     "name": "Martillo perforador con portabrocas extra de 13 mm",
-    "image": "/ac-tools/BNRHM800.png",
+    "image": "/ac-tools/BNRHM800.webp",
     "description": "Voltage:110-120V~50/60Hz\nPotencia de entrada:800W\nVelocidad sin carga:0-1250rpm\nVelocidad de impacto:0-4900bpm\nEnergía de impacto:3.0J\nCapacidad de perforación máx:\n Hormigón:26mm\n Acero:13mm\n Madera:30mm",
     "specifications": "110V | 60Hz: Colombia\n120V | 60Hz: Costa Rica, Dominican Rep., Ecuador, El Salvador, Honduras, Nicaragua, Panama, Venezuela, Guatemala\n127V | 60Hz: Mexico\n127/220V | 60Hz: Brazil\n220V | 50Hz: Argentina, Chile, Paraguay, Uruguay\n220V | 60Hz: Peru\n230V | 50Hz: Bolivia"
   },
@@ -59,7 +59,7 @@
     "id": "8",
     "code": "BNRHM1500",
     "name": "Martillo perforador",
-    "image": "/ac-tools/BNRHM1500.png",
+    "image": "/ac-tools/BNRHM1500.webp",
     "description": "Voltage:110-120V~50/60Hz\nPotencia de entrada:1500W\nVelocidad sin carga:930rpm\nVelocidad de impacto:4300bpm\nEnergía de impacto:5.5J\nCapacidad de perforación máx:\n Hormigón:1-1/4''\n Acero:1/2\n Madera:1-1/2''",
     "specifications": "110V | 60Hz: Colombia\n120V | 60Hz: Costa Rica, Dominican Rep., Ecuador, El Salvador, Honduras, Nicaragua, Panama, Venezuela, Guatemala\n127V | 60Hz: Mexico\n127/220V | 60Hz: Brazil\n220V | 50Hz: Argentina, Chile, Paraguay, Uruguay\n220V | 60Hz: Peru\n230V | 50Hz: Bolivia"
   },
@@ -67,7 +67,7 @@
     "id": "9",
     "code": "BNTRM350",
     "name": "Router Madera",
-    "image": "/ac-tools/BNTRM350.png",
+    "image": "/ac-tools/BNTRM350.webp",
     "description": "Tensión 120 V\nFrecuencia 60 Hz\nPotencia nominal 350 W\nVelocidad sin carga: 26000rpm\nTamaño de pinza 6 mm",
     "specifications": "110V | 60Hz: Colombia\n120V | 60Hz: Costa Rica, Dominican Rep., Ecuador, El Salvador, Honduras, Nicaragua, Panama, Venezuela, Guatemala\n127V | 60Hz: Mexico\n127/220V | 60Hz: Brazil\n220V | 50Hz: Argentina, Chile, Paraguay, Uruguay\n220V | 60Hz: Peru\n230V | 50Hz: Bolivia"
   },
@@ -75,7 +75,7 @@
     "id": "10",
     "code": "BNROU1600",
     "name": "ROUTER",
-    "image": "/ac-tools/BNROU1600.png",
+    "image": "/ac-tools/BNROU1600.webp",
     "description": "Voltage/Frequency: 110-120V~50/60Hz\nEntrada nominal: 1600W\nVelocidad sin carga: 6000-22000min-1\nProfundidad máxima de trabajo: 50mm\nProfundidad ajustable, con ajuste fino de profundidad",
     "specifications": "110V | 60Hz: Colombia\n120V | 60Hz: Costa Rica, Dominican Rep., Ecuador, El Salvador, Honduras, Nicaragua, Panama, Venezuela, Guatemala\n127V | 60Hz: Mexico\n127/220V | 60Hz: Brazil\n220V | 50Hz: Argentina, Chile, Paraguay, Uruguay\n220V | 60Hz: Peru\n230V | 50Hz: Bolivia"
   },
@@ -83,7 +83,7 @@
     "id": "11",
     "code": "BNCOS2400",
     "name": "Sierra De Mesa",
-    "image": "/ac-tools/BNCOS2400.png",
+    "image": "/ac-tools/BNCOS2400.webp",
     "description": "Voltage:110-120V~50/60Hz\nPotencia de entrada:2400W\nTamaño de la cuchilla:14\nVelocidad sin carga:3600rpm\nCapacidad de corte máx:\n51mm en barra\n130mm en tubo\n180x85mm en rectángulo\n115x115mm en cuadrado 135x135mm en ángulo recto",
     "specifications": "110V | 60Hz: Colombia\n120V | 60Hz: Costa Rica, Dominican Rep., Ecuador, El Salvador, Honduras, Nicaragua, Panama, Venezuela, Guatemala\n127V | 60Hz: Mexico\n127/220V | 60Hz: Brazil\n220V | 50Hz: Argentina, Chile, Paraguay, Uruguay\n220V | 60Hz: Peru\n230V | 50Hz: Bolivia"
   },
@@ -91,7 +91,7 @@
     "id": "12",
     "code": "BNCSA1400",
     "name": "Sierra Circular",
-    "image": "/ac-tools/BNCSA1400.png",
+    "image": "/ac-tools/BNCSA1400.webp",
     "description": "Fuente de alimentación: 220-240V 50/60Hz\nPotencia de entrada: 1500W /13A\nVelocidad en vacío: 5500 rpm\nTamaño de la cuchilla: 185mm\nBiscuit spec:0°/45°: 63.5/44mm\nplaca de hierro",
     "specifications": "110V | 60Hz: Colombia\n120V | 60Hz: Costa Rica, Dominican Rep., Ecuador, El Salvador, Honduras, Nicaragua, Panama, Venezuela, Guatemala\n127V | 60Hz: Mexico\n127/220V | 60Hz: Brazil\n220V | 50Hz: Argentina, Chile, Paraguay, Uruguay\n220V | 60Hz: Peru\n230V | 50Hz: Bolivia"
   },
@@ -99,7 +99,7 @@
     "id": "13",
     "code": "BNPOL1400",
     "name": "Pulidora",
-    "image": "/ac-tools/BNPOL1400.png",
+    "image": "/ac-tools/BNPOL1400.webp",
     "description": "Tensión nominal: 220V-240V\nFrecuencia nominal: 50Hz /60Hz\nPotencia nominal de entrada: 1400W\nAjustes de velocidad:  7 ajustes\nRango de velocidad:   0-600/0-1000/0-1400/0-1800/0-2200/0-2600/0-3000Rpm\nPlato de apoyo dia:  7'' (180mm)",
     "specifications": "110V | 60Hz: Colombia\n120V | 60Hz: Costa Rica, Dominican Rep., Ecuador, El Salvador, Honduras, Nicaragua, Panama, Venezuela, Guatemala\n127V | 60Hz: Mexico\n127/220V | 60Hz: Brazil\n220V | 50Hz: Argentina, Chile, Paraguay, Uruguay\n220V | 60Hz: Peru\n230V | 50Hz: Bolivia"
   },
@@ -107,7 +107,7 @@
     "id": "14",
     "code": "BNANG950",
     "name": "Amoladora Angular",
-    "image": "/ac-tools/BNANG950.png",
+    "image": "/ac-tools/BNANG950.webp",
     "description": "Voltage:110-120V~50/60Hz\nPotencia de entrada:950W\nVelocidad sin carga:11000rpm\nDiámetro del disco:4-1/2''/ 115 MM\nRosca del eje:5/8''-11UNC- M14",
     "specifications": "110V | 60Hz: Colombia\n120V | 60Hz: Costa Rica, Dominican Rep., Ecuador, El Salvador, Honduras, Nicaragua, Panama, Venezuela, Guatemala\n127V | 60Hz: Mexico\n127/220V | 60Hz: Brazil\n220V | 50Hz: Argentina, Chile, Paraguay, Uruguay\n220V | 60Hz: Peru\n230V | 50Hz: Bolivia"
   },
@@ -115,7 +115,7 @@
     "id": "15",
     "code": "BNANG750",
     "name": "Amoladora Angular",
-    "image": "/ac-tools/BNANG750.png",
+    "image": "/ac-tools/BNANG750.webp",
     "description": "Voltage:110-120V~50/60Hz\nPotencia de entrada:750W\nVelocidad sin carga:12000rpm\nDiámetro del disco:4-1/2'' / 115 MM\nRosca del eje:5/8''-11UNC- M14",
     "specifications": "110V | 60Hz: Colombia\n120V | 60Hz: Costa Rica, Dominican Rep., Ecuador, El Salvador, Honduras, Nicaragua, Panama, Venezuela, Guatemala\n127V | 60Hz: Mexico\n127/220V | 60Hz: Brazil\n220V | 50Hz: Argentina, Chile, Paraguay, Uruguay\n220V | 60Hz: Peru\n230V | 50Hz: Bolivia"
   },
@@ -123,7 +123,7 @@
     "id": "16",
     "code": "BNANG2200",
     "name": "Amoladora Angular",
-    "image": "/ac-tools/BNANG2200.png",
+    "image": "/ac-tools/BNANG2200.webp",
     "description": "Voltage:110-120V~50-60Hz\nPotencia de entrada:2200W\nVelocidad sin carga:6600rpm\nDiámetro del disco:9''- 230 MM\nRosca del eje:5/8''-11UNC- M14",
     "specifications": "110V | 60Hz: Colombia\n120V | 60Hz: Costa Rica, Dominican Rep., Ecuador, El Salvador, Honduras, Nicaragua, Panama, Venezuela, Guatemala\n127V | 60Hz: Mexico\n127/220V | 60Hz: Brazil\n220V | 50Hz: Argentina, Chile, Paraguay, Uruguay\n220V | 60Hz: Peru\n230V | 50Hz: Bolivia"
   },
@@ -131,7 +131,7 @@
     "id": "17",
     "code": "BNANG2400",
     "name": "Amoladora Angular",
-    "image": "/ac-tools/BNANG2400.png",
+    "image": "/ac-tools/BNANG2400.webp",
     "description": "Voltage:110-120V~50/60Hz\nPotencia de entrada:2400W\nVelocidad sin carga:8000rpm\nDiámetro del disco:7'' - 180 MM\nRosca del eje:5/8''-11UNC- M14",
     "specifications": "110V | 60Hz: Colombia\n120V | 60Hz: Costa Rica, Dominican Rep., Ecuador, El Salvador, Honduras, Nicaragua, Panama, Venezuela, Guatemala\n127V | 60Hz: Mexico\n127/220V | 60Hz: Brazil\n220V | 50Hz: Argentina, Chile, Paraguay, Uruguay\n220V | 60Hz: Peru\n230V | 50Hz: Bolivia"
   },
@@ -139,7 +139,7 @@
     "id": "18",
     "code": "BNJSA600",
     "name": "Sierra De Calar",
-    "image": "/ac-tools/BNJSA600.png",
+    "image": "/ac-tools/BNJSA600.webp",
     "description": "Voltaje: 110-120V~50/60Hz\nPotencia de entrada: 600W\nVelocidad en vacío: 1000-3000rpm\nCapacidad de corte\n Madera: 2-9/16\n Acero: 5/16",
     "specifications": "110V | 60Hz: Colombia\n120V | 60Hz: Costa Rica, Dominican Rep., Ecuador, El Salvador, Honduras, Nicaragua, Panama, Venezuela, Guatemala\n127V | 60Hz: Mexico\n127/220V | 60Hz: Brazil\n220V | 50Hz: Argentina, Chile, Paraguay, Uruguay\n220V | 60Hz: Peru\n230V | 50Hz: Bolivia"
   },
@@ -147,7 +147,7 @@
     "id": "19",
     "code": "BNMCT1400",
     "name": "Cortador de Mármol",
-    "image": "/ac-tools/BNMCT1400.png",
+    "image": "/ac-tools/BNMCT1400.webp",
     "description": "Voltage:110-120V~50/60Hz\nPotencia de entrada:1400W\nVelocidad sin carga:13800rpm\nDiámetro de la cuchilla:4-3/8\nMax.capacidad de corte:1-1/4''",
     "specifications": "110V | 60Hz: Colombia\n120V | 60Hz: Costa Rica, Dominican Rep., Ecuador, El Salvador, Honduras, Nicaragua, Panama, Venezuela, Guatemala\n127V | 60Hz: Mexico\n127/220V | 60Hz: Brazil\n220V | 50Hz: Argentina, Chile, Paraguay, Uruguay\n220V | 60Hz: Peru\n230V | 50Hz: Bolivia"
   }

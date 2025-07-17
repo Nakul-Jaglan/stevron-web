@@ -3,1428 +3,1428 @@
     "id": "1",
     "code": "BCRSL3X75",
     "name": "Destornillador de punta plana",
-    "image": "/hand-tools/BCRSL3X75.png",
+    "image": "/hand-tools/BCRSL3X75.webp",
     "description": "Tipo de punta: ranurada \nTamaño de la punta: 3,0 mm \nVástago redondo \nDiámetro: 3,0 mm Longitud: 75 mm \nMaterial: acero Cr-V \nAcabado de la hoja: punta negra Punta magnetizada Mango de agarre suave y cómodo Embalado en una percha de plástico"
   },
   "BCRSL4X100": {
     "id": "2",
     "code": "BCRSL4X100",
     "name": "Destornillador de punta plana",
-    "image": "/hand-tools/BCRSL4X100.png",
+    "image": "/hand-tools/BCRSL4X100.webp",
     "description": "Tipo de punta: ranurada \nTamaño de la punta: 4,0 mm Vástago redondo \nDiámetro: 4,0 mm \nLongitud: 100 mm \nMaterial: acero Cr-V \nAcabado de la hoja: punta negra Punta magnetizada Mango de agarre suave y cómodo Embalado en una percha de plástico"
   },
   "BCRSL5X75": {
     "id": "3",
     "code": "BCRSL5X75",
     "name": "Destornillador de punta plana",
-    "image": "/hand-tools/BCRSL5X75.png",
+    "image": "/hand-tools/BCRSL5X75.webp",
     "description": "Tipo de punta: ranurada Tamaño de la punta: 5,5 mm Vástago redondo Diámetro: 5,0 mm Longitud: 75 mm Material: acero Cr-V Acabado de la hoja: punta negra Punta magnetizada Mango de agarre suave y cómodo Embalado en una percha de plástico"
   },
   "BCRSL5X100": {
     "id": "4",
     "code": "BCRSL5X100",
     "name": "Destornillador de punta plana",
-    "image": "/hand-tools/BCRSL5X100.png",
+    "image": "/hand-tools/BCRSL5X100.webp",
     "description": "Tipo de punta: ranurada Tamaño de la punta: 5,5 mm Vástago redondo Diámetro: 5,0 mm Longitud: 100 mm Material: acero Cr-V Acabado de la hoja: punta negra Punta magnetizada Mango de agarre suave y cómodo Embalado en una percha de plástico"
   },
   "BCRSL6X38": {
     "id": "5",
     "code": "BCRSL6X38",
     "name": "Destornillador de punta plana",
-    "image": "/hand-tools/BCRSL6X38.png",
+    "image": "/hand-tools/BCRSL6X38.webp",
     "description": "Tipo de punta: ranurada Tamaño de la punta: 6,5 mm Vástago redondo Diámetro: 6,0 mm Longitud: 38 mm Material: acero Cr-V Acabado de la hoja: punta negra Punta magnetizada Mango de agarre suave y cómodo Embalado en una percha de plástico"
   },
   "BCRSL6X100": {
     "id": "6",
     "code": "BCRSL6X100",
     "name": "Destornillador de punta plana",
-    "image": "/hand-tools/BCRSL6X100.png",
+    "image": "/hand-tools/BCRSL6X100.webp",
     "description": "Tipo de punta: ranurada Tamaño de la punta: 6,5 mm Vástago redondo Diámetro: 6,0 mm Longitud: 100 mm Material: acero Cr-V Acabado de la hoja: punta negra Punta magnetizada Mango de agarre suave y cómodo Embalado en una percha de plástico"
   },
   "BCRSL6X150": {
     "id": "7",
     "code": "BCRSL6X150",
     "name": "Destornillador de punta plana",
-    "image": "/hand-tools/BCRSL6X150.png",
+    "image": "/hand-tools/BCRSL6X150.webp",
     "description": "Tipo de punta: ranurada Tamaño de la punta: 6,5 mm Vástago redondo Diámetro: 6,0 mm Longitud: 150 mm Material: acero Cr-V Acabado de la hoja: punta negra Punta magnetizada Mango de agarre suave y cómodo Embalado en una percha de plástico"
   },
   "BCRSL8X150": {
     "id": "8",
     "code": "BCRSL8X150",
     "name": "Destornillador de punta plana",
-    "image": "/hand-tools/BCRSL8X150.png",
+    "image": "/hand-tools/BCRSL8X150.webp",
     "description": "Tipo de punta: ranurada Tamaño de la punta: 8,0 mm Vástago redondo Diámetro: 8,0 mm Longitud: 150 mm Material: acero Cr-V Acabado de la hoja: punta negra Punta magnetizada Mango de agarre suave y cómodo Embalado en una percha de plástico"
   },
   "BCRSL8X200": {
     "id": "9",
     "code": "BCRSL8X200",
     "name": "Destornillador de punta plana",
-    "image": "/hand-tools/BCRSL8X200.png",
+    "image": "/hand-tools/BCRSL8X200.webp",
     "description": "Tipo de punta: ranurada Tamaño de la punta: 8,0 mm Vástago redondo Diámetro: 8,0 mm Longitud: 200 mm Material: acero Cr-V Acabado de la hoja: punta negra Punta magnetizada Mango de agarre suave y cómodo Embalado en una percha de plástico"
   },
   "BCRPH0X75": {
     "id": "10",
     "code": "BCRPH0X75",
     "name": "Destornillador phillips",
-    "image": "/hand-tools/BCRPH0X75.png",
+    "image": "/hand-tools/BCRPH0X75.webp",
     "description": "Tipo de punta: Phillips Tamaño de la punta: PH0 Diámetro del vástago redondo: 3,0 mm Longitud: 75 mm Material: Acero Cr-V Acabado de la hoja: punta negra Punta magnetizada Mango de agarre suave y cómodo Embalado en una percha de plástico"
   },
   "BCRPH1X100": {
     "id": "11",
     "code": "BCRPH1X100",
     "name": "Destornillador phillips",
-    "image": "/hand-tools/BCRPH1X100.png",
+    "image": "/hand-tools/BCRPH1X100.webp",
     "description": "Tipo de punta: Phillips Tamaño de la punta: PH1 Vástago redondo Diámetro: 5,0 mm Longitud: 100 mm Material: Acero Cr-V Acabado de la hoja: punta negra Punta magnetizada Mango de agarre suave y cómodo Embalado en una percha de plástico"
   },
   "BCRPH2X38": {
     "id": "12",
     "code": "BCRPH2X38",
     "name": "Destornillador phillips",
-    "image": "/hand-tools/BCRPH2X38.png",
+    "image": "/hand-tools/BCRPH2X38.webp",
     "description": "Tipo de punta: Phillips Tamaño de la punta: PH2 Vástago redondo Diámetro: 6,0 mm Longitud: 38 mm Material: Acero Cr-V Acabado de la hoja: punta negra Punta magnetizada Mango de agarre suave y cómodo Embalado en una percha de plástico"
   },
   "BCRPH2X100": {
     "id": "13",
     "code": "BCRPH2X100",
     "name": "Destornillador phillips",
-    "image": "/hand-tools/BCRPH2X100.png",
+    "image": "/hand-tools/BCRPH2X100.webp",
     "description": "Tipo de punta: Phillips Tamaño de la punta: PH2 Diámetro de vástago redondo: 6,0 mm Longitud: 100 mm Material: Acero Cr-V Acabado de la hoja: punta negra Punta magnetizada Mango de agarre suave y cómodo Embalado en una percha de plástico"
   },
   "BCRPH2X150": {
     "id": "14",
     "code": "BCRPH2X150",
     "name": "Destornillador phillips",
-    "image": "/hand-tools/BCRPH2X150.png",
+    "image": "/hand-tools/BCRPH2X150.webp",
     "description": "Tipo de punta: Phillips Tamaño de la punta: PH2 Diámetro del vástago redondo: 6,0 mm Longitud: 150 mm Material: Acero Cr-V Acabado de la hoja: punta negra Mango de agarre suave y cómodo Embalado en una percha de plástico"
   },
   "BCRPH3X150": {
     "id": "15",
     "code": "BCRPH3X150",
     "name": "Destornillador phillips",
-    "image": "/hand-tools/BCRPH3X150.png",
+    "image": "/hand-tools/BCRPH3X150.webp",
     "description": "Tipo de punta: Phillips Tamaño de la punta: PH3 Diámetro del vástago redondo: 8,0 mm Longitud: 150 mm Material: Acero Cr-V Acabado de la hoja: punta negra Punta magnetizada Mango de agarre suave y cómodo Embalado en una percha de plástico"
   },
   "BCR2X": {
     "id": "16",
     "code": "BCR2X",
     "name": "Juego de destornilladores de 2 piezas",
-    "image": "/hand-tools/BCR2X.png",
+    "image": "/hand-tools/BCR2X.webp",
     "description": "Juego de destornilladores de 2 piezas Material: CR-V Vástago redondo SL6.5*100 mm PH2*100 mm Embalado en percha de plástico"
   },
   "BCR4X": {
     "id": "17",
     "code": "BCR4X",
     "name": "Juego de destornilladores de 4 piezas",
-    "image": "/hand-tools/BCR4X.png",
+    "image": "/hand-tools/BCR4X.webp",
     "description": "Juego de destornilladores de 4 piezas Material: CR-V Vástago redondo SL5.5*75 SL6.5*100 PH1*75 PH2*100 Embalado en percha de plástico"
   },
   "BCR6X": {
     "id": "18",
     "code": "BCR6X",
     "name": "Juego de destornilladores de 6 piezas",
-    "image": "/hand-tools/BCR6X.png",
+    "image": "/hand-tools/BCR6X.webp",
     "description": "Juego de destornilladores de 6 piezas Material: CR-V Vástago redondo SL5.5*75 SL5.5*150 SL6.5*100 SL6.5*150 PH1*100 PH2*100 Embalado en percha de plástico"
   },
   "BCR8X": {
     "id": "19",
     "code": "BCR8X",
     "name": "Juego de destornilladores de 8 piezas",
-    "image": "/hand-tools/BCR8X.png",
+    "image": "/hand-tools/BCR8X.webp",
     "description": "Juego de destornilladores de 8 piezas Material: CR-V Vástago redondo SL6.5*38 PH2*38 SL3*75 SL5.5*75 SL6.5*100 PH0*75 PH1*75 PH2*100 Embalado en tarjeta deslizante"
   },
   "BCR2I1X68": {
     "id": "20",
     "code": "BCR2I1X68",
     "name": "Juego de destornilladores 2 en 1",
-    "image": "/hand-tools/BCR2I1X68.png",
+    "image": "/hand-tools/BCR2I1X68.webp",
     "description": "Juego de destornilladores 2 en 1 Tamaño: PH2+SL6.5 Longitud: 68 mm Vástago: 6,35 mm Material: Vástago hexagonal CR-V Embalado en percha de plástico"
   },
   "BCR2I1X130": {
     "id": "21",
     "code": "BCR2I1X130",
     "name": "Juego de destornilladores 2 en 1",
-    "image": "/hand-tools/BCR2I1X130.png",
+    "image": "/hand-tools/BCR2I1X130.webp",
     "description": "Juego de destornilladores 2 en 1 Tamaño: PH2 + SL6.5 Longitud: 130 mm Vástago: 6,35 mm Material: CR-V La hoja se puede insertar en el costado del mango para formar un destornillador con mango en T Vástago hexagonal Empacado en percha de plástico"
   },
   "BCR6I1": {
     "id": "22",
     "code": "BCR6I1",
     "name": "Juego de destornilladores 6 en 1",
-    "image": "/hand-tools/BCR6I1.png",
+    "image": "/hand-tools/BCR6I1.webp",
     "description": "Juego de destornilladores 6 en 1 Material: CR-V Destornillador 6 funciones en 1: Con 2 puntas bidireccionales: \n 6,35 x 65 mm, PH1 + SL5 8,00 x 75 mm, PH2 + SL6 con 2 conectores: 6 mm，8 mm Con 1 mango de destornillador intercambiable de diseño único Embalado en caja de color"
   },
   "BCR6PR": {
     "id": "23",
     "code": "BCR6PR",
     "name": "Juego de 6 destornilladores de precisión",
-    "image": "/hand-tools/BCR6PR.png",
+    "image": "/hand-tools/BCR6PR.webp",
     "description": "Juego de destornilladores de precisión de 6 piezas Material: Cr-V Incluye: \n1 pieza SL2.0*50 mm 1 pieza SL2.5*50 mm 1 pieza SL3.0*50 mm 1 pieza PH0*50 mm 1 pieza PH00*50 mm 1 pieza PH000*50 mm Paquete en caja de plástico"
   },
   "BCR7": {
     "id": "24",
     "code": "BCR7",
     "name": "Juego de 7 destornilladores aislados",
-    "image": "/hand-tools/BCR7.png",
+    "image": "/hand-tools/BCR7.webp",
     "description": "Juego de destornilladores aislados de 7 piezas Incluye destornilladores: SL3.0*75 SL4.0*100 SL5.5*125 SL6.5*150 PH0*75 PH1*80 PH2*100 Mango de nuevo diseño Vástago redondo, 1000 V Embalado en blíster doble"
   },
   "BS2SL4X100": {
     "id": "25",
     "code": "BS2SL4X100",
     "name": "Destornillador de punta plana",
-    "image": "/hand-tools/BS2SL4X100.png",
+    "image": "/hand-tools/BS2SL4X100.webp",
     "description": "Material de la hoja: S2 Tipo de punta: ranurada SL4 (magnética) Longitud de la hoja: 100 mm Ranurada: 4,0 mm Diámetro de la hoja: 4,0 mm Tipo de vástago: redondo Material del mango: ergonómico de tres colores 1 destornillador con 1 percha de plástico Con fuerte imán Embalado en percha de plástico"
   },
   "BS2SL5X100": {
     "id": "26",
     "code": "BS2SL5X100",
     "name": "Destornillador de punta plana",
-    "image": "/hand-tools/BS2SL5X100.png",
+    "image": "/hand-tools/BS2SL5X100.webp",
     "description": "Material de la hoja: S2 Tipo de punta: ranurada SL5.5 (magnética) Longitud de la hoja: 100 mm Ranurada: 5,5 mm Diámetro de la hoja: 5,0 mm Tipo de vástago: redondo Material del mango: ergonómico de tres colores 1 destornillador con 1 percha de plástico Con fuerte imán Embalado en percha de plástico"
   },
   "BS2SL6X125": {
     "id": "27",
     "code": "BS2SL6X125",
     "name": "Destornillador de punta plana",
-    "image": "/hand-tools/BS2SL6X125.png",
+    "image": "/hand-tools/BS2SL6X125.webp",
     "description": "Material de la hoja: S2 Tipo de punta: ranurada SL6.5 (magnética) Tamaño de la punta: 6,5 mm Longitud de la hoja: 125 mm Diámetro de la hoja: 6,0 mm Tipo de vástago: redondo Material del mango: ergonómico de tres colores 1 destornillador con 1 percha de plástico Con fuerte imán Embalado en percha de plástico"
   },
   "BS2SL6X150": {
     "id": "28",
     "code": "BS2SL6X150",
     "name": "Destornillador de punta plana",
-    "image": "/hand-tools/BS2SL6X150.png",
+    "image": "/hand-tools/BS2SL6X150.webp",
     "description": "Material de la hoja: S2 Tipo de punta: ranurada SL6 (magnética) Tamaño de la punta: 6,5 mm Longitud de la hoja: 150 mm Diámetro de la hoja: 6,0 mm Tipo de vástago: redondo Material del mango: ergonómico de tres colores 1 destornillador con 1 percha de plástico Con fuerte imán Embalado en percha de plástico"
   },
   "BS2SL8X150": {
     "id": "29",
     "code": "BS2SL8X150",
     "name": "Destornillador de punta plana",
-    "image": "/hand-tools/BS2SL8X150.png",
+    "image": "/hand-tools/BS2SL8X150.webp",
     "description": "Material de la hoja: S2 Tipo de punta: ranurada SL8 (magnética) Tamaño de la punta: 8,0 mm Longitud de la hoja: 150 mm Diámetro de la hoja: 8,0 mm Tipo de vástago: redondo Material del mango: ergonómico de tres colores 1 destornillador con 1 percha de plástico Con fuerte imán Embalado en percha de plástico"
   },
   "BS2SL8X200": {
     "id": "30",
     "code": "BS2SL8X200",
     "name": "Destornillador de punta plana",
-    "image": "/hand-tools/BS2SL8X200.png",
+    "image": "/hand-tools/BS2SL8X200.webp",
     "description": "Material de la hoja: S2 Tipo de punta: ranurada SL8 (magnética) Tamaño de la punta: 8,0 mm Longitud de la hoja: 200 mm Diámetro de la hoja: 8,0 mm Tipo de vástago: redondo Material del mango: ergonómico de tres colores 1 destornillador con 1 percha de plástico Con fuerte imán Embalado en percha de plástico"
   },
   "BS2PH0X75": {
     "id": "31",
     "code": "BS2PH0X75",
     "name": "Destornillador phillips",
-    "image": "/hand-tools/BS2PH0X75.png",
+    "image": "/hand-tools/BS2PH0X75.webp",
     "description": "Material de la hoja: S2 Tipo de punta: Phillips PH0 (magnética) Longitud de la hoja: 75 mm Diámetro de la hoja: 3,0 mm Tipo de vástago: redondo Material del mango: ergonómico de tres colores 1 destornillador con 1 percha de plástico Con fuerte imán Embalado en percha de plástico"
   },
   "BS2PH1X100": {
     "id": "32",
     "code": "BS2PH1X100",
     "name": "Destornillador phillips",
-    "image": "/hand-tools/BS2PH1X100.png",
+    "image": "/hand-tools/BS2PH1X100.webp",
     "description": "Material de la hoja: S2 Tipo de punta: Phillips PH1 (magnética) Longitud de la hoja: 100 mm Diámetro de la hoja: 5,0 mm Tipo de vástago: redondo Material del mango: ergonómico de tres colores 1 destornillador con 1 percha de plástico Con fuerte imán Embalado en percha de plástico"
   },
   "BS2PH2X38": {
     "id": "33",
     "code": "BS2PH2X38",
     "name": "Destornillador phillips",
-    "image": "/hand-tools/BS2PH2X38.png",
+    "image": "/hand-tools/BS2PH2X38.webp",
     "description": "Material de la hoja: S2 Tipo de punta: Phillips PH2 (magnética) Longitud de la hoja: 38 mm Diámetro de la hoja: 6,0 mm Tipo de vástago: redondo Material del mango: ergonómico de tres colores 1 destornillador con 1 percha de plástico Con fuerte imán Embalado en percha de plástico"
   },
   "BS2PH2X125": {
     "id": "34",
     "code": "BS2PH2X125",
     "name": "Destornillador phillips",
-    "image": "/hand-tools/BS2PH2X125.png",
+    "image": "/hand-tools/BS2PH2X125.webp",
     "description": "Material de la hoja: S2 Tipo de punta: Phillips PH2 (magnética) Longitud de la hoja: 125 mm Diámetro de la hoja: 6,0 mm Tipo de vástago: redondo Material del mango: ergonómico de tres colores 1 destornillador con 1 percha de plástico Con fuerte imán Embalado en percha de plástico"
   },
   "BS2PH2X150": {
     "id": "35",
     "code": "BS2PH2X150",
     "name": "Destornillador phillips",
-    "image": "/hand-tools/BS2PH2X150.png",
+    "image": "/hand-tools/BS2PH2X150.webp",
     "description": "Material de la hoja: S2 Tipo de punta: Phillips PH2 (magnética) Longitud de la hoja: 150 mm Diámetro de la hoja: 6,0 mm Tipo de vástago: redondo Material del mango: ergonómico de tres colores 1 destornillador con 1 percha de plástico Con fuerte imán Embalado en percha de plástico"
   },
   "BS2PH3X150": {
     "id": "36",
     "code": "BS2PH3X150",
     "name": "Destornillador phillips",
-    "image": "/hand-tools/BS2PH3X150.png",
+    "image": "/hand-tools/BS2PH3X150.webp",
     "description": "Material de la hoja: S2 Tipo de punta: Phillips PH3 (magnética) Longitud de la hoja: 150 mm Diámetro de la hoja: 8,0 mm Tipo de vástago: redondo Material del mango: ergonómico de tres colores 1 destornillador con 1 percha de plástico Con fuerte imán Embalado en percha de plástico"
   },
   "BS2PZ1X100": {
     "id": "37",
     "code": "BS2PZ1X100",
     "name": "Destornillador pozidriv",
-    "image": "/hand-tools/BS2PZ1X100.png",
+    "image": "/hand-tools/BS2PZ1X100.webp",
     "description": "Material de la hoja: S2 Tipo de punta: pozidriv PZ1 (magnética) Longitud de la hoja: 100 mm Diámetro de la hoja: 5,0 mm Tipo de vástago: redondo Material del mango: ergonómico de tres colores 1 destornillador con 1 percha de plástico Con fuerte imán Embalado en percha de plástico"
   },
   "BS2PZ2X150": {
     "id": "38",
     "code": "BS2PZ2X150",
     "name": "Destornillador pozidriv",
-    "image": "/hand-tools/BS2PZ2X150.png",
+    "image": "/hand-tools/BS2PZ2X150.webp",
     "description": "Material de la hoja: S2 Tipo de punta: pozidriv PZ2 (magnética) Longitud de la hoja: 150 mm Diámetro de la hoja: 6,0 mm Tipo de vástago: redondo Material del mango: ergonómico de tres colores 1 destornillador con 1 percha de plástico Con fuerte imán Embalado en percha de plástico"
   },
   "BS2T10X100": {
     "id": "39",
     "code": "BS2T10X100",
     "name": "Destornillador torx",
-    "image": "/hand-tools/BS2T10X100.png",
+    "image": "/hand-tools/BS2T10X100.webp",
     "description": "Material de la hoja: S2 Tipo de punta: Torx T10 (magnético) Longitud de la hoja: 100 mm Diámetro de la hoja: 5,0 mm Tipo de vástago: redondo Material del mango: ergonómico de tres colores 1 destornillador con 1 percha de plástico Con fuerte imán Embalado en percha de plástico"
   },
   "BS2T20X150": {
     "id": "40",
     "code": "BS2T20X150",
     "name": "Destornillador torx",
-    "image": "/hand-tools/BS2T20X150.png",
+    "image": "/hand-tools/BS2T20X150.webp",
     "description": "Material de la hoja: S2 Tipo de punta: Torx T20 (magnético) Longitud de la hoja: 150 mm Diámetro de la hoja: 6,0 mm Tipo de vástago: redondo Material del mango: ergonómico de tres colores 1 destornillador con 1 percha de plástico Con fuerte imán Embalado en percha de plástico"
   },
   "BCP7X180": {
     "id": "41",
     "code": "BCP7X180",
     "name": "Alicates combinados",
-    "image": "/hand-tools/BCP7X180.png",
+    "image": "/hand-tools/BCP7X180.webp",
     "description": "Tamaño: 7\"/180 mm\nMaterial: 60 CRV Tratamiento de superficie: acabado negro y pulido Mango de tres colores TPR Embalado en percha de PP"
   },
   "BCP8X200": {
     "id": "42",
     "code": "BCP8X200",
     "name": "Alicates combinados",
-    "image": "/hand-tools/BCP8X200.png",
+    "image": "/hand-tools/BCP8X200.webp",
     "description": "Tamaño: 8\"/200 mm\nMaterial: 60 CRV Tratamiento de superficie: acabado negro y pulido Mango de tres colores TPR Embalado en percha de PP"
   },
   "BHLCP6X160": {
     "id": "43",
     "code": "BHLCP6X160",
     "name": "Alicates de corte diagonal de alto apalancamiento",
-    "image": "/hand-tools/BHLCP6X160.png",
+    "image": "/hand-tools/BHLCP6X160.webp",
     "description": "Tamaño: 6\"/160 mm Ahorro de energía 30% en comparación con los alicates normales\nMaterial: Cr-V Tratamiento de superficie: acabado negro y pulido Mango de TPR de tres colores para un agarre fuerte y comodidad Con función de engarce Con función de desbarbado Embalado en medio blíster doble"
   },
   "BHLDCP7X180": {
     "id": "44",
     "code": "BHLDCP7X180",
     "name": "Alicates de corte diagonal de alto apalancamiento",
-    "image": "/hand-tools/BHLDCP7X180.png",
+    "image": "/hand-tools/BHLDCP7X180.webp",
     "description": "Tamaño: 7\"/180 mm Ahorro de energía 30% en comparación con los alicates normales\nMaterial: Cr-V Tratamiento de superficie: acabado negro y pulido Mango de TPR de tres colores para un agarre fuerte y comodidad Con función de engarce Con función de desbarbado Embalado en medio blíster doble"
   },
   "BHLLNP6X160": {
     "id": "45",
     "code": "BHLLNP6X160",
     "name": "Alicates de punta larga de alto apalancamiento",
-    "image": "/hand-tools/BHLLNP6X160.png",
+    "image": "/hand-tools/BHLLNP6X160.webp",
     "description": "Tamaño: 6\"/160 mm Ahorro de energía 30% en comparación con los alicates normales\nMaterial: Cr-V Tratamiento de superficie: acabado negro y pulido Mango de TPR tricolor para un agarre fuerte y comodidad Con función de engarce Con función de porta clavos Con función de llave Embalado en medio blíster doble"
   },
   "BHLBNP6X160": {
     "id": "46",
     "code": "BHLBNP6X160",
     "name": "Alicates de punta curva de alto apalancamiento",
-    "image": "/hand-tools/BHLBNP6X160.png",
+    "image": "/hand-tools/BHLBNP6X160.webp",
     "description": "Tamaño: 6\"/160 mm Ahorro de energía 30% en comparación con los alicates normales\nMaterial: Cr-V Tratamiento de superficie: acabado negro y pulido Mango de TPR tricolor para un agarre fuerte y comodidad Con función de engarce Con función de porta clavos Con función de llave Embalado en medio blíster doble"
   },
   "BHLLNP8X200": {
     "id": "47",
     "code": "BHLLNP8X200",
     "name": "Alicates de punta larga de alto apalancamiento",
-    "image": "/hand-tools/BHLLNP8X200.png",
+    "image": "/hand-tools/BHLLNP8X200.webp",
     "description": "Tamaño: 8\"/200 mm Ahorro de energía del 30 % en comparación con los alicates normales\nMaterial: Cr-V Tratamiento de superficie: acabado negro y pulido Mango de TPR tricolor para un agarre fuerte y comodidad Con función de engarce Con función de porta clavos Con función de llave Embalado en medio blíster doble"
   },
   "BHS16": {
     "id": "48",
     "code": "BHS16",
     "name": "Sierra de mano",
-    "image": "/hand-tools/BHS16.png",
+    "image": "/hand-tools/BHS16.webp",
     "description": "Tamaño: 16\"/400 mm Tamaño de los dientes: 7TPI Material: acero 65Mn Dientes triples (dientes rectificados con precisión de 3 bordes) Dientes con tratamiento térmico Mango suave de dos colores Corte rápido Embalado en funda de color"
   },
   "BHS20": {
     "id": "49",
     "code": "BHS20",
     "name": "Sierra de mano",
-    "image": "/hand-tools/BHS20.png",
+    "image": "/hand-tools/BHS20.webp",
     "description": "Tamaño: 20\"/500 mm Tamaño de los dientes: 7TPI Material: 65Mn Dientes triples (dientes rectificados de precisión de 3 bordes) Dientes con tratamiento térmico Mango suave de dos colores Corte rápido Embalado por funda de color"
   },
   "BHS22": {
     "id": "50",
     "code": "BHS22",
     "name": "Sierra de mano",
-    "image": "/hand-tools/BHS22.png",
+    "image": "/hand-tools/BHS22.webp",
     "description": "Tamaño: 22\"/550 mm Tamaño de los dientes: 7TPI Material: acero 65Mn Dientes triples (dientes rectificados con precisión de 3 bordes) Dientes con tratamiento térmico Mango suave de dos colores Corte rápido Embalado en funda de color"
   },
   "BLCS24": {
     "id": "51",
     "code": "BLCS24",
     "name": "Sierra de hormigón ligera",
-    "image": "/hand-tools/BLCS24.png",
+    "image": "/hand-tools/BLCS24.webp",
     "description": "Tamaño: 24\"/600 mm Material: acero al carbono 65Mn Cantidad de dientes: 14T (diente de acero de tungsteno) Para cortar hormigón celular/ladrillo de ceniza volante autoclavado/placa de yeso/bloque de hielo Dientes con tratamiento térmico Tratamiento de pintura electroforética de superficie Mango suave de dos colores Embalado en tarjeta de papel"
   },
   "BMB12": {
     "id": "52",
     "code": "BMB12",
     "name": "Juego de caja de ingletes y sierra de costilla",
-    "image": "/hand-tools/BMB12.png",
+    "image": "/hand-tools/BMB12.webp",
     "description": "Caja de ingletes de plástico con juego de sierra trasera incluida: \n1 caja de ingletes de plástico Tamaño: 300 * 140 * 80 mm 1 sierra de lomo Tamaño: 300 mm/12\" Grosor: 0,8 mm, 11 TPI Diseño único Mango de nuevo diseño Embalado en tarjeta de papel"
   },
   "BWBS6": {
     "id": "53",
     "code": "BWBS6",
     "name": "Sierra para tableros de pared",
-    "image": "/hand-tools/BWBS6.png",
+    "image": "/hand-tools/BWBS6.webp",
     "description": "Tamaño: 6\"/150 mm, 7 TPI: Dientes rectificados de precisión de 65Mn, 2 filos, corte rápido, empaquetado en funda de color."
   },
   "BCS12": {
     "id": "54",
     "code": "BCS12",
     "name": "Sierra de compás",
-    "image": "/hand-tools/BCS12.png",
+    "image": "/hand-tools/BCS12.webp",
     "description": "Tamaño: 12\"/300 mm, 7 TPI: Dientes rectificados de precisión de 65Mn, 2 filos, empaquetados en funda de color"
   },
   "BFS7": {
     "id": "55",
     "code": "BFS7",
     "name": "Sierra plegable",
-    "image": "/hand-tools/BFS7.png",
+    "image": "/hand-tools/BFS7.webp",
     "description": "Tamaño: 7\"/180 mm, 7 TPI: Dientes triples de 65Mn (dientes rectificados con precisión de 3 filos) Corte rápido Embalado en tarjeta deslizante"
   },
   "BPS11": {
     "id": "56",
     "code": "BPS11",
     "name": "Sierra de podar",
-    "image": "/hand-tools/BPS11.png",
+    "image": "/hand-tools/BPS11.webp",
     "description": "Tamaño: 11\"/270 mm Material: 65Mn 7TPI Dientes triples (dientes rectificados con precisión de 3 filos) Corte rápido Empacado por funda de color"
   },
   "BPS12": {
     "id": "57",
     "code": "BPS12",
     "name": "Sierra de podar",
-    "image": "/hand-tools/BPS12.png",
+    "image": "/hand-tools/BPS12.webp",
     "description": "Tamaño: 12\"/300 mm Material: 65Mn 6TPI Dientes triples (dientes rectificados de precisión de 3 bordes) Corte rápido Empacado por funda de color"
   },
   "BMHS6": {
     "id": "58",
     "code": "BMHS6",
     "name": "Mini marco de sierra para metales",
-    "image": "/hand-tools/BMHS6.png",
+    "image": "/hand-tools/BMHS6.webp",
     "description": "Tamaño de la mini sierra para metales: 150 mm (6\") \nCómodo mango de ABS Con 1 hoja Embalado en tarjeta de papel"
   },
   "BHS12P": {
     "id": "59",
     "code": "BHS12P",
     "name": "Marco de sierra para metales",
-    "image": "/hand-tools/BHS12P.png",
+    "image": "/hand-tools/BHS12P.webp",
     "description": "Tamaño: 300 mm/12\" Diseño único Marco de sierra para metales Mango ABS cómodo Con 1 hoja Embalado en tarjeta de papel"
   },
   "BHS12TPR": {
     "id": "60",
     "code": "BHS12TPR",
     "name": "Marco de sierra para metales",
-    "image": "/hand-tools/BHS12TPR.png",
+    "image": "/hand-tools/BHS12TPR.webp",
     "description": "Tamaño: 300 mm/12\" Marco de sierra para metales con mango ajustable Con agarre suave Mango cómodo de ABS + TPR Con 1 hoja Embalado en tarjeta de papel"
   },
   "BCOS7": {
     "id": "61",
     "code": "BCOS7",
     "name": "Sierra de marquetería",
-    "image": "/hand-tools/BCOS7.png",
+    "image": "/hand-tools/BCOS7.webp",
     "description": "Especificación: 7“ Material del arco de sierra: acero Material del mango: PP + TPR con 5 hojas de sierra (8T, 14T, 18T, 24T * 2), 1 hoja de sierra de 24T ensamblada en el marco de la sierra Material de la hoja de sierra: 65Mn Embalado en tarjeta de papel"
   },
   "BHS12AL": {
     "id": "62",
     "code": "BHS12AL",
     "name": "Marco de sierra para metales",
-    "image": "/hand-tools/BHS12AL.png",
+    "image": "/hand-tools/BHS12AL.webp",
     "description": "Tamaño: 300 mm/12\" Marco de acero resistente Mango de aluminio, fuerte y cómodo Tensión ajustable Mecanismo de cambio de hoja de liberación rápida Con 1 hoja Embalado en tarjeta de papel"
   },
   "BPW8": {
     "id": "63",
     "code": "BPW8",
     "name": "Llave de tubo",
-    "image": "/hand-tools/BPW8.png",
+    "image": "/hand-tools/BPW8.webp",
     "description": "Tamaño: 8\" Diámetro máximo de sujeción: 27 mm Mordaza móvil forjada con acero al carbono de alta calidad Tratamiento inactivo Remache sólido Embalado en tarjeta de papel"
   },
   "BPW10": {
     "id": "64",
     "code": "BPW10",
     "name": "Llave de tubo",
-    "image": "/hand-tools/BPW10.png",
+    "image": "/hand-tools/BPW10.webp",
     "description": "Tamaño: 10\" Diámetro máximo de sujeción: 33 mm Mordaza móvil forjada con acero al carbono de alta calidad Tratamiento inactivo Remache sólido Embalado en tarjeta de papel"
   },
   "BPW12": {
     "id": "65",
     "code": "BPW12",
     "name": "Llave de tubo",
-    "image": "/hand-tools/BPW12.png",
+    "image": "/hand-tools/BPW12.webp",
     "description": "Tamaño: 12\" Diámetro máximo de sujeción: 42 mm Mordaza móvil forjada con acero al carbono de alta calidad Tratamiento inactivo Remache sólido Embalado en tarjeta de papel"
   },
   "BPW14": {
     "id": "66",
     "code": "BPW14",
     "name": "Llave de tubo",
-    "image": "/hand-tools/BPW14.png",
+    "image": "/hand-tools/BPW14.webp",
     "description": "Tamaño: 14\" Diámetro máximo de sujeción: 48 mm Mordaza móvil forjada con acero al carbono de alta calidad Tratamiento inactivo Remache sólido Embalado en tarjeta de papel"
   },
   "BPW18": {
     "id": "67",
     "code": "BPW18",
     "name": "Llave de tubo",
-    "image": "/hand-tools/BPW18.png",
+    "image": "/hand-tools/BPW18.webp",
     "description": "Tamaño: 18\" Diámetro máximo de sujeción: 60 mm Mordaza móvil forjada con acero al carbono de alta calidad Tratamiento inactivo Remache sólido Embalado en tarjeta de papel"
   },
   "BPW24": {
     "id": "68",
     "code": "BPW24",
     "name": "Llave de tubo",
-    "image": "/hand-tools/BPW24.png",
+    "image": "/hand-tools/BPW24.webp",
     "description": "Tamaño: 24\" Diámetro máximo de sujeción: 73 mm Mordaza móvil forjada con acero al carbono de alta calidad Tratamiento inactivo Remache sólido Embalado en tarjeta de papel"
   },
   "BAS10L": {
     "id": "69",
     "code": "BAS10L",
     "name": "Tijeras de aviación",
-    "image": "/hand-tools/BAS10L.png",
+    "image": "/hand-tools/BAS10L.webp",
     "description": "Tijeras de aviación (izquierda) Longitud: 250 mm (10\") Grosor máximo de corte: Acero al carbono ≤1,2 mm Acero inoxidable ≤0,7 mm Diseño único, mango suave de dos tonos Embalado en medio blíster doble"
   },
   "BAS10S": {
     "id": "70",
     "code": "BAS10S",
     "name": "Tijeras de aviación",
-    "image": "/hand-tools/BAS10S.png",
+    "image": "/hand-tools/BAS10S.webp",
     "description": "Tijeras de aviación (recta) Longitud: 250 mm (10\") Grosor máximo de corte: Acero al carbono ≤1,2 mm Acero inoxidable ≤0,7 mm Diseño único, mango suave de dos tonos Embalado en medio blíster doble"
   },
   "BAS10R": {
     "id": "71",
     "code": "BAS10R",
     "name": "Tijeras de aviación",
-    "image": "/hand-tools/BAS10R.png",
+    "image": "/hand-tools/BAS10R.webp",
     "description": "Tijeras de aviación (derecha) Longitud: 250 mm (10\") Grosor máximo de corte: Acero al carbono ≤1,2 mm Acero inoxidable ≤0,7 mm Diseño único, mango suave de dos tonos Embalado en medio blíster doble"
   },
   "BTS10": {
     "id": "72",
     "code": "BTS10",
     "name": "Tijeras de hojalatero",
-    "image": "/hand-tools/BTS10.png",
+    "image": "/hand-tools/BTS10.webp",
     "description": "Tamaño: 10\"/250 mm Grosor máximo de corte: Acero al carbono ≤0,8 mm Acero inoxidable ≤0,6 mm Con mango de plástico Embalado en blíster doble de media pulgada"
   },
   "BTS12": {
     "id": "73",
     "code": "BTS12",
     "name": "Tijeras de hojalatero",
-    "image": "/hand-tools/BTS12.png",
+    "image": "/hand-tools/BTS12.webp",
     "description": "Tamaño: 12\"/300 mm Grosor máximo de corte: Acero al carbono ≤0,8 mm Acero inoxidable ≤0,6 mm Con mango de plástico Embalado en blíster doble medio"
   },
   "BPP10": {
     "id": "74",
     "code": "BPP10",
     "name": "Alicates para bombas",
-    "image": "/hand-tools/BPP10.png",
+    "image": "/hand-tools/BPP10.webp",
     "description": "Tamaño: 10\"/250 mm Apertura máxima de sujeción: 40 mm Tratamiento de superficie: pulido y aceite antioxidante Material: acero al carbono Mango de dos colores Embalado en percha de PP"
   },
   "BPP12": {
     "id": "75",
     "code": "BPP12",
     "name": "Alicates para bombas",
-    "image": "/hand-tools/BPP12.png",
+    "image": "/hand-tools/BPP12.webp",
     "description": "Tamaño: 12\"/3000 mm Apertura máxima de sujeción: 50 mm Tratamiento de superficie: pulido y aceite antioxidante Material: acero al carbono Mango de dos colores Embalado en percha de PP"
   },
   "BCC6": {
     "id": "76",
     "code": "BCC6",
     "name": "Cortador de cables",
-    "image": "/hand-tools/BCC6.png",
+    "image": "/hand-tools/BCC6.webp",
     "description": "Tamaño: 6\"/160 mm Acabado negro y pulido\nAcero al carbono 55# Embalado en blíster doble de media unidad"
   },
   "BCC8": {
     "id": "77",
     "code": "BCC8",
     "name": "Cortador de cables",
-    "image": "/hand-tools/BCC8.png",
+    "image": "/hand-tools/BCC8.webp",
     "description": "Tamaño: 8\"/200 mm Acabado negro y pulido\nAcero al carbono 55# Embalado en blíster doble de media unidad"
   },
   "BMBC8": {
     "id": "78",
     "code": "BMBC8",
     "name": "Mini cortador de pernos",
-    "image": "/hand-tools/BMBC8.png",
+    "image": "/hand-tools/BMBC8.webp",
     "description": "Tamaño: Hoja de cromo-molibdeno de 8\"\nMango de TPR tricolor con acabado negro y pulido Un candado en el extremo del mango Embalado con tarjeta deslizante"
   },
   "BBC12": {
     "id": "79",
     "code": "BBC12",
     "name": "Cortador de pernos",
-    "image": "/hand-tools/BBC12.png",
+    "image": "/hand-tools/BBC12.webp",
     "description": "Tamaño: Hoja de cromo-molibdeno de 12\"\nMango de TPR tricolor con acabado negro y pulido. Embalado en tarjeta de papel."
   },
   "BBC14": {
     "id": "80",
     "code": "BBC14",
     "name": "Cortador de pernos",
-    "image": "/hand-tools/BBC14.png",
+    "image": "/hand-tools/BBC14.webp",
     "description": "Tamaño: Hoja de cromo-molibdeno de 14\"\nMango de TPR tricolor con acabado negro y pulido. Embalado en tarjeta de papel."
   },
   "BBC18": {
     "id": "81",
     "code": "BBC18",
     "name": "Cortador de pernos",
-    "image": "/hand-tools/BBC18.png",
+    "image": "/hand-tools/BBC18.webp",
     "description": "Tamaño: Hoja de cromo-molibdeno de 18\"\nMango de TPR tricolor con acabado negro y pulido. Embalado en tarjeta de papel."
   },
   "BBC24": {
     "id": "82",
     "code": "BBC24",
     "name": "Cortador de pernos",
-    "image": "/hand-tools/BBC24.png",
+    "image": "/hand-tools/BBC24.webp",
     "description": "Tamaño: Hoja de cromo-molibdeno de 24\"\nMango de TPR tricolor con acabado negro y pulido. Embalado en tarjeta de papel."
   },
   "BBC30": {
     "id": "83",
     "code": "BBC30",
     "name": "Cortador de pernos",
-    "image": "/hand-tools/BBC30.png",
+    "image": "/hand-tools/BBC30.webp",
     "description": "Tamaño: Hoja de cromo-molibdeno de 30\"\nMango de TPR tricolor con acabado negro y pulido. Embalado en tarjeta de papel."
   },
   "BBC36": {
     "id": "84",
     "code": "BBC36",
     "name": "Cortador de pernos",
-    "image": "/hand-tools/BBC36.png",
+    "image": "/hand-tools/BBC36.webp",
     "description": "Tamaño: Hoja de cromo-molibdeno de 36\"\nMango de TPR tricolor con acabado negro y pulido. Embalado en tarjeta de papel."
   },
   "BBV4": {
     "id": "85",
     "code": "BBV4",
     "name": "Tornillo de banco",
-    "image": "/hand-tools/BBV4.png",
+    "image": "/hand-tools/BBV4.webp",
     "description": "Tamaño de la base giratoria: 4\" Peso: 5,5 kg Cuerpo de hierro fundido Con yunque Embalado en caja de cartón"
   },
   "BBV6": {
     "id": "86",
     "code": "BBV6",
     "name": "Tornillo de banco",
-    "image": "/hand-tools/BBV6.png",
+    "image": "/hand-tools/BBV6.webp",
     "description": "Tamaño de la base giratoria: 6\" Peso: 12 kg Cuerpo de hierro fundido Con yunque Embalado en caja de cartón"
   },
   "BBV8": {
     "id": "87",
     "code": "BBV8",
     "name": "Tornillo de banco",
-    "image": "/hand-tools/BBV8.png",
+    "image": "/hand-tools/BBV8.webp",
     "description": "Tamaño de la base giratoria: 8\" Peso: 18 kg Cuerpo de hierro fundido Con yunque Embalado en caja de cartón"
   },
   "BPCPVC42": {
     "id": "88",
     "code": "BPCPVC42",
     "name": "Cortador de tubos de pvc",
-    "image": "/hand-tools/BPCPVC42.png",
+    "image": "/hand-tools/BPCPVC42.webp",
     "description": "Longitud: 230 mm Diámetro de corte: 3-42 mm Función de apertura automática\nEmbalado en blíster doble"
   },
   "BPCMET32": {
     "id": "89",
     "code": "BPCMET32",
     "name": "Cortador de tubos",
-    "image": "/hand-tools/BPCMET32.png",
+    "image": "/hand-tools/BPCMET32.webp",
     "description": "Cortador de tubos de cobre y aluminio Diámetro de corte: 3-32 mm\nCon hoja de alta calidad y perilla de aluminio. Embalado en tarjeta deslizante."
   },
   "BLPC7": {
     "id": "90",
     "code": "BLPC7",
     "name": "Alicates de bloqueo de mordaza curva",
-    "image": "/hand-tools/BLPC7.png",
+    "image": "/hand-tools/BLPC7.webp",
     "description": "Tamaño: 7\" Acero al carbono HRC38°-HRC48° Niquelado Embalado por percha de polipropileno"
   },
   "BLPC10": {
     "id": "91",
     "code": "BLPC10",
     "name": "Alicates de bloqueo de mordaza curva",
-    "image": "/hand-tools/BLPC10.png",
+    "image": "/hand-tools/BLPC10.webp",
     "description": "Tamaño: 10\" Acero al carbono HRC38°-HRC48° Niquelado Embalado en percha de polipropileno"
   },
   "BLPS10": {
     "id": "92",
     "code": "BLPS10",
     "name": "Alicates de mordaza recta",
-    "image": "/hand-tools/BLPS10.png",
+    "image": "/hand-tools/BLPS10.webp",
     "description": "Tamaño: 10\" Acero al carbono HRC38°-HRC48° Niquelado Embalado en percha de polipropileno"
   },
   "BLPLN6": {
     "id": "93",
     "code": "BLPLN6",
     "name": "Alicates de bloqueo de punta larga",
-    "image": "/hand-tools/BLPLN6.png",
+    "image": "/hand-tools/BLPLN6.webp",
     "description": "Tamaño: 6\" Acero al carbono HRC38°-HRC48° Niquelado Embalado en percha de polipropileno"
   },
   "BLPLN9": {
     "id": "94",
     "code": "BLPLN9",
     "name": "Alicates de bloqueo de punta larga",
-    "image": "/hand-tools/BLPLN9.png",
+    "image": "/hand-tools/BLPLN9.webp",
     "description": "Tamaño: 9\" Acero al carbono HRC38°-HRC48° Niquelado Embalado por percha de polipropileno"
   },
   "BCLP6": {
     "id": "95",
     "code": "BCLP6",
     "name": "Alicates de bloqueo con abrazadera en c",
-    "image": "/hand-tools/BCLP6.png",
+    "image": "/hand-tools/BCLP6.webp",
     "description": "Tamaño: 6\" Acero al carbono HRC38°-HRC48° Niquelado Embalado en percha de polipropileno"
   },
   "BCLP11": {
     "id": "96",
     "code": "BCLP11",
     "name": "Alicates de bloqueo con abrazadera en c",
-    "image": "/hand-tools/BCLP11.png",
+    "image": "/hand-tools/BCLP11.webp",
     "description": "Tamaño: 11\" Acero al carbono HRC38°-HRC48° Niquelado Embalado en percha de plástico"
   },
   "B3LP7910": {
     "id": "97",
     "code": "B3LP7910",
     "name": "Juego de 3 alicates de bloqueo",
-    "image": "/hand-tools/B3LP7910.png",
+    "image": "/hand-tools/B3LP7910.webp",
     "description": "El juego de 3 alicates de bloqueo incluye: \n1 alicate de presión de mordaza recta de 7\", 1 alicate de presión de punta larga de 9\", 1 alicate de presión de mordaza curva de 10\", acero al carbono HRC38°-HRC48°, niquelado. Se presenta en blíster doble."
   },
   "BSH1000": {
     "id": "98",
     "code": "BSH1000",
     "name": "Martillo de lapidación",
-    "image": "/hand-tools/BSH1000.png",
+    "image": "/hand-tools/BSH1000.webp",
     "description": "Peso: Martillo forjado en estampa de 1000 g. Tratamiento térmico, acero al carbono n.° 45. Mango de madera dura. Embalado por etiqueta."
   },
   "BSH1500": {
     "id": "99",
     "code": "BSH1500",
     "name": "Martillo de lapidación",
-    "image": "/hand-tools/BSH1500.png",
+    "image": "/hand-tools/BSH1500.webp",
     "description": "Peso: Cabeza de martillo forjada en estampa de 1500 g Tratamiento térmico, acero al carbono n.° 45 Mango de madera dura Embalado por etiqueta"
   },
   "BSH2000": {
     "id": "100",
     "code": "BSH2000",
     "name": "Martillo de lapidación",
-    "image": "/hand-tools/BSH2000.png",
+    "image": "/hand-tools/BSH2000.webp",
     "description": "Peso: Cabeza de martillo forjada en estampa de 2000 g. Tratamiento térmico, acero al carbono n.° 45. Mango de madera dura. Embalado por etiqueta."
   },
   "BCH8": {
     "id": "101",
     "code": "BCH8",
     "name": "Martillo de bola",
-    "image": "/hand-tools/BCH8.png",
+    "image": "/hand-tools/BCH8.webp",
     "description": ""
   },
   "BCH16": {
     "id": "102",
     "code": "BCH16",
     "name": "Martillo de garra",
-    "image": "/hand-tools/BCH16.png",
+    "image": "/hand-tools/BCH16.webp",
     "description": "Peso: Cabeza de martillo forjada de 16 oz/450 g Tratamiento térmico, acero al carbono n.° 45 Mango de madera dura Embalado por etiqueta"
   },
   "BBPH16": {
     "id": "103",
     "code": "BBPH16",
     "name": "Martillo de bola",
-    "image": "/hand-tools/BBPH16.png",
+    "image": "/hand-tools/BBPH16.webp",
     "description": "Peso: Cabeza de martillo forjada de 16 oz/450 g Tratamiento térmico, acero al carbono n.° 45 Mango de madera dura Embalado por etiqueta"
   },
   "BBPH24": {
     "id": "104",
     "code": "BBPH24",
     "name": "Martillo de bola",
-    "image": "/hand-tools/BBPH24.png",
+    "image": "/hand-tools/BBPH24.webp",
     "description": "Peso: Cabeza de martillo forjada de 24 oz/660 g Tratamiento térmico, acero al carbono n.° 45 Mango de madera dura Embalado por etiqueta"
   },
   "BMHFB300": {
     "id": "105",
     "code": "BMHFB300",
     "name": "Martillo de maquinista",
-    "image": "/hand-tools/BMHFB300.png",
+    "image": "/hand-tools/BMHFB300.webp",
     "description": "Peso: Martillo forjado de 300 g Tratamiento térmico, acero al carbono n.° 45 Mango de fibra de vidrio de diseño exclusivo Embalado por etiqueta"
   },
   "BMHFB500": {
     "id": "106",
     "code": "BMHFB500",
     "name": "Martillo de maquinista",
-    "image": "/hand-tools/BMHFB500.png",
+    "image": "/hand-tools/BMHFB500.webp",
     "description": "Peso: Martillo forjado de 500 g Tratamiento térmico, acero al carbono n.° 45 Mango de fibra de vidrio de diseño exclusivo Embalado por etiqueta"
   },
   "BMHFB1000": {
     "id": "107",
     "code": "BMHFB1000",
     "name": "Martillo de maquinista",
-    "image": "/hand-tools/BMHFB1000.png",
+    "image": "/hand-tools/BMHFB1000.webp",
     "description": "Peso: Martillo forjado en estampa de 1000 g. Tratamiento térmico, acero al carbono n.° 45. Mango de fibra de vidrio de diseño exclusivo. Embalado por etiqueta."
   },
   "BSHFB1000": {
     "id": "108",
     "code": "BSHFB1000",
     "name": "Martillo de lapidación",
-    "image": "/hand-tools/BSHFB1000.png",
+    "image": "/hand-tools/BSHFB1000.webp",
     "description": "Peso: Martillo forjado en estampa de 1000 g. Tratamiento térmico, acero al carbono n.° 45. Mango de fibra de vidrio de diseño exclusivo. Embalado por etiqueta."
   },
   "BSHFB1500": {
     "id": "109",
     "code": "BSHFB1500",
     "name": "Martillo de lapidación",
-    "image": "/hand-tools/BSHFB1500.png",
+    "image": "/hand-tools/BSHFB1500.webp",
     "description": "Peso: Martillo forjado en estampa de 1500 g. Tratamiento térmico, acero al carbono n.° 45. Mango de fibra de vidrio de diseño exclusivo. Embalado por etiqueta."
   },
   "BSHFB2000": {
     "id": "110",
     "code": "BSHFB2000",
     "name": "Martillo de lapidación",
-    "image": "/hand-tools/BSHFB2000.png",
+    "image": "/hand-tools/BSHFB2000.webp",
     "description": "Peso: Martillo forjado de 2000 g. Tratamiento térmico, acero al carbono n.° 45. Mango de fibra de vidrio de diseño exclusivo. Embalado por etiqueta."
   },
   "BSHFB3000": {
     "id": "111",
     "code": "BSHFB3000",
     "name": "Martillo de lapidación",
-    "image": "/hand-tools/BSHFB3000.png",
+    "image": "/hand-tools/BSHFB3000.webp",
     "description": "Peso: 3 kg Longitud: 900 mm Material de la cabeza del martillo: acero al carbono n.° 45 Cabeza de martillo forjada Mango de fibra de vidrio de diseño exclusivo Embalado por etiqueta"
   },
   "BSHFB4000": {
     "id": "112",
     "code": "BSHFB4000",
     "name": "Martillo de lapidación",
-    "image": "/hand-tools/BSHFB4000.png",
+    "image": "/hand-tools/BSHFB4000.webp",
     "description": "Peso: 4 kg Longitud: 900 mm Material de la cabeza del martillo: acero al carbono n.° 45 Cabeza de martillo forjada Mango de fibra de vidrio de diseño exclusivo Embalado por etiqueta"
   },
   "BSHFB5000": {
     "id": "113",
     "code": "BSHFB5000",
     "name": "Martillo de lapidación",
-    "image": "/hand-tools/BSHFB5000.png",
+    "image": "/hand-tools/BSHFB5000.webp",
     "description": "Peso: 5 kg Longitud: 900 mm Material de la cabeza del martillo: acero al carbono n.° 45 Cabeza de martillo forjada Mango de fibra de vidrio de diseño exclusivo Embalado por etiqueta"
   },
   "BSLHFB2": {
     "id": "114",
     "code": "BSLHFB2",
     "name": "Maza",
-    "image": "/hand-tools/BSLHFB2.png",
+    "image": "/hand-tools/BSLHFB2.webp",
     "description": "Peso: Martillo forjado de 2 lb. Tratamiento térmico, acero al carbono n.° 45. Mango de fibra de vidrio de diseño exclusivo. Embalado por etiqueta."
   },
   "BSLHFB3": {
     "id": "115",
     "code": "BSLHFB3",
     "name": "Maza",
-    "image": "/hand-tools/BSLHFB3.png",
+    "image": "/hand-tools/BSLHFB3.webp",
     "description": "Peso: Martillo forjado de 3 lb Tratamiento térmico, acero al carbono n.° 45 Mango de fibra de vidrio de diseño exclusivo Embalado por etiqueta"
   },
   "BSLHFB4": {
     "id": "116",
     "code": "BSLHFB4",
     "name": "Maza",
-    "image": "/hand-tools/BSLHFB4.png",
+    "image": "/hand-tools/BSLHFB4.webp",
     "description": "Peso: Martillo forjado de 4 lb Tratamiento térmico, acero al carbono n.° 45 Mango de fibra de vidrio de diseño exclusivo Embalado por etiqueta"
   },
   "BSLHFB6": {
     "id": "117",
     "code": "BSLHFB6",
     "name": "Maza",
-    "image": "/hand-tools/BSLHFB6.png",
+    "image": "/hand-tools/BSLHFB6.webp",
     "description": "Peso: 6 lb Longitud: 900 mm Material de la cabeza del martillo: acero al carbono 45# Cabeza de martillo forjada Mango de fibra de vidrio de diseño único Embalado por etiqueta"
   },
   "BMCLH8": {
     "id": "118",
     "code": "BMCLH8",
     "name": "Mini martillo de garra",
-    "image": "/hand-tools/BMCLH8.png",
+    "image": "/hand-tools/BMCLH8.webp",
     "description": "Peso: 8 oz Cabeza de martillo igual que un martillo de garra de 8 oz Cabeza de martillo forjada Tratamiento térmico, acero al carbono n.° 45 Mango de fibra de vidrio de diseño único Embalado en tarjeta de papel"
   },
   "BCLHFB8": {
     "id": "119",
     "code": "BCLHFB8",
     "name": "Martillo de garra",
-    "image": "/hand-tools/BCLHFB8.png",
+    "image": "/hand-tools/BCLHFB8.webp",
     "description": "Peso: Martillo forjado de 8 oz/220 g. Tratamiento térmico, acero al carbono n.° 45. Mango de fibra de vidrio de diseño exclusivo. Embalado por etiqueta."
   },
   "BCLHFB16": {
     "id": "120",
     "code": "BCLHFB16",
     "name": "Martillo de garra",
-    "image": "/hand-tools/BCLHFB16.png",
+    "image": "/hand-tools/BCLHFB16.webp",
     "description": "Peso: Cabeza de martillo forjada de 16 oz/450 g Tratamiento térmico, acero al carbono n.° 45 Mango de fibra de vidrio de diseño exclusivo Embalado por etiqueta"
   },
   "BBPHFB16": {
     "id": "121",
     "code": "BBPHFB16",
     "name": "Martillo de bola",
-    "image": "/hand-tools/BBPHFB16.png",
+    "image": "/hand-tools/BBPHFB16.webp",
     "description": "Peso: Cabeza de martillo forjada de 16 oz/450 g Tratamiento térmico, acero al carbono n.° 45 Mango de fibra de vidrio de diseño exclusivo Embalado por etiqueta"
   },
   "BBPHFB24": {
     "id": "122",
     "code": "BBPHFB24",
     "name": "Martillo de bola",
-    "image": "/hand-tools/BBPHFB24.png",
+    "image": "/hand-tools/BBPHFB24.webp",
     "description": "Peso: Cabeza de martillo forjada de 24 oz/660 g Tratamiento térmico, acero al carbono n.° 45 Mango de fibra de vidrio de diseño exclusivo Embalado por etiqueta"
   },
   "BBPHFB32": {
     "id": "123",
     "code": "BBPHFB32",
     "name": "Martillo de bola",
-    "image": "/hand-tools/BBPHFB32.png",
+    "image": "/hand-tools/BBPHFB32.webp",
     "description": "Peso: Martillo forjado de 32 oz/900 g Tratamiento térmico, acero al carbono n.° 45 Mango de fibra de vidrio de diseño exclusivo Embalado por etiqueta"
   },
   "BRHHW8": {
     "id": "124",
     "code": "BRHHW8",
     "name": "Martillo de goma",
-    "image": "/hand-tools/BRHHW8.png",
+    "image": "/hand-tools/BRHHW8.webp",
     "description": "Peso: 8 oz/220 g Martillo de goma Mango de madera dura Embalado por etiqueta"
   },
   "BRHHW16": {
     "id": "125",
     "code": "BRHHW16",
     "name": "Martillo de goma",
-    "image": "/hand-tools/BRHHW16.png",
+    "image": "/hand-tools/BRHHW16.webp",
     "description": "Peso: 16 oz/450 g Martillo de goma Mango de madera dura Embalado por etiqueta"
   },
   "BRHFB8": {
     "id": "126",
     "code": "BRHFB8",
     "name": "Martillo de goma",
-    "image": "/hand-tools/BRHFB8.png",
+    "image": "/hand-tools/BRHFB8.webp",
     "description": "Peso: 8 oz/220 g Cabeza de martillo de caucho natural, tipo suave Sin chispas Caras de plástico que no dejan marcas Protege la superficie de la pieza de trabajo Mango de fibra de vidrio de diseño exclusivo Embalado por etiqueta"
   },
   "BRHFB16": {
     "id": "127",
     "code": "BRHFB16",
     "name": "Martillo de goma",
-    "image": "/hand-tools/BRHFB16.png",
+    "image": "/hand-tools/BRHFB16.webp",
     "description": "Peso: 16 oz/450 g Cabeza de martillo de caucho natural, tipo suave Sin chispas Caras de plástico que no dejan marcas Protege la superficie de la pieza de trabajo Mango de fibra de vidrio de diseño exclusivo Embalado por etiqueta"
   },
   "BRPHFB35MM": {
     "id": "128",
     "code": "BRPHFB35MM",
     "name": "Martillo de goma y plástico",
-    "image": "/hand-tools/BRPHFB35MM.png",
+    "image": "/hand-tools/BRPHFB35MM.webp",
     "description": "Diámetro del martillo: 35 mm Cara suave Protege la superficie de la pieza de trabajo Mango de fibra de vidrio de diseño único Embalado por etiqueta"
   },
   "BAXE600": {
     "id": "129",
     "code": "BAXE600",
     "name": "Hacha",
-    "image": "/hand-tools/BAXE600.png",
+    "image": "/hand-tools/BAXE600.webp",
     "description": "Peso: Hacha de 600 g forjada en estampa. Tratamiento térmico, acero al carbono n.° 45. Mango de madera dura. Embalado por etiqueta."
   },
   "BAXE1250": {
     "id": "130",
     "code": "BAXE1250",
     "name": "Hacha",
-    "image": "/hand-tools/BAXE1250.png",
+    "image": "/hand-tools/BAXE1250.webp",
     "description": "Peso: Martillo forjado en estampa de 1250 g. Tratamiento térmico, acero al carbono n.° 45. Mango de madera dura. Embalado por etiqueta."
   },
   "BAXEFB600": {
     "id": "131",
     "code": "BAXEFB600",
     "name": "Hacha",
-    "image": "/hand-tools/BAXEFB600.png",
+    "image": "/hand-tools/BAXEFB600.webp",
     "description": "Peso: Cabeza de hacha forjada en estampa de 600 g Tratamiento térmico, acero al carbono n.° 45 Mango de fibra de vidrio de diseño único Embalado por etiqueta"
   },
   "BAXEFB800": {
     "id": "132",
     "code": "BAXEFB800",
     "name": "Hacha",
-    "image": "/hand-tools/BAXEFB800.png",
+    "image": "/hand-tools/BAXEFB800.webp",
     "description": "Peso: Cabeza de hacha forjada en estampa de 800 g Tratamiento térmico, acero al carbono n.° 45 Mango de fibra de vidrio de diseño exclusivo Embalado por etiqueta"
   },
   "BAXEFB1000": {
     "id": "133",
     "code": "BAXEFB1000",
     "name": "Hacha",
-    "image": "/hand-tools/BAXEFB1000.png",
+    "image": "/hand-tools/BAXEFB1000.webp",
     "description": "Peso de la cabeza: 1000 g Longitud: 430 mm Material de la cabeza del hacha: acero al carbono n.° 45 Cabeza de hacha forjada Mango de fibra de vidrio de diseño único Embalado por etiqueta"
   },
   "BAXEFB1250": {
     "id": "134",
     "code": "BAXEFB1250",
     "name": "Hacha",
-    "image": "/hand-tools/BAXEFB1250.png",
+    "image": "/hand-tools/BAXEFB1250.webp",
     "description": "Peso: Cabeza de hacha forjada en estampa de 1250 g Tratamiento térmico, acero al carbono n.° 45 Mango de fibra de vidrio de diseño exclusivo Embalado por etiqueta"
   },
   "BCC2518300": {
     "id": "135",
     "code": "BCC2518300",
     "name": "Cincel frío",
-    "image": "/hand-tools/BCC2518300.png",
+    "image": "/hand-tools/BCC2518300.webp",
     "description": "Tamaño: 25 mm x 18 mm x 300 mm Material: acero al carbono 45 # Tratamiento térmico Empacado por etiqueta"
   },
   "BCC0418300": {
     "id": "136",
     "code": "BCC0418300",
     "name": "Cincel frío",
-    "image": "/hand-tools/BCC0418300.png",
+    "image": "/hand-tools/BCC0418300.webp",
     "description": "Tamaño: Material de 4 mm x 18 mm x 300 mm: Acero al carbono 45# Tratamiento térmico Empacado por etiqueta"
   },
   "BCCG2216250": {
     "id": "137",
     "code": "BCCG2216250",
     "name": "Cincel frío",
-    "image": "/hand-tools/BCCG2216250.png",
+    "image": "/hand-tools/BCCG2216250.webp",
     "description": "Tamaño: 22 mm x 16 mm x 250 mm Material: acero al carbono n.° 45 Tratamiento térmico Embalado por etiqueta"
   },
   "BCCG2518300": {
     "id": "138",
     "code": "BCCG2518300",
     "name": "Cincel frío",
-    "image": "/hand-tools/BCCG2518300.png",
+    "image": "/hand-tools/BCCG2518300.webp",
     "description": "Tamaño: 25 mm x 18 mm x 300 mm Material: acero al carbono n.° 45 Tratamiento térmico Embalado por etiqueta"
   },
   "BCNCG0416250": {
     "id": "139",
     "code": "BCNCG0416250",
     "name": "Cincel de hormigón",
-    "image": "/hand-tools/BCNCG0416250.png",
+    "image": "/hand-tools/BCNCG0416250.webp",
     "description": "Tamaño: 4 mm x 16 mm x 250 mm Material: acero al carbono n.° 45 Tratamiento térmico Embalado por etiqueta"
   },
   "BCNCG0418300": {
     "id": "140",
     "code": "BCNCG0418300",
     "name": "Cincel de hormigón",
-    "image": "/hand-tools/BCNCG0418300.png",
+    "image": "/hand-tools/BCNCG0418300.webp",
     "description": "Tamaño: 4 mm x 18 mm x 300 mm Material: acero al carbono n.° 45 Tratamiento térmico Embalado por etiqueta"
   },
   "BHK7SA6": {
     "id": "141",
     "code": "BHK7SA6",
     "name": "Llave hexagonal",
-    "image": "/hand-tools/BHK7SA6.png",
+    "image": "/hand-tools/BHK7SA6.webp",
     "description": "Juego de 7 llaves hexagonales Material: acero al carbono Tamaño: 1,5 mm, 2 mm, 2,5 mm, 3 mm, 4 mm, 5 mm, 6 mm. Brazo corto. Tratamiento térmico y cromado. Embalado en caja deslizante."
   },
   "BTK7SAT40": {
     "id": "142",
     "code": "BTK7SAT40",
     "name": "Llave torx",
-    "image": "/hand-tools/BTK7SAT40.png",
+    "image": "/hand-tools/BTK7SAT40.webp",
     "description": "Juego de 7 llaves Torx Material: Brazo corto de acero al carbono Tamaño: T10, T15, T20, T25, T27, T30, T40. Tratamiento térmico y cromado. Embalado en cartón deslizante."
   },
   "BHK9LA10": {
     "id": "143",
     "code": "BHK9LA10",
     "name": "Llave hexagonal",
-    "image": "/hand-tools/BHK9LA10.png",
+    "image": "/hand-tools/BHK9LA10.webp",
     "description": "Juego de 9 llaves hexagonales Material: Tamaño Cr-V: 1,5 mm, 2 mm, 2,5 mm, 3 mm, 4 mm, 5 mm, 6 mm, 8 mm, 10 mm. Brazo largo. Tratamiento térmico y cromado. Embalado en caja deslizante."
   },
   "BHK9XLA10": {
     "id": "144",
     "code": "BHK9XLA10",
     "name": "Llave hexagonal",
-    "image": "/hand-tools/BHK9XLA10.png",
+    "image": "/hand-tools/BHK9XLA10.webp",
     "description": "Juego de 9 llaves hexagonales Material: Tamaño Cr-V: 1,5 mm, 2 mm, 2,5 mm, 3 mm, 4 mm, 5 mm, 6 mm, 8 mm, 10 mm. Brazo extralargo. Tratamiento térmico y cromado. Embalado en caja deslizante."
   },
   "BBHK9LA10": {
     "id": "145",
     "code": "BBHK9LA10",
     "name": "Llave hexagonal de punta de bola",
-    "image": "/hand-tools/BBHK9LA10.png",
+    "image": "/hand-tools/BBHK9LA10.webp",
     "description": "Juego de 9 llaves hexagonales con punta de bola: Tamaño Cr-V: 1,5 mm, 2 mm, 2,5 mm, 3 mm, 4 mm, 5 mm, 6 mm, 8 mm, 10 mm. Brazo largo. Tratamiento térmico y cromado. Embalado en caja deslizante."
   },
   "BBHK9XLA10": {
     "id": "146",
     "code": "BBHK9XLA10",
     "name": "Llave hexagonal de punta de bola",
-    "image": "/hand-tools/BBHK9XLA10.png",
+    "image": "/hand-tools/BBHK9XLA10.webp",
     "description": "Juego de 9 llaves hexagonales con punta de bola: Tamaño Cr-V: 1,5 mm, 2 mm, 2,5 mm, 3 mm, 4 mm, 5 mm, 6 mm, 8 mm, 10 mm. Brazo extralargo. Tratamiento térmico y cromado. Embalado en caja deslizante."
   },
   "BTK9LAT50": {
     "id": "147",
     "code": "BTK9LAT50",
     "name": "Llave torx",
-    "image": "/hand-tools/BTK9LAT50.png",
+    "image": "/hand-tools/BTK9LAT50.webp",
     "description": "Juego de 9 llaves Torx: Tamaño Cr-V: T-10, T-15, T-20, T-25, T-27, T-30, T-40, T-45, T-50. Brazo largo. Tratamiento térmico y cromado. Embalado en caja deslizante."
   },
   "BTK9XLAT50": {
     "id": "148",
     "code": "BTK9XLAT50",
     "name": "Llave torx",
-    "image": "/hand-tools/BTK9XLAT50.png",
+    "image": "/hand-tools/BTK9XLAT50.webp",
     "description": "Juego de 9 llaves Torx: Tamaño Cr-V: T-10, T-15, T-20, T-25, T-27, T-30, T-40, T-45, T-50. Brazo extra largo. Tratamiento térmico y cromado. Embalado en caja deslizante."
   },
   "BHKFLD8": {
     "id": "149",
     "code": "BHKFLD8",
     "name": "Llave hexagonal",
-    "image": "/hand-tools/BHKFLD8.png",
+    "image": "/hand-tools/BHKFLD8.webp",
     "description": "8 piezas de llave hexagonal Tamaño: 1,5 mm, 2 mm, 2,5 mm, 3 mm, 4 mm, 5 mm, 6 mm, 8 mm Material: Cr-V Tratamiento térmico y placa cromada Embalado en percha de PP"
   },
   "BBHKFLD8": {
     "id": "150",
     "code": "BBHKFLD8",
     "name": "Llave hexagonal de punta de bola",
-    "image": "/hand-tools/BBHKFLD8.png",
+    "image": "/hand-tools/BBHKFLD8.webp",
     "description": "Juego de 8 llaves hexagonales de punta de bola Tamaño: 1,5 mm, 2 mm, 2,5 mm, 3 mm, 4 mm, 5 mm, 6 mm, 8 mm Material: Cr-V Tratamiento térmico y placa cromada Embalado en percha de PP"
   },
   "BTKFLDT40": {
     "id": "151",
     "code": "BTKFLDT40",
     "name": "Llave torx",
-    "image": "/hand-tools/BTKFLDT40.png",
+    "image": "/hand-tools/BTKFLDT40.webp",
     "description": "Juego de 8 llaves Torx Tamaño: T9, T10, T15, T20, T25, T27, T30, T40 Material: Cr-V Tratamiento térmico y placa cromada Embalado en percha de PP"
   },
   "BMT161": {
     "id": "152",
     "code": "BMT161",
     "name": "Herramienta multifunción 16 en 1",
-    "image": "/hand-tools/BMT161.png",
+    "image": "/hand-tools/BMT161.webp",
     "description": "Juego de herramientas multifuncional 16 en 1 Material: Acero al carbono Cr-V + Incluye: 6 llaves hexagonales: 2, 2,5, 3, 4, 5, 6 mm 2 destornilladores: PH1, SL5.5 3 dados de 1/4 \"x 20,5 mm: 8, 9, 10 mm 1 adaptador de 1/4\" 1 llave 4 en 1: 8 mm, 10 mm, 15 mm y llave de radios 14G Tratamiento térmico y placa cromada Embalado en tarjeta deslizante"
   },
   "BSTMT3X16": {
     "id": "153",
     "code": "BSTMT3X16",
     "name": "Cinta métrica de acero",
-    "image": "/hand-tools/BSTMT3X16.png",
+    "image": "/hand-tools/BSTMT3X16.webp",
     "description": "Largo y ancho: 3 mx 16 mm Un botón Con métricas y pulgadas Empacado por etiqueta"
   },
   "BSTMT5X19": {
     "id": "154",
     "code": "BSTMT5X19",
     "name": "Cinta métrica de acero",
-    "image": "/hand-tools/BSTMT5X19.png",
+    "image": "/hand-tools/BSTMT5X19.webp",
     "description": "Largo y ancho: 5 mx 19 mm Un botón Con métricas y pulgadas Empacado por etiqueta"
   },
   "BSTMT5X25": {
     "id": "155",
     "code": "BSTMT5X25",
     "name": "Cinta métrica de acero",
-    "image": "/hand-tools/BSTMT5X25.png",
+    "image": "/hand-tools/BSTMT5X25.webp",
     "description": "Largo y ancho: 5 mx 25 mm Un botón Con métricas y pulgadas Empacado por etiqueta"
   },
   "BSTMT3X16S": {
     "id": "156",
     "code": "BSTMT3X16S",
     "name": "Cinta métrica de acero",
-    "image": "/hand-tools/BSTMT3X16S.png",
+    "image": "/hand-tools/BSTMT3X16S.webp",
     "description": "Largo y ancho: 3 mx 16 mm Con sistema métrico y en pulgadas Un botón Diseño único Embalado en percha de plástico"
   },
   "BSTMT5X19S": {
     "id": "157",
     "code": "BSTMT5X19S",
     "name": "Cinta métrica de acero",
-    "image": "/hand-tools/BSTMT5X19S.png",
+    "image": "/hand-tools/BSTMT5X19S.webp",
     "description": "Largo y ancho: 5 mx 19 mm Con sistema métrico y en pulgadas Un botón Diseño único Embalado en percha de plástico"
   },
   "BSTMT5X25S": {
     "id": "158",
     "code": "BSTMT5X25S",
     "name": "Cinta métrica de acero",
-    "image": "/hand-tools/BSTMT5X25S.png",
+    "image": "/hand-tools/BSTMT5X25S.webp",
     "description": "Largo y ancho: 5 mx 25 mm Con sistema métrico y en pulgadas Un botón Diseño único Embalado en percha de plástico"
   },
   "BSTMT8X25S": {
     "id": "159",
     "code": "BSTMT8X25S",
     "name": "Cinta métrica de acero",
-    "image": "/hand-tools/BSTMT8X25S.png",
+    "image": "/hand-tools/BSTMT8X25S.webp",
     "description": "Largo y ancho: 8 mx 25 mm Con sistema métrico y en pulgadas Un botón Diseño único Embalado en percha de plástico"
   },
   "BSTMT10X25S": {
     "id": "160",
     "code": "BSTMT10X25S",
     "name": "Cinta métrica de acero",
-    "image": "/hand-tools/BSTMT10X25S.png",
+    "image": "/hand-tools/BSTMT10X25S.webp",
     "description": "Largo y ancho: 10 mx 25 mm Con sistema métrico y en pulgadas Un botón Diseño único Embalado en percha de plástico"
   },
   "BSL40": {
     "id": "161",
     "code": "BSL40",
     "name": "Nivel de burbuja",
-    "image": "/hand-tools/BSL40.png",
+    "image": "/hand-tools/BSL40.webp",
     "description": "Longitud: 40 cm Viales fresados   por un lado con una precisión de 0,5 mm/m Grosor: 1,5 mm Embalado en funda de color"
   },
   "BSL60": {
     "id": "162",
     "code": "BSL60",
     "name": "Nivel de burbuja",
-    "image": "/hand-tools/BSL60.png",
+    "image": "/hand-tools/BSL60.webp",
     "description": "Longitud: 60 cm Viales fresados   por un lado con una precisión de 0,5 mm/m Grosor: 1,5 mm Embalado en funda de color"
   },
   "BSL80": {
     "id": "163",
     "code": "BSL80",
     "name": "Nivel de burbuja",
-    "image": "/hand-tools/BSL80.png",
+    "image": "/hand-tools/BSL80.webp",
     "description": "Longitud: 80 cm Viales fresados   por un lado con una precisión de 0,5 mm/m Grosor: 1,5 mm Embalado en funda de color"
   },
   "BSL100": {
     "id": "164",
     "code": "BSL100",
     "name": "Nivel de burbuja",
-    "image": "/hand-tools/BSL100.png",
+    "image": "/hand-tools/BSL100.webp",
     "description": "Longitud: 100 cm Viales fresados   por un lado con una precisión de 0,5 mm/m Grosor: 1,5 mm Embalado en funda de color"
   },
   "BSL120": {
     "id": "165",
     "code": "BSL120",
     "name": "Nivel de burbuja",
-    "image": "/hand-tools/BSL120.png",
+    "image": "/hand-tools/BSL120.webp",
     "description": "Longitud: 120 cm Viales fresados   por un lado con una precisión de 0,5 mm/m Grosor: 1,5 mm Embalado en funda de color"
   },
   "BSL150": {
     "id": "166",
     "code": "BSL150",
     "name": "Nivel de burbuja",
-    "image": "/hand-tools/BSL150.png",
+    "image": "/hand-tools/BSL150.webp",
     "description": "Longitud: 150 cm Viales fresados   por un lado con una precisión de 0,5 mm/m Grosor: 1,5 mm Embalado en funda de color"
   },
   "BSL180": {
     "id": "167",
     "code": "BSL180",
     "name": "Nivel de burbuja",
-    "image": "/hand-tools/BSL180.png",
+    "image": "/hand-tools/BSL180.webp",
     "description": "Longitud: 180 cm Viales fresados   por un lado con una precisión de 0,5 mm/m Grosor: 1,5 mm Embalado en funda de color"
   },
   "Nivel de seguridad básico 200": {
     "id": "168",
     "code": "Nivel de seguridad básico 200",
     "name": "Nivel de burbuja",
-    "image": "/hand-tools/Nivel de seguridad básico 200.png",
+    "image": "/hand-tools/Nivel de seguridad básico 200.webp",
     "description": "Longitud: 200 cm Viales fresados   por un lado con una precisión de 0,5 mm/m Grosor: 1,5 mm Embalado en funda de color"
   },
   "BAWMTL6": {
     "id": "169",
     "code": "BAWMTL6",
     "name": "Llave inglesa ajustable",
-    "image": "/hand-tools/BAWMTL6.png",
+    "image": "/hand-tools/BAWMTL6.webp",
     "description": "Longitud: 150 mm (6\") Tamaño de abrazadera ajustable: 0-19,2 mm Embalado en tarjeta de papel"
   },
   "BAWMTL8": {
     "id": "170",
     "code": "BAWMTL8",
     "name": "Llave inglesa ajustable",
-    "image": "/hand-tools/BAWMTL8.png",
+    "image": "/hand-tools/BAWMTL8.webp",
     "description": "Longitud: 200 mm (8\") Tamaño de abrazadera ajustable: 0-24 mm Embalado en tarjeta de papel"
   },
   "BAWMTL10": {
     "id": "171",
     "code": "BAWMTL10",
     "name": "Llave inglesa ajustable",
-    "image": "/hand-tools/BAWMTL10.png",
+    "image": "/hand-tools/BAWMTL10.webp",
     "description": "Longitud: 250 mm (10\") Tamaño de abrazadera ajustable: 0-30 mm Embalado en tarjeta de papel"
   },
   "BAWMTL12": {
     "id": "172",
     "code": "BAWMTL12",
     "name": "Llave inglesa ajustable",
-    "image": "/hand-tools/BAWMTL12.png",
+    "image": "/hand-tools/BAWMTL12.webp",
     "description": "Longitud: 300 mm (12\") Tamaño de abrazadera ajustable: 0-35 mm Embalado en tarjeta de papel"
   },
   "BAWMTL18": {
     "id": "173",
     "code": "BAWMTL18",
     "name": "Llave inglesa ajustable",
-    "image": "/hand-tools/BAWMTL18.png",
+    "image": "/hand-tools/BAWMTL18.webp",
     "description": "Longitud: 450 mm (18\") Tamaño de abrazadera ajustable: 0-54 mm Forjado en estampa, tratado térmicamente Material: acero al carbono 45# Embalado en tarjeta de papel"
   },
   "B4AWMTL6X12": {
     "id": "174",
     "code": "B4AWMTL6X12",
     "name": "Juego de 4 llaves ajustables",
-    "image": "/hand-tools/B4AWMTL6X12.png",
+    "image": "/hand-tools/B4AWMTL6X12.webp",
     "description": "Juego de 4 llaves ajustables Longitud: 150 mm (6\")/200 mm (8\")/250 mm (10\")/300 mm (12\") \nTamaño de abrazadera ajustable: 6\" 0-19 mm/8\" 0-24 mm/10\" 0-30 mm/12\" 0-35 mm Material: Acero al carbono forjado. Embalado en blíster doble de media pieza."
   },
   "BAWGRP6": {
     "id": "175",
     "code": "BAWGRP6",
     "name": "Llave inglesa ajustable",
-    "image": "/hand-tools/BAWGRP6.png",
+    "image": "/hand-tools/BAWGRP6.webp",
     "description": "Longitud: 150 mm (6\"), acero al carbono 45# Tamaño de abrazadera ajustable: 0-24 mm Diseño único, mango suave de dos tonos Embalado en percha de plástico"
   },
   "BAWGRP8": {
     "id": "176",
     "code": "BAWGRP8",
     "name": "Llave inglesa ajustable",
-    "image": "/hand-tools/BAWGRP8.png",
+    "image": "/hand-tools/BAWGRP8.webp",
     "description": "Longitud: 200 mm (8\"), acero al carbono 45# Tamaño de abrazadera ajustable: 0-30 mm Diseño único, mango suave de dos tonos Embalado en percha de plástico"
   },
   "BAWGRP10": {
     "id": "177",
     "code": "BAWGRP10",
     "name": "Llave inglesa ajustable",
-    "image": "/hand-tools/BAWGRP10.png",
+    "image": "/hand-tools/BAWGRP10.webp",
     "description": "Longitud: 250 mm (10\"), acero al carbono 45# Tamaño de abrazadera ajustable: 0-35 mm Diseño único, mango suave de dos tonos Embalado en percha de plástico"
   },
   "BAWGRP12": {
     "id": "178",
     "code": "BAWGRP12",
     "name": "Llave inglesa ajustable",
-    "image": "/hand-tools/BAWGRP12.png",
+    "image": "/hand-tools/BAWGRP12.webp",
     "description": "Longitud: 300 mm (12\"), acero al carbono 45# Tamaño de abrazadera ajustable: 0-41 mm Diseño único, mango suave de dos tonos Embalado en percha de plástico"
   },
   "BCOMS6": {
     "id": "179",
     "code": "BCOMS6",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS6.png",
+    "image": "/hand-tools/BCOMS6.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 6 mm (1/4\")"
   },
   "BCOMS7": {
     "id": "180",
     "code": "BCOMS7",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS7.png",
+    "image": "/hand-tools/BCOMS7.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 7 mm (9/32\")"
   },
   "BCOMS8": {
     "id": "181",
     "code": "BCOMS8",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS8.png",
+    "image": "/hand-tools/BCOMS8.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 8 MM (5/16\")"
   },
   "BCOMS9": {
     "id": "182",
     "code": "BCOMS9",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS9.png",
+    "image": "/hand-tools/BCOMS9.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 9 mm (11/32\")"
   },
   "BCOMS10": {
     "id": "183",
     "code": "BCOMS10",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS10.png",
+    "image": "/hand-tools/BCOMS10.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 10 mm (3/8\")"
   },
   "BCOMS11": {
     "id": "184",
     "code": "BCOMS11",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS11.png",
+    "image": "/hand-tools/BCOMS11.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 11 mm (7/16\")"
   },
   "BCOMS12": {
     "id": "185",
     "code": "BCOMS12",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS12.png",
+    "image": "/hand-tools/BCOMS12.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 12 mm (15/32\")"
   },
   "BCOMS13": {
     "id": "186",
     "code": "BCOMS13",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS13.png",
+    "image": "/hand-tools/BCOMS13.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 13 mm (1/2\")"
   },
   "BCOMS14": {
     "id": "187",
     "code": "BCOMS14",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS14.png",
+    "image": "/hand-tools/BCOMS14.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 14 mm (9/16\")"
   },
   "BCOMS15": {
     "id": "188",
     "code": "BCOMS15",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS15.png",
+    "image": "/hand-tools/BCOMS15.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 15 mm (19/32\")"
   },
   "BCOMS16": {
     "id": "189",
     "code": "BCOMS16",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS16.png",
+    "image": "/hand-tools/BCOMS16.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 16 mm (5/8\")"
   },
   "BCOMS17": {
     "id": "190",
     "code": "BCOMS17",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS17.png",
+    "image": "/hand-tools/BCOMS17.webp",
     "description": "ACERO AL CARBONO DE 17 MM ACABADO CROMADO"
   },
   "BCOMS18": {
     "id": "191",
     "code": "BCOMS18",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS18.png",
+    "image": "/hand-tools/BCOMS18.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 18 mm (11/16\")"
   },
   "BCOMS19": {
     "id": "192",
     "code": "BCOMS19",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS19.png",
+    "image": "/hand-tools/BCOMS19.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 19 mm (3/4\")"
   },
   "BCOMS20": {
     "id": "193",
     "code": "BCOMS20",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS20.png",
+    "image": "/hand-tools/BCOMS20.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 20 mm (25/32\")"
   },
   "BCOMS21": {
     "id": "194",
     "code": "BCOMS21",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS21.png",
+    "image": "/hand-tools/BCOMS21.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 21 mm (13/16\")"
   },
   "BCOMS22": {
     "id": "195",
     "code": "BCOMS22",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS22.png",
+    "image": "/hand-tools/BCOMS22.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 22 mm (7/8\")"
   },
   "BCOMS23": {
     "id": "196",
     "code": "BCOMS23",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS23.png",
+    "image": "/hand-tools/BCOMS23.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 23 mm (29/32\")"
   },
   "BCOMS24": {
     "id": "197",
     "code": "BCOMS24",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS24.png",
+    "image": "/hand-tools/BCOMS24.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 24 mm (15/16\")"
   },
   "BCOMS25": {
     "id": "198",
     "code": "BCOMS25",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS25.png",
+    "image": "/hand-tools/BCOMS25.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 25 mm (1\")"
   },
   "BCOMS26": {
     "id": "199",
     "code": "BCOMS26",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS26.png",
+    "image": "/hand-tools/BCOMS26.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 26 mm (1-1/32)"
   },
   "BCOMS27": {
     "id": "200",
     "code": "BCOMS27",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS27.png",
+    "image": "/hand-tools/BCOMS27.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 27 mm (1-1/16\")"
   },
   "BCOMS28": {
     "id": "201",
     "code": "BCOMS28",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS28.png",
+    "image": "/hand-tools/BCOMS28.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 28 MM"
   },
   "BCOMS29": {
     "id": "202",
     "code": "BCOMS29",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS29.png",
+    "image": "/hand-tools/BCOMS29.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 29 mm (1-1/8\")"
   },
   "BCOMS30": {
     "id": "203",
     "code": "BCOMS30",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS30.png",
+    "image": "/hand-tools/BCOMS30.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 30 mm (1-3/16)"
   },
   "BCOMS32": {
     "id": "204",
     "code": "BCOMS32",
     "name": "Llave combinada (embalada en una percha de plástico)",
-    "image": "/hand-tools/BCOMS32.png",
+    "image": "/hand-tools/BCOMS32.webp",
     "description": "ACABADO CROMADO DE ACERO AL CARBONO DE 32 mm (1-1/4\")"
   }
 }

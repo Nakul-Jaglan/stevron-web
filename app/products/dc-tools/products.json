@@ -3,182 +3,182 @@
     "id": "1",
     "code": "BNID45",
     "name": "Taladro Percutor Inalámbrico 45Nm",
-    "image": "/dc-tools/BNID45.png",
+    "image": "/dc-tools/BNID45.webp",
     "description": "Velocidad sin carga: 0-400/0-1400rpm\nVelocidad máxima de impacto:0-6000BPM/0-21000BPM \nPar máx: 45Nm\nPortabrocas de metal\nCapacidad del portabrocas: 0,8-10mm\nAjustes de par: 21+3\nEngranaje mecánico de 2 velocidades"
   },
   "BNDR45": {
     "id": "2",
     "code": "BNDR45",
     "name": "Taladro Inalámbrico 45Nm (Sin Impacto)",
-    "image": "/dc-tools/BNDR45.png",
+    "image": "/dc-tools/BNDR45.webp",
     "description": "Velocidad en vacío: 0-400/0-1400rpm\nPar máx: 45Nm\nPortabrocas de plástico\nCapacidad del portabrocas: 0,8-10 mm \nAjustes de par: 18+1\nEngranaje mecánico de 2 velocidades"
   },
   "BNCID60": {
     "id": "3",
     "code": "BNCID60",
     "name": "Taladro Percutor Compacto 60Nm",
-    "image": "/dc-tools/BNCID60.png",
+    "image": "/dc-tools/BNCID60.webp",
     "description": "Velocidad en vacío: 0-500/0-2000rpm\nVelocidad máxima de impacto:0-8000bpm/ 0-32000bpm\nPar máximo: 60Nm\nPortabrocas de metal\nCapacidad del portabrocas: portabrocas metálico de 1,5-13 mm\nAjustes de par: 20+3\nEngranaje mecánico de 2 velocidades"
   },
   "BNCID60K": {
     "id": "4",
     "code": "BNCID60K",
     "name": "Taladro Percutor Compacto 60Nm (Kit)",
-    "image": "/dc-tools/BNCID60K.png",
+    "image": "/dc-tools/BNCID60K.webp",
     "description": "Velocidad en vacío: 0-500/0-2000rpm\nVelocidad máxima de impacto:0-8000bpm/ 0-32000bpm\nPar máximo: 60Nm\nPortabrocas de metal\nCapacidad del portabrocas: portabrocas metálico de 1,5-13 mm\nAjustes de par: 20+3\nEngranaje mecánico de 2 velocidades"
   },
   "BNIW400": {
     "id": "5",
     "code": "BNIW400",
     "name": "Llave de Impacto batería 400Nm",
-    "image": "/dc-tools/BNIW400.png",
+    "image": "/dc-tools/BNIW400.webp",
     "description": "Accionamiento cuadrado: 1/2»\nVelocidad en vacío: 0-1800/0-2200/0-2600rpm\nVelocidad de impacto: 0-2500/0-3000/0-3500bpm\nPar de apriete: 400Nm"
   },
   "BNIW4002B1": {
     "id": "6",
     "code": "BNIW4002B1",
     "name": "Llave de Impacto batería 400Nm (1 Bat 2.0Ah y 1 ch.)",
-    "image": "/dc-tools/BNIW4002B1.png",
+    "image": "/dc-tools/BNIW4002B1.webp",
     "description": "Accionamiento cuadrado: 1/2»\nVelocidad en vacío: 0-1800/0-2200/0-2600rpm\nVelocidad de impacto: 0-2500/0-3000/0-3500bpm\nPar de apriete: 400Nm"
   },
   "BNIW4002B2": {
     "id": "7",
     "code": "BNIW4002B2",
     "name": "Llave de Impacto batería 400Nm (2 Bat 2.0Ah y 1 ch.)",
-    "image": "/dc-tools/BNIW4002B2.png",
+    "image": "/dc-tools/BNIW4002B2.webp",
     "description": "Accionamiento cuadrado: 1/2»\nVelocidad en vacío: 0-1800/0-2200/0-2600rpm\nVelocidad de impacto: 0-2500/0-3000/0-3500bpm\nPar de apriete: 400Nm"
   },
   "BNIW6004B2": {
     "id": "8",
     "code": "BNIW6004B2",
     "name": "Llave de Impacto batería 600Nm (2 Bat 4.0Ah y 1 ch.)",
-    "image": "/dc-tools/BNIW6004B2.png",
+    "image": "/dc-tools/BNIW6004B2.webp",
     "description": "Accionamiento cuadrado: 1/2»\nVelocidad en vacío: 0-1700/0-2100/0-2400rpm\nVelocidad de impacto: 0-2300/0-2700/0-3000bpm\nPar de apriete: 600Nm"
   },
   "BNIW6004B1": {
     "id": "9",
     "code": "BNIW6004B1",
     "name": "Llave de Impacto batería 600Nm (1 Bat 4.0Ah y 1 ch.)",
-    "image": "/dc-tools/BNIW6004B1.png",
+    "image": "/dc-tools/BNIW6004B1.webp",
     "description": "Accionamiento cuadrado: 1/2»\nVelocidad en vacío: 0-1700/0-2100/0-2400rpm\nVelocidad de impacto: 0-2300/0-2700/0-3000bpm\nPar de apriete: 600Nm"
   },
   "BNIW8504B2": {
     "id": "10",
     "code": "BNIW8504B2",
     "name": "Llave de Impacto batería 850Nm (2 Bat 4.0Ah y 1 ch.)",
-    "image": "/dc-tools/BNIW8504B2.png",
+    "image": "/dc-tools/BNIW8504B2.webp",
     "description": "Accionamiento cuadrado:1/2\nVelocidad en vacío: 0-600/0-1300/0-2400rpm\nVelocidad de impacto: 0-900/0-1700/0-2700bpm\nPar de apriete:850Nm"
   },
   "BNIW8504B1": {
     "id": "11",
     "code": "BNIW8504B1",
     "name": "Llave de Impacto batería 850Nm (1 Bat 4.0Ah y 1 ch.)",
-    "image": "/dc-tools/BNIW8504B1.png",
+    "image": "/dc-tools/BNIW8504B1.webp",
     "description": "Accionamiento cuadrado:1/2\nVelocidad en vacío: 0-600/0-1300/0-2400rpm\nVelocidad de impacto: 0-900/0-1700/0-2700bpm\nPar de apriete:850Nm"
   },
   "BNCAG8504B1": {
     "id": "12",
     "code": "BNCAG8504B1",
     "name": "Amoladora Angular batería 850W (1 Bat 4.0Ah y 1 ch.)",
-    "image": "/dc-tools/BNCAG8504B1.png",
+    "image": "/dc-tools/BNCAG8504B1.webp",
     "description": "Velocidad en vacío: 2500-10000rpm\nDiámetro del disco: 4-1/2\nRosca del eje: 5/8\"-11UNC\n6 Velocidades "
   },
   "BNAG850": {
     "id": "13",
     "code": "BNAG850",
     "name": "Amoladora Angular batería 850W",
-    "image": "/dc-tools/BNAG850.png",
+    "image": "/dc-tools/BNAG850.webp",
     "description": "Velocidad en vacío: 2500-10000rpm\nDiámetro del disco: 4-1/2\nRosca del eje: 5/8\"-11UNC\n6 Velocidades "
   },
   "BNRH20J4B1": {
     "id": "14",
     "code": "BNRH20J4B1",
     "name": "Rotomartillo Inalámbrico 2.0J (1 Bat 4.0Ah y 1 ch.)",
-    "image": "/dc-tools/BNRH20J4B1.png",
+    "image": "/dc-tools/BNRH20J4B1.webp",
     "description": "Velocidad en vacío: 0-1420rpm\nVelocidad de impacto: 0-4500bpm\nEnergía de impacto: 2.0J\nMax.capacidad de perforación:\n Hormigón: 22mm\n Acero: 13mm\n Madera: 28mm"
   },
   "BNRH25J": {
     "id": "15",
     "code": "BNRH25J",
     "name": "Rotomartillo Inalámbrico 2.5J",
-    "image": "/dc-tools/BNRH25J.png",
+    "image": "/dc-tools/BNRH25J.webp",
     "description": "Velocidad en vacío: 0-980 rpm\nVelocidad de impacto: 0-4350bpm\nEnergía de impacto: 2.6J\nCapacidad de perforación máx:\n Hormigón: 26mm\n Acero: 13mm\n Madera: 30mm"
   },
   "BNRH25J4B2": {
     "id": "16",
     "code": "BNRH25J4B2",
     "name": "Rotomartillo Inalámbrico 2.5J (2 Bat 4.0Ah y 1 ch.)",
-    "image": "/dc-tools/BNRH25J4B2.png",
+    "image": "/dc-tools/BNRH25J4B2.webp",
     "description": "Velocidad en vacío: 0-980 rpm\nVelocidad de impacto: 0-4350bpm\nEnergía de impacto: 2.6J\nCapacidad de perforación máx:\n Hormigón: 26mm\n Acero: 13mm\n Madera: 30mm"
   },
   "BNRH45JSDS": {
     "id": "17",
     "code": "BNRH45JSDS",
     "name": "Rotomartillo SDS Inalámbrico 4.5J",
-    "image": "/dc-tools/BNRH45JSDS.png",
+    "image": "/dc-tools/BNRH45JSDS.webp",
     "description": "Velocidad en vacío: 0-930rpm\nVelocidad de impacto: 0-4400bpm\nEnergía de impacto: 4.5J\nMax.capacidad de perforación:\n Hormigón: 28mm\n Acero: 13mm\n Madera: 40mm"
   },
   "BNCS185": {
     "id": "18",
     "code": "BNCS185",
     "name": "Sierra Circular batería 190mm",
-    "image": "/dc-tools/BNCS185.png",
+    "image": "/dc-tools/BNCS185.webp",
     "description": "Velocidad en vacío: 5200rpm\nDiámetro de la cuchilla: 185mm/190MM\nTamaño del eje: 20mm\nCapacidad de corte\nGrado 45°: 45mm\nGrado 90°: 65mm"
   },
   "BNCSS": {
     "id": "19",
     "code": "BNCSS",
     "name": "Lijadora de Hoja batería 12000rpm",
-    "image": "/dc-tools/BNCSS.png",
+    "image": "/dc-tools/BNCSS.webp",
     "description": "Velocidad en vacío: 2000/3500/5000/6500/8000/10000\nDistancia eccéntrica:2.7mm\nAjustes de velocidad:6\n\nDiámetro del disco:125mm"
   },
   "BNBL2B1": {
     "id": "20",
     "code": "BNBL2B1",
     "name": "Soplador batería (1 Bat 2.0Ah y 1 ch.)",
-    "image": "/dc-tools/BNBL2B1.png",
+    "image": "/dc-tools/BNBL2B1.webp",
     "description": "Soplador y aspirador sin cable\nNo-Load Speed:0-6000rpm/0-12000rpm/0-18000rpm\nVolumen de aire:3\nVelocidad del aire:144km/h 190.8km/h 252km/h"
   },
   "BNCBL2B1": {
     "id": "21",
     "code": "BNCBL2B1",
     "name": "Batería de Litio 2.0Ah",
-    "image": "/dc-tools/BNCBL2B1.png",
+    "image": "/dc-tools/BNCBL2B1.webp",
     "description": "Batería de iones de litio de 2,0 Ah"
   },
   "BNLB40": {
     "id": "22",
     "code": "BNLB40",
     "name": "Batería de Litio 4.0Ah",
-    "image": "/dc-tools/BNLB40.png",
+    "image": "/dc-tools/BNLB40.webp",
     "description": "Batería de iones de litio de 4,0 Ah"
   },
   "BNLB50": {
     "id": "23",
     "code": "BNLB50",
     "name": "Batería de Litio 5.0Ah",
-    "image": "/dc-tools/BNLB50.png",
+    "image": "/dc-tools/BNLB50.webp",
     "description": "Batería de iones de litio de 5,0 Ah"
   },
   "BNBC24A": {
     "id": "24",
     "code": "BNBC24A",
     "name": "Cargador de Batería 2.4A",
-    "image": "/dc-tools/BNBC24A.png",
+    "image": "/dc-tools/BNBC24A.webp",
     "description": "Tensión de entrada:110-120V~50/60Hz \nSalida \nCorriente de salida:2.4A\nPLUG VDE"
   },
   "BNBC35A": {
     "id": "25",
     "code": "BNBC35A",
     "name": "Cargador de Batería 3.5A",
-    "image": "/dc-tools/BNBC35A.png",
+    "image": "/dc-tools/BNBC35A.webp",
     "description": "Tensión de entrada:110-120V~50/60Hz \nVoltaje de salida:21V\nCorriente de salida:3.5A\nPLUG VDE"
   },
   "BNDBC3A": {
     "id": "26",
     "code": "BNDBC3A",
     "name": "Cargador de Batería Doble Puerto 3A",
-    "image": "/dc-tools/BNDBC3A.png",
+    "image": "/dc-tools/BNDBC3A.webp",
     "description": "Cargador de doble puerto \nVoltaje de entrada:110-120V~50/60Hz\nSalida \nCorriente de salida: 3A\n\nPLUG VDE"
   }
 }
