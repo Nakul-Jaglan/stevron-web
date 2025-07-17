@@ -249,7 +249,7 @@ function HomeProducts() {
                         whileHover={{ opacity: 1 }}
                         className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent rounded-xl flex items-end justify-center pb-4"
                       >
-                        <Link href={`/products/${product.code.toLowerCase()}`}>
+                        <Link href={`/products/${product.category}#${product.code}`}>
                           <motion.button
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}

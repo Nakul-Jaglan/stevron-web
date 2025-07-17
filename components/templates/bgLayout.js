@@ -112,7 +112,10 @@ const GlobalParticles = React.memo(function GlobalParticles() {
   );
 });
 
-function BgLayout({ children, className = "" }) {
+function BgLayout({ children, className = "", modalOpen = false }) {
+  const headerZIndex = modalOpen ? "z-10" : "z-50";
+  const footerZIndex = modalOpen ? "z-10" : "z-20";
+  
   return (
     <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 ">
       {/* Global Background Overlay - Black to Transparent to Black */}
@@ -121,7 +124,7 @@ function BgLayout({ children, className = "" }) {
       {/* Centralized Particle System */}
       {/* <GlobalParticles /> */}
       
-      <header className="relative z-50">
+      <header className={`relative ${headerZIndex}`}>
         {/* <Header /> */}
         <NewHeader/>
       </header>
@@ -130,7 +133,7 @@ function BgLayout({ children, className = "" }) {
         {children}
       </main>
 
-      <footer className="relative z-20">
+      <footer className={`relative ${footerZIndex}`}>
         {/* <Footer /> */}
         <NewFooter/>
       </footer>

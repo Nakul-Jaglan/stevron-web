@@ -1,52 +1,62 @@
 {
     "STV-001":{
-        "code": "STV-001",
+        "code": "BNEDR500",
         "name": "Drill Machine",
+        "category": "ac-tools",
         "image": "/square/p1.png"
     },
     "STV-002":{
-        "code": "STV-002",
+        "code": "BNROU1600",
         "name": "Angle Grinder",
+        "category": "ac-tools",
         "image": "/square/p2.png"
     },
     "STV-003":{
-        "code": "STV-003",
+        "code": "BNMCT1400",
         "name": "Impact Drill",
+        "category": "ac-tools",
         "image": "/square/p3.png"
     },
     "STV-004":{
-        "code": "STV-004",
+        "code": "BNIW4002B1",
         "name": "Rotary Hammer",
+        "category": "dc-tools",
         "image": "/square/p4.png"
     },
     "STV-005":{
-        "code": "STV-005",
+        "code": "BNAG850",
         "name": "Impact Wrench",
+        "category": "dc-tools",
         "image": "/square/p5.png"
     },
     "STV-006":{
-        "code": "STV-006",
+        "code": "BNLB50",
         "name": "Circular Saw",
+        "category": "dc-tools",
         "image": "/square/p6.png"
     },
     "STV-007":{
-        "code": "STV-007",
+        "code": "BCRSL6X100",
         "name": "Cut Off Saw",
+        "category": "hand-tools",
         "image": "/square/p7.png"
     },
     "STV-008":{
-        "code": "STV-008",
+        "code": "BCR2I1X68",
         "name": "Palm Sander",
+        "category": "hand-tools",
         "image": "/square/p8.png"
     },
     "STV-009":{
-        "code": "STV-009",
+        "code": "BM2DB1X38",
         "name": "Blower",
+        "category": "accessories",
         "image": "/square/p9.png"
     },
     "STV-010":{
-        "code": "STV-010",
+        "code": "BMDB14X614S",
         "name": "Polisher",
+        "category": "accessories",
         "image": "/square/p10.png"
     }
 }

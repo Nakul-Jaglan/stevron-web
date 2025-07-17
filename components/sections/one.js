@@ -202,15 +202,17 @@ function One() {
                   </motion.button>
                 </Link>
               </div>
-              <Link href="/technology/one-battery">
-                <motion.button
-                  whileHover={{ scale: 1.05, borderColor: "#989b2e" }}
-                  whileTap={{ scale: 0.95 }}
-                  className="border border-white text-white text-xl font-bold px-8 py-4 rounded-full hover:bg-[#989b2e]/10 transition-all duration-300 cursor-pointer"
-                >
-                  Learn More
-                </motion.button>
-              </Link>
+              <div className="z-100">
+                <Link href="/technology/one-battery">
+                  <motion.button
+                    whileHover={{ scale: 1.05, borderColor: "#989b2e" }}
+                    whileTap={{ scale: 0.95 }}
+                    className="border border-white text-white text-xl font-bold px-8 py-4 rounded-full hover:bg-[#989b2e]/10 transition-all duration-300 cursor-pointer"
+                  >
+                    Learn More
+                  </motion.button>
+                </Link>
+              </div>
             </motion.div>
           </div>
 
