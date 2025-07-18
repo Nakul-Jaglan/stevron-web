@@ -162,7 +162,7 @@ function ContactPage() {
         {/* Hero Section */}
         <section 
           ref={heroRef}
-          className="relative min-h-screen flex items-center justify-center px-4 pt-20"
+          className="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 pt-20"
         >
           <motion.div
             variants={containerVariants}
@@ -172,17 +172,17 @@ function ContactPage() {
           >
             <motion.div
               variants={itemVariants}
-              className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-400/20 to-purple-500/20 border border-blue-400/30 rounded-full px-6 py-3 mb-8"
+              className="inline-flex items-center space-x-2 bg-gradient-to-r from-blue-400/20 to-purple-500/20 border border-blue-400/30 rounded-full px-4 sm:px-6 py-2 sm:py-3 mb-6 sm:mb-8"
             >
               <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
-              <span className="text-blue-400 text-sm font-semibold tracking-wider uppercase">
+              <span className="text-blue-400 text-xs sm:text-sm font-semibold tracking-wider uppercase">
                 Contact Us
               </span>
             </motion.div>
 
             <motion.h1
               variants={itemVariants}
-              className="text-6xl md:text-8xl font-bold text-white mb-8 leading-tight"
+              className="text-4xl sm:text-5xl md:text-8xl font-bold text-white mb-6 sm:mb-8 leading-tight"
             >
               Get In{" "}
               <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
@@ -192,21 +192,20 @@ function ContactPage() {
 
             <motion.p
               variants={itemVariants}
-              className="text-2xl text-white/80 max-w-3xl mx-auto leading-relaxed mb-12"
+              className="text-lg sm:text-xl md:text-2xl text-white/80 max-w-3xl mx-auto leading-relaxed mb-8 sm:mb-12 px-4"
             >
               Ready to experience the Stevron difference? We&apos;re here to help you find the perfect tools for your needs.
             </motion.p>
 
             <motion.div
               variants={itemVariants}
-              className="flex flex-col sm:flex-row gap-6 justify-center items-center"
+              className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center"
             >
               <motion.button
                 onClick={() => formRef.current?.scrollIntoView({ behavior: 'smooth' })}
                 whileHover={{ scale: 1.05, boxShadow: "0 20px 30px #989b2e" }}
                 whileTap={{ scale: 0.95 }}
-                // className="bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold px-12 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-lg"
-                className="bg-[#989b2e] text-white text-xl font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer"
+                className="bg-[#989b2e] text-white text-lg sm:text-xl font-bold px-6 sm:px-8 py-3 sm:py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer w-auto"
               >
                 Send Message
               </motion.button>
@@ -214,16 +213,15 @@ function ContactPage() {
                 onClick={() => contactRef.current?.scrollIntoView({ behavior: 'smooth' })}
                 whileHover={{ scale: 1.05, borderColor: "#989b2e" }}
                 whileTap={{ scale: 0.95 }}
-                // className="border-2 border-white/30 text-white font-bold px-12 py-4 rounded-full hover:bg-white/10 transition-all duration-300 text-lg"
-                className="border-2 border-white/30 text-white text-xl font-bold px-8 py-4 rounded-full hover:bg-[#989b2e]/10 transition-all duration-300 cursor-pointer"
+                className="border-2 border-white/30 text-white text-lg sm:text-xl font-bold px-6 sm:px-8 py-3 sm:py-4 rounded-full hover:bg-[#989b2e]/10 transition-all duration-300 cursor-pointer w-auto"
               >
                 Contact Info
               </motion.button>
             </motion.div>
           </motion.div>
 
-          {/* Floating Elements */}
-          {/* <motion.div
+          {/* Floating Elements - Hidden on small screens */}
+          <motion.div
             animate={{
               y: [0, -20, 0],
               rotate: [0, 5, -5, 0]
@@ -233,9 +231,9 @@ function ContactPage() {
               repeat: Infinity,
               ease: "easeInOut"
             }}
-            className="absolute top-20 right-20 opacity-20"
+            className="absolute top-20 right-4 sm:right-10 lg:right-20 opacity-20"
           >
-            <div className="text-6xl">📧</div>
+            <img src="/ac-tools/Router.png" alt="Tool" className="w-20 h-20 sm:w-24 sm:h-24 lg:w-34 lg:h-34 object-contain" />
           </motion.div>
           <motion.div
             animate={{
@@ -248,11 +246,10 @@ function ContactPage() {
               ease: "easeInOut",
               delay: 2
             }}
-            className="absolute bottom-40 left-20 opacity-20"
+            className="absolute bottom-40 left-4 sm:left-10 lg:left-20 opacity-20"
           >
-            <div className="text-6xl">📱</div>
-          </motion.div> */} 
-
+            <img src="/dc-tools/20J Rotary Hammer.png" alt="Tool" className="w-20 h-20 sm:w-24 sm:h-24 lg:w-30 lg:h-30 object-contain" />
+          </motion.div>
           <motion.div
             animate={{
               y: [0, -20, 0],
@@ -263,9 +260,9 @@ function ContactPage() {
               repeat: Infinity,
               ease: "easeInOut"
             }}
-            className="absolute top-20 right-20 opacity-20"
+            className="absolute top-20 left-4 sm:left-10 lg:left-20 opacity-20 "
           >
-            <img src="/ac-tools/Router.png" alt="Tool" className="w-34 h-34 object-contain" />
+            <img src="/dc-tools/60Nm.png" alt="Tool" className="w-20 h-20 sm:w-24 sm:h-24 lg:w-34 lg:h-34 object-contain" />
           </motion.div>
           <motion.div
             animate={{
@@ -278,45 +275,16 @@ function ContactPage() {
               ease: "easeInOut",
               delay: 2
             }}
-            className="absolute bottom-40 left-20 opacity-20"
+            className="absolute bottom-40 right-4 sm:right-10 lg:right-20 opacity-20 "
           >
-            <img src="/dc-tools/20J Rotary Hammer.png" alt="Tool" className="w-30 h-30 object-contain" />
-          </motion.div>
-          <motion.div
-            animate={{
-              y: [0, -20, 0],
-              rotate: [0, 5, -5, 0]
-            }}
-            transition={{
-              duration: 8,
-              repeat: Infinity,
-              ease: "easeInOut"
-            }}
-            className="absolute top-20 left-20 opacity-20"
-          >
-            <img src="/dc-tools/60Nm.png" alt="Tool" className="w-34 h-34 object-contain" />
-          </motion.div>
-          <motion.div
-            animate={{
-              y: [0, 15, 0],
-              rotate: [0, -3, 3, 0]
-            }}
-            transition={{
-              duration: 10,
-              repeat: Infinity,
-              ease: "easeInOut",
-              delay: 2
-            }}
-            className="absolute bottom-40 right-20 opacity-20"
-          >
-            <img src="/ac-tools/1100W-Impact-Drill.png" alt="Tool" className="w-30 h-30 object-contain" />
+            <img src="/ac-tools/1100W-Impact-Drill.png" alt="Tool" className="w-20 h-20 sm:w-24 sm:h-24 lg:w-30 lg:h-30 object-contain" />
           </motion.div>
         </section>
 
         {/* Contact Form Section */}
         <section 
           ref={formRef}
-          className="py-10 px-4"
+          className="py-5 sm:py-10 px-4 sm:px-6 lg:px-8"
         >
           <motion.div
             variants={containerVariants}
@@ -324,14 +292,14 @@ function ContactPage() {
             animate={isFormInView ? "visible" : "hidden"}
             className="max-w-4xl mx-auto"
           >
-            <motion.div variants={itemVariants} className="text-center mb-16">
-              <h2 className="text-5xl font-bold text-white mb-6 leading-tight">
+            <motion.div variants={itemVariants} className="text-center mb-12 sm:mb-16">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6 leading-tight">
                 Send Us A{" "}
                 <span className="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
                   Message
                 </span>
               </h2>
-              <p className="text-xl text-white/80 max-w-2xl mx-auto leading-relaxed">
+              <p className="text-lg sm:text-xl text-white/80 max-w-2xl mx-auto leading-relaxed">
                 Fill out the form below and we&apos;ll get back to you as soon as possible.
               </p>
             </motion.div>
@@ -339,14 +307,14 @@ function ContactPage() {
             <motion.form
               variants={itemVariants}
               onSubmit={handleSubmit}
-              className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-8 md:p-12"
+              className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-6 sm:p-8 md:p-12"
             >
-              <div className="grid md:grid-cols-2 gap-6 mb-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 mb-6">
                 <motion.div
                   whileFocus={{ scale: 1.02 }}
                   className="space-y-2"
                 >
-                  <label className="text-white font-semibold text-sm tracking-wider">
+                  <label className="text-white font-semibold text-xs sm:text-base tracking-wider">
                     FULL NAME *
                   </label>
                   <input
@@ -355,7 +323,7 @@ function ContactPage() {
                     value={formData.fullName}
                     onChange={handleInputChange}
                     required
-                    className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300"
+                    className="w-full bg-white/10 border border-white/20 rounded-xl px-3 sm:px-4 py-2 sm:py-3 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300 text-sm sm:text-base"
                     placeholder="Enter your full name"
                   />
                 </motion.div>
@@ -364,7 +332,7 @@ function ContactPage() {
                   whileFocus={{ scale: 1.02 }}
                   className="space-y-2"
                 >
-                  <label className="text-white font-semibold text-sm tracking-wider">
+                  <label className="text-white font-semibold text-xs sm:text-base tracking-wider">
                     EMAIL ADDRESS *
                   </label>
                   <input
@@ -373,7 +341,7 @@ function ContactPage() {
                     value={formData.email}
                     onChange={handleInputChange}
                     required
-                    className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300"
+                    className="w-full bg-white/10 border border-white/20 rounded-xl px-3 sm:px-4 py-2 sm:py-3 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300 text-sm sm:text-base"
                     placeholder="Enter your email address"
                   />
                 </motion.div>
@@ -382,7 +350,7 @@ function ContactPage() {
                   whileFocus={{ scale: 1.02 }}
                   className="space-y-2"
                 >
-                  <label className="text-white font-semibold text-sm tracking-wider">
+                  <label className="text-white font-semibold text-xs sm:text-base tracking-wider">
                     PHONE NUMBER *
                   </label>
                   <input
@@ -391,7 +359,7 @@ function ContactPage() {
                     value={formData.phone}
                     onChange={handleInputChange}
                     required
-                    className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300"
+                    className="w-full bg-white/10 border border-white/20 rounded-xl px-3 sm:px-4 py-2 sm:py-3 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300 text-sm sm:text-base"
                     placeholder="Enter your phone number"
                   />
                 </motion.div>
@@ -400,7 +368,7 @@ function ContactPage() {
                   whileFocus={{ scale: 1.02 }}
                   className="space-y-2"
                 >
-                  <label className="text-white font-semibold text-sm tracking-wider">
+                  <label className="text-white font-semibold text-xs sm:text-base tracking-wider">
                     COMPANY
                   </label>
                   <input
@@ -408,7 +376,7 @@ function ContactPage() {
                     name="company"
                     value={formData.company}
                     onChange={handleInputChange}
-                    className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300"
+                    className="w-full bg-white/10 border border-white/20 rounded-xl px-3 sm:px-4 py-2 sm:py-3 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300 text-sm sm:text-base"
                     placeholder="Enter your company name"
                   />
                 </motion.div>
@@ -417,7 +385,7 @@ function ContactPage() {
                   whileFocus={{ scale: 1.02 }}
                   className="space-y-2"
                 >
-                  <label className="text-white font-semibold text-sm tracking-wider">
+                  <label className="text-white font-semibold text-xs sm:text-base tracking-wider">
                     REQUIREMENT *
                   </label>
                   <select
@@ -425,7 +393,7 @@ function ContactPage() {
                     value={formData.requirement}
                     onChange={handleInputChange}
                     required
-                    className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300"
+                    className="w-full bg-white/10 border border-white/20 rounded-xl px-3 sm:px-4 py-2 sm:py-3 text-white focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300 text-sm sm:text-base"
                   >
                     <option value="" className="bg-gray-800">Select requirement</option>
                     {requirements.map((req) => (
@@ -440,7 +408,7 @@ function ContactPage() {
                   whileFocus={{ scale: 1.02 }}
                   className="space-y-2"
                 >
-                  <label className="text-white font-semibold text-sm tracking-wider">
+                  <label className="text-white font-semibold text-xs sm:text-base tracking-wider">
                     QUANTITY
                   </label>
                   <input
@@ -448,7 +416,7 @@ function ContactPage() {
                     name="quantity"
                     value={formData.quantity}
                     onChange={handleInputChange}
-                    className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300"
+                    className="w-full bg-white/10 border border-white/20 rounded-xl px-3 sm:px-4 py-2 sm:py-3 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300 text-sm sm:text-base"
                     placeholder="Enter quantity"
                   />
                 </motion.div>
@@ -457,7 +425,7 @@ function ContactPage() {
                   whileFocus={{ scale: 1.02 }}
                   className="space-y-2"
                 >
-                  <label className="text-white font-semibold text-sm tracking-wider">
+                  <label className="text-white font-semibold text-xs sm:text-base tracking-wider">
                     CITY 
                   </label>
                   <input
@@ -465,7 +433,7 @@ function ContactPage() {
                     name="city"
                     value={formData.city}
                     onChange={handleInputChange}
-                    className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300"
+                    className="w-full bg-white/10 border border-white/20 rounded-xl px-3 sm:px-4 py-2 sm:py-3 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300 text-sm sm:text-base"
                     placeholder="Enter your city"
                   />
                 </motion.div>
@@ -474,7 +442,7 @@ function ContactPage() {
                   whileFocus={{ scale: 1.02 }}
                   className="space-y-2"
                 >
-                  <label className="text-white font-semibold text-sm tracking-wider">
+                  <label className="text-white font-semibold text-xs sm:text-base tracking-wider">
                     COUNTRY *
                   </label>
                   <input
@@ -483,7 +451,7 @@ function ContactPage() {
                     value={formData.country}
                     onChange={handleInputChange}
                     required
-                    className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300"
+                    className="w-full bg-white/10 border border-white/20 rounded-xl px-3 sm:px-4 py-2 sm:py-3 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300 text-sm sm:text-base"
                     placeholder="Enter your country"
                   />
                 </motion.div>
@@ -492,7 +460,7 @@ function ContactPage() {
                   whileFocus={{ scale: 1.02 }}
                   className="space-y-2"
                 >
-                  <label className="text-white font-semibold text-sm tracking-wider">
+                  <label className="text-white font-semibold text-xs sm:text-base tracking-wider">
                     DESIGNATION
                   </label>
                   <input
@@ -500,7 +468,7 @@ function ContactPage() {
                     name="designation"
                     value={formData.designation}
                     onChange={handleInputChange}
-                    className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300"
+                    className="w-full bg-white/10 border border-white/20 rounded-xl px-3 sm:px-4 py-2 sm:py-3 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300 text-sm sm:text-base"
                     placeholder="Enter your designation"
                   />
                 </motion.div>
@@ -509,7 +477,7 @@ function ContactPage() {
                   whileFocus={{ scale: 1.02 }}
                   className="space-y-2"
                 >
-                  <label className="text-white font-semibold text-sm tracking-wider">
+                  <label className="text-white font-semibold text-xs sm:text-base tracking-wider">
                     SUBJECT
                   </label>
                   <input
@@ -517,7 +485,7 @@ function ContactPage() {
                     name="subject"
                     value={formData.subject}
                     onChange={handleInputChange}
-                    className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300"
+                    className="w-full bg-white/10 border border-white/20 rounded-xl px-3 sm:px-4 py-2 sm:py-3 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300 text-sm sm:text-base"
                     placeholder="Enter message subject"
                   />
                 </motion.div>
@@ -525,9 +493,9 @@ function ContactPage() {
 
               <motion.div
                 whileFocus={{ scale: 1.02 }}
-                className="space-y-2 mb-8"
+                className="space-y-2  mb-6 sm:mb-8"
               >
-                <label className="text-white font-semibold text-sm tracking-wider">
+                <label className="text-white font-semibold text-xs sm:text-base tracking-wider">
                   MESSAGE *
                 </label>
                 <textarea
@@ -535,8 +503,8 @@ function ContactPage() {
                   value={formData.message}
                   onChange={handleInputChange}
                   required
-                  rows={5}
-                  className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300 resize-none"
+                  rows={4}
+                  className="w-full bg-white/10 border border-white/20 rounded-xl px-3 sm:px-4 py-2 sm:py-3 text-white placeholder-white/50 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/30 transition-all duration-300 resize-none text-sm sm:text-base"
                   placeholder="Enter your message"
                 />
               </motion.div>
@@ -546,12 +514,11 @@ function ContactPage() {
                 disabled={isSubmitting}
                 whileHover={{ scale: 1.05, boxShadow: "0 20px 40px #989b2e" }}
                 whileTap={{ scale: 0.95 }}
-                // className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 text-xl cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
-                className="w-full bg-[#989b2e] text-white font-bold py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 text-xl cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+                className="w-full bg-[#989b2e] text-white font-bold py-3 sm:py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 text-lg sm:text-xl cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {isSubmitting ? (
                   <div className="flex items-center justify-center space-x-2">
-                    <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
+                    <div className="w-4 h-4 sm:w-5 sm:h-5 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
                     <span>Sending...</span>
                   </div>
                 ) : (
@@ -565,7 +532,7 @@ function ContactPage() {
         {/* Contact Information Section */}
         <section 
           ref={contactRef}
-          className="py-10 px-4"
+          className="py-5 sm:py-10 px-4 sm:px-6 lg:px-8"
         >
           <motion.div
             variants={containerVariants}
@@ -573,38 +540,38 @@ function ContactPage() {
             animate={isContactInView ? "visible" : "hidden"}
             className="max-w-6xl mx-auto"
           >
-            <motion.div variants={itemVariants} className="text-center mb-16">
-              <h2 className="text-5xl font-bold text-white mb-6 leading-tight">
+            <motion.div variants={itemVariants} className="text-center mb-12 sm:mb-16">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 sm:mb-6 leading-tight">
                 Other Ways To{" "}
                 <span className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
                   Reach Us
                 </span>
               </h2>
-              <p className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
+              <p className="text-lg sm:text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
                 Choose the method that works best for you to get in touch with our team.
               </p>
             </motion.div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
               {contactInfo.map((info, index) => (
                 <motion.div
                     key={index}
                     variants={itemVariants}
-                    className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-8 hover:bg-white/10 transition-all duration-300 group text-center"
-                    whileHover={{ scale: 1.1, y: -10 }}
+                    className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 sm:p-8 hover:bg-white/10 transition-all duration-300 group text-center"
+                    whileHover={{ scale: 1.05, y: -10 }}
                 >
-                    <div className="text-5xl mb-6 group-hover:scale-110 transition-transform">
+                    <div className="text-4xl sm:text-5xl mb-4 sm:mb-6 group-hover:scale-110 transition-transform">
                         {info.icon}
                     </div>
-                    <h3 className="text-xl font-bold text-white mb-2 group-hover:text-blue-400 transition-colors">
+                    <h3 className="text-lg sm:text-xl font-bold text-white mb-2 group-hover:text-blue-400 transition-colors">
                         {info.title}
                     </h3>
                     <Link href={info.link} target="_blank" rel="noopener noreferrer">
-                        <p className="text-blue-400 hover:text-[#989b2e] font-semibold text-lg mb-4">
+                        <p className="text-blue-400 hover:text-[#989b2e] font-semibold text-base sm:text-lg mb-3 sm:mb-4 break-words">
                             {info.content}
                         </p>
                     </Link>
-                    <p className="text-white/80 text-sm leading-relaxed">
+                    <p className="text-white/80 text-xs sm:text-sm leading-relaxed">
                         {info.description}
                     </p>
                 </motion.div>
@@ -627,7 +594,7 @@ function ContactPage() {
                 animate={{ scale: 1, opacity: 1 }}
                 exit={{ scale: 0.7, opacity: 0 }}
                 transition={{ type: "spring", stiffness: 300, damping: 25 }}
-                className="bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-8 max-w-md w-full text-center relative"
+                className="bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl p-6 sm:p-8 max-w-md w-full text-center relative"
               >
                 <motion.div
                   animate={{
@@ -639,34 +606,34 @@ function ContactPage() {
                     repeat: Infinity,
                     ease: "easeInOut"
                   }}
-                  className="text-6xl mb-6"
+                  className="text-5xl sm:text-6xl mb-4 sm:mb-6"
                 >
                   ✅
                 </motion.div>
 
-                <h3 className="text-2xl font-bold text-white mb-4">
+                <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">
                   Thank You!
                 </h3>
                 
-                <p className="text-white/80 mb-6 leading-relaxed">
+                <p className="text-white/80 mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">
                   Your message has been sent successfully. We will get back to you shortly.
                 </p>
                 
-                <div className="bg-white/5 border border-white/10 rounded-xl p-4 mb-6">
-                  <p className="text-sm text-white/70">
+                <div className="bg-white/5 border border-white/10 rounded-xl p-3 sm:p-4 mb-4 sm:mb-6">
+                  <p className="text-xs sm:text-sm text-white/70">
                     For urgent matters, you can also reach us directly at:
                   </p>
-                  <p className="text-blue-400 font-semibold">
+                  <p className="text-blue-400 font-semibold text-sm sm:text-base">
                     ashwin@stevrontools.com
                   </p>
                 </div>
 
-                <div className="flex gap-4">
+                <div className="flex gap-3 sm:gap-4">
                   <motion.button
                     onClick={handleModalClose}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="flex-1 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold py-3 rounded-xl transition-all duration-300"
+                    className="flex-1 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold py-2 sm:py-3 rounded-xl transition-all duration-300 text-sm sm:text-base"
                   >
                     Close
                   </motion.button>
@@ -676,9 +643,9 @@ function ContactPage() {
                   onClick={handleModalClose}
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
-                  className="absolute top-4 right-4 text-white/60 hover:text-white transition-colors"
+                  className="absolute top-3 sm:top-4 right-3 sm:right-4 text-white/60 hover:text-white transition-colors"
                 >
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                   </svg>
                 </motion.button>

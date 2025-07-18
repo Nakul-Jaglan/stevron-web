@@ -178,7 +178,7 @@ function Faqs() {
                     className="overflow-hidden"
                   >
                     <div className="px-6 pb-6">
-                      <div className="pl-12 pr-10">
+                      <div className="md:pl-12 md:pr-10">
                         <motion.p
                           initial={{ y: -10, opacity: 0 }}
                           animate={{ y: 0, opacity: 1 }}
@@ -285,7 +285,7 @@ function Faqs() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.8 }}
-                className="mt-8 flex items-center justify-center space-x-6 text-white/60 text-sm"
+                className="mt-8 flex flex-col space-y-6 md:flex-row items-center justify-center space-x-6 text-white/60 text-sm"
               >
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
