@@ -136,10 +136,6 @@ function AboutSec() {
           >
             {/* Main Professional Image */}
             <motion.div
-              animate={{
-                y: [0, -15, 0],
-                rotate: [0, 1, -1, 0]
-              }}
               transition={{
                 duration: 8,
                 repeat: Infinity,
@@ -337,7 +333,7 @@ function AboutSec() {
           variants={containerVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
-          className="grid grid-cols-2 lg:grid-cols-4 gap-8 mb-10"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10"
         >
           {stats.map((stat, index) => (
             <motion.div
@@ -350,7 +346,7 @@ function AboutSec() {
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 + index * 0.1 }}
-                className="text-4xl font-bold text-yellow-400 mb-2"
+                className="text-2xl md:text-4xl font-bold text-yellow-400 mb-2"
               >
                 {stat.number}
               </motion.div>

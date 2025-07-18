@@ -97,7 +97,7 @@ function NewHeader() {
               <motion.img
                 src="/logo.png"
                 alt="Stevron Tools Logo"
-                className="h-10 w-auto"
+                className="h-5 sm:h-10 w-auto"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
@@ -294,7 +294,7 @@ function NewHeader() {
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.7 }}
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="lg:hidden flex flex-col space-y-1 p-2 rounded-lg hover:bg-white/10 transition-colors duration-300"
+              className="lg:hidden flex flex-col space-y-1 rounded-lg hover:bg-white/10 transition-colors duration-300"
               aria-label="Toggle mobile menu"
               aria-expanded={isMenuOpen}
               aria-controls="mobile-menu"

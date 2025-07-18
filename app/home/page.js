@@ -11,7 +11,7 @@ export default function Home() {
     <BgLayout>
       <main>
         {/* <Hero/> */}
-        <div className="hidden lg:block">
+        <div className="">
           <NewHero/>
         </div>
         <One/>

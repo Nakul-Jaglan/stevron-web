@@ -87,7 +87,7 @@ function One() {
         className="absolute bottom-20 left-20 w-80 h-80 bg-gradient-to-r from-blue-400/20 to-purple-500/20 rounded-full blur-3xl"
       />
 
-      <div className="px-10 mx-auto">
+      <div className="px-2 mx-auto">
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -99,7 +99,7 @@ function One() {
             {/* ONE Logo */}
             <motion.div
               variants={itemVariants}
-              className="flex items-center space-x-4 mb-8"
+              className="flex flex-col space-y-6 items-center space-x-4 mb-8"
             >
               <motion.img
                 src="/one-logo.png"
