@@ -26,7 +26,7 @@ function NewHeader() {
     { 
       name: "AC Tools", 
       href: "/products/ac-tools", 
-      image: "/ac-tools/Router.png",
+      image: "/ac-tools/BNIMD710.webp",
       description: "Alternating current power tools"
     },
     { 
