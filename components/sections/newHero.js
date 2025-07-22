@@ -17,7 +17,7 @@ function NewHero() {
         primary: { text: "Shop AC Tools", href: "/products/ac-tools" },
         secondary: { text: "View Catalog", href: "/catalog/ac-tools" }
       },
-      image: "/square/p1.png",
+      image: "/ac-tools/BNIMD710.webp",
     //   bgGradient: "from-blue-600/20 via-purple-600/20 to-pink-600/20"
       bgGradient: "from-green-600/20 via-teal-600/20 to-blue-600/20"
     },
