@@ -55,7 +55,7 @@ function NewHero() {
         primary: { text: "Shop Accessories", href: "/products/accessories" },
         secondary: { text: "Bundle Deals", href: "/deals/accessories" }
       },
-      image: "/square/p6.png",
+      image: "/accessories/BWCB150M.webp",
     //   bgGradient: "from-purple-600/20 via-indigo-600/20 to-blue-600/20"
       bgGradient: "from-green-600/20 via-teal-600/20 to-blue-600/20"
     }
