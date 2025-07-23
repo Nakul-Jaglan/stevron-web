@@ -99,7 +99,7 @@ function One() {
             {/* ONE Logo */}
             <motion.div
               variants={itemVariants}
-              className="flex flex-col space-y-6 items-center space-x-4 mb-8"
+              className="flex flex-col lg:flex-row space-y-6 items-center space-x-4 mb-8"
             >
               <motion.img
                 src="/one-logo.png"
@@ -219,7 +219,7 @@ function One() {
           {/* Right Content - Battery Showcase */}
           <motion.div
             variants={itemVariants}
-            className="flex justify-center"
+            className="flex justify-center max-w-4xl "
           >
             {/* Central Battery Image */}
             <motion.div

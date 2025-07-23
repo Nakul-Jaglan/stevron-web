@@ -18,7 +18,7 @@ function NewHeader() {
     { name: "Home", href: "/" },
     { name: "About Us", href: "/about" },
     { name: "Products", href: "/products", hasDropdown: true },
-    { name: "Blog", href: "/blog" },
+    // { name: "Blog", href: "/blog" },
     { name: "Contact Us", href: "/contact" }
   ];
 
@@ -38,13 +38,13 @@ function NewHeader() {
     { 
       name: "Hand Tools", 
       href: "/products/hand-tools", 
-      image: "/ac-tools/350W-Trimmer.png",
+      image: "/hand-tools/BCP7X180.webp",
       description: "Manual hand tools"
     },
     { 
       name: "Accessories", 
       href: "/products/accessories", 
-      image: "/dc-tools/60Nm.png",
+      image: "/accessories/BWCB125M.webp",
       description: "Tool accessories & parts"
     }
   ];
@@ -74,7 +74,7 @@ function NewHeader() {
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, type: "spring", stiffness: 100 }}
-      className="fixed top-2.5 left-1/2 transform -translate-x-1/2 z-50 w-[95%] max-w-7xl"
+      className="fixed top-0.5 lg:top-2.5 left-1/2 transform -translate-x-1/2 z-50 w-[95%] max-w-7xl"
       role="banner"
     >
       <motion.nav
@@ -354,9 +354,11 @@ function NewHeader() {
                   >
                     {item.hasDropdown ? (
                       <div className="space-y-2">
-                        <div className="text-white/90 text-lg font-medium py-2 px-4">
-                          {item.name}
-                        </div>
+                        <Link href={item.href}>
+                          <div className="text-white/90 text-lg hover:text-white hover:bg-white/10 rounded-lg font-medium py-2 px-4 transition-all duration-300">
+                            {item.name}
+                          </div>
+                        </Link>
                         <div className="pl-4 space-y-2">
                           {productCategories.map((category) => (
                             <Link
@@ -366,13 +368,13 @@ function NewHeader() {
                               onClick={() => setIsMenuOpen(false)}
                               role="menuitem"
                             >
-                              <div className="w-8 h-8 bg-white/5 rounded-md flex items-center justify-center overflow-hidden flex-shrink-0">
+                              {/* <div className="w-8 h-8 bg-white/5 rounded-md flex items-center justify-center overflow-hidden flex-shrink-0">
                                 <img 
                                   src={category.image} 
                                   alt={category.name}
                                   className="w-6 h-6 object-contain"
                                 />
-                              </div>
+                              </div> */}
                               <motion.span
                                 whileHover={{ x: 4 }}
                                 transition={{ type: "spring", stiffness: 300 }}

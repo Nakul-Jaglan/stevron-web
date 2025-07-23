@@ -40,7 +40,7 @@ function ProductsPage() {
     {
       title: "AC Tools",
       description: "Corded power tools for max performance and reliability in demanding applications",
-      image: "/ac-tools/850W-Impact-Drill.png",
+      image: "/ac-tools/BNIMD710.webp",
       href: "/products/ac-tools",
       features: ["Consistent Power", "Heavy-Duty Performance", "Professional Grade", "Multiple Voltage Options"],
       toolCount: "15+ Tools"
@@ -48,7 +48,7 @@ function ProductsPage() {
     {
       title: "DC Tools",
       description: "Cordless freedom with our own ONE Battery Platform for ultimate mobility",
-      image: "/dc-tools/125mm Palm Sander.png",
+      image: "/square/p4.png",
       href: "/products/dc-tools",
       features: ["ONE Battery Platform", "Cordless Freedom", "Extended Runtime", "Quick Charge Technology"],
       toolCount: "20+ Tools"
@@ -56,7 +56,7 @@ function ProductsPage() {
     {
       title: "Hand Tools",
       description: "Precision hand tools for detailed work and professional craftsmanship",
-      image: "/dc-tools/DC_Circular Saw.png",
+      image: "/hand-tools/BCP7X180.webp",
       href: "/products/hand-tools",
       features: ["Precision Crafted", "Ergonomic Design", "Durable Materials", "Professional Quality"],
       toolCount: "30+ Tools"
@@ -64,7 +64,7 @@ function ProductsPage() {
     {
       title: "Accessories",
       description: "Complete range of accessories, attachments, and replacement spare parts",
-      image: "/battery/2AH-Battery-front.png",
+      image: "/accessories/BWCB125M.webp",
       href: "/products/accessories",
       features: ["Wide Selection", "Premium Quality", "Universal Compatibility", "Replacement Parts"],
       toolCount: "100+ Items"
@@ -268,7 +268,7 @@ function ProductsPage() {
                       <img
                         src={category.image}
                         alt={category.title}
-                        className="w-full h-full object-contain max-w-32 sm:max-w-40 opacity-90 group-hover:opacity-100 transition-opacity"
+                        className="w-full h-full object-contain max-w-42 sm:max-w-60 opacity-90 group-hover:opacity-100 transition-opacity"
                       />
                     </motion.div>
                     

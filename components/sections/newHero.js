@@ -42,7 +42,7 @@ function NewHero() {
         primary: { text: "Browse Hand Tools", href: "/products/hand-tools" },
         secondary: { text: "Tool Sets", href: "/products/hand-tools/sets" }
       },
-      image: "/square/p8.png",
+      image: "/hand-tools/BCP7X180.webp",
     //   bgGradient: "from-green-600/20 via-purple-600/20 to-blue-600/20"
       bgGradient: "from-green-600/20 via-teal-600/20 to-blue-600/20"
     },
@@ -101,80 +101,9 @@ function NewHero() {
         onMouseEnter={() => setIsAutoPlaying(false)}
         onMouseLeave={() => setIsAutoPlaying(true)}
       >
-        <div className="relative h-[60vh] sm:h-[70vh] lg:h-[90vh] flex  lg:flex-row">
-          {/* Left Side - Text Content */}
-          <div className="w-1/2 flex flex-col justify-center p-4 sm:p-8 lg:p-12 relative z-10">
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={currentSlide}
-                initial={{ opacity: 0, x: -50 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: 50 }}
-                transition={{ duration: 0.5, ease: "easeInOut" }}
-                className="space-y-4 sm:space-y-6"
-              >
-                {/* Subtitle */}
-                <motion.p
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.2 }}
-                  className="text-[#989b2e] text-sm sm:text-lg lg:text-xl font-medium tracking-wide uppercase"
-                >
-                  {slides[currentSlide].subtitle}
-                </motion.p>
-
-                {/* Title */}
-                <motion.h1
-                  initial={{ opacity: 0, y: 30 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.3 }}
-                  className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-bold text-white leading-tight"
-                >
-                  {slides[currentSlide].title}
-                </motion.h1>
-
-                {/* Description */}
-                <motion.p
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.4 }}
-                  className="text-white/80 text-base sm:text-lg lg:text-xl leading-relaxed max-w-lg"
-                >
-                  {slides[currentSlide].description}
-                </motion.p>
-
-                {/* CTA Buttons */}
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.5 }}
-                  className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2 sm:pt-4"
-                >
-                  <Link href={slides[currentSlide].cta.primary.href}>
-                    <motion.button
-                      whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(255,255,255,0.1)" }}
-                      whileTap={{ scale: 0.95 }}
-                      className="w-full sm:w-auto bg-[#989b2e] cursor-pointer text-white text-lg sm:text-xl lg:text-2xl font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
-                    >
-                      {slides[currentSlide].cta.primary.text}
-                    </motion.button>
-                  </Link>
-                  <Link href={slides[currentSlide].cta.secondary.href}>
-                    <motion.button
-                      whileHover={{ scale: 1.05, borderColor: "rgba(255,255,255,0.8)" }}
-                      whileTap={{ scale: 0.95 }}
-                      className="w-full sm:w-auto border-2 cursor-pointer border-white/30 text-white text-lg sm:text-xl lg:text-2xl font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-full hover:bg-white/10 transition-all duration-300"
-                    >
-                      {slides[currentSlide].cta.secondary.text}
-                    </motion.button>
-                  </Link>
-                </motion.div>
-              </motion.div>
-            </AnimatePresence>
-          </div>
-
-          {/* Right Side - Image */}
-          <div className="w-full lg:w-1/2 flex items-center justify-center p-4 sm:p-6 lg:p-8 relative">
+        <div className="relative h-[60vh] sm:h-[70vh] lg:h-[90vh] flex flex-col lg:flex-row">
+          {/* Mobile Layout - Image First */}
+          <div className="lg:hidden w-full flex items-center justify-center p-4 sm:p-6 relative order-1">
             <AnimatePresence mode="wait">
               <motion.div
                 key={currentSlide}
@@ -185,7 +114,6 @@ function NewHero() {
                 className="relative"
               >
                 <motion.div
-                  
                   transition={{ 
                     duration: 4,
                     repeat: Infinity,
@@ -196,17 +124,150 @@ function NewHero() {
                   <img
                     src={slides[currentSlide].image}
                     alt={slides[currentSlide].title}
-                    className="w-auto h-48 sm:h-64 lg:h-auto object-contain drop-shadow-2xl"
+                    className="w-auto h-52 mt-10 object-contain drop-shadow-2xl"
                   />
-                  {/* Floating particles around image */}
-                  {/* <motion.div
-                    transition={{
-                      duration: 3,
-                      repeat: Infinity,
-                      ease: "easeInOut"
-                    }}
-                    className="absolute inset-0 bg-gradient-to-r from-yellow-400/20 to-orange-500/20 rounded-full blur-3xl -z-10"
-                  /> */}
+                </motion.div>
+              </motion.div>
+            </AnimatePresence>
+          </div>
+
+          {/* Mobile Layout - Title and CTA */}
+          <div className="lg:hidden w-full flex flex-col justify-center items-center p-4 sm:p-6 relative z-10 order-2 text-center">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={currentSlide}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -20 }}
+                transition={{ duration: 0.5, ease: "easeInOut" }}
+                className="space-y-4"
+              >
+                {/* Mobile Title */}
+                <motion.h1
+                  initial={{ opacity: 0, y: 30 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.2 }}
+                  className="text-2xl sm:text-3xl md:text-4xl font-bold text-white leading-tight"
+                >
+                  {slides[currentSlide].title}
+                </motion.h1>
+
+                {/* Mobile Primary CTA Only */}
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.4 }}
+                  className="pt-2"
+                >
+                  <Link href={slides[currentSlide].cta.primary.href}>
+                    <motion.button
+                      whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(255,255,255,0.1)" }}
+                      whileTap={{ scale: 0.95 }}
+                      className="w-full max-w-xs bg-[#989b2e] cursor-pointer text-white text-lg sm:text-xl font-semibold px-8 py-3 sm:py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+                    >
+                      {slides[currentSlide].cta.primary.text}
+                    </motion.button>
+                  </Link>
+                </motion.div>
+              </motion.div>
+            </AnimatePresence>
+          </div>
+
+          {/* Desktop Layout - Left Side Text Content */}
+          <div className="hidden lg:flex w-1/2 flex-col justify-center p-6 md:p-8 lg:p-12 relative z-10">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={currentSlide}
+                initial={{ opacity: 0, x: -50 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: 50 }}
+                transition={{ duration: 0.5, ease: "easeInOut" }}
+                className="space-y-4 md:space-y-6"
+              >
+                {/* Subtitle */}
+                <motion.p
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.2 }}
+                  className="text-[#989b2e] text-lg md:text-xl font-medium tracking-wide uppercase"
+                >
+                  {slides[currentSlide].subtitle}
+                </motion.p>
+
+                {/* Title */}
+                <motion.h1
+                  initial={{ opacity: 0, y: 30 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.3 }}
+                  className="text-4xl md:text-5xl lg:text-6xl xl:text-8xl font-bold text-white leading-tight"
+                >
+                  {slides[currentSlide].title}
+                </motion.h1>
+
+                {/* Description */}
+                <motion.p
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.4 }}
+                  className="text-white/80 text-base md:text-lg lg:text-xl leading-relaxed max-w-lg"
+                >
+                  {slides[currentSlide].description}
+                </motion.p>
+
+                {/* CTA Buttons */}
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.5 }}
+                  className="flex flex-col md:flex-row gap-3 md:gap-4 pt-2 md:pt-4"
+                >
+                  <Link href={slides[currentSlide].cta.primary.href}>
+                    <motion.button
+                      whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(255,255,255,0.1)" }}
+                      whileTap={{ scale: 0.95 }}
+                      className="w-full md:w-auto bg-[#989b2e] cursor-pointer text-white text-lg md:text-xl lg:text-2xl font-semibold px-6 md:px-8 py-3 md:py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+                    >
+                      {slides[currentSlide].cta.primary.text}
+                    </motion.button>
+                  </Link>
+                  <Link href={slides[currentSlide].cta.secondary.href}>
+                    <motion.button
+                      whileHover={{ scale: 1.05, borderColor: "rgba(255,255,255,0.8)" }}
+                      whileTap={{ scale: 0.95 }}
+                      className="w-full md:w-auto border-2 cursor-pointer border-white/30 text-white text-lg md:text-xl lg:text-2xl font-semibold px-6 md:px-8 py-3 md:py-4 rounded-full hover:bg-white/10 transition-all duration-300"
+                    >
+                      {slides[currentSlide].cta.secondary.text}
+                    </motion.button>
+                  </Link>
+                </motion.div>
+              </motion.div>
+            </AnimatePresence>
+          </div>
+
+          {/* Desktop Layout - Right Side Image */}
+          <div className="hidden lg:flex w-1/2 items-center justify-center p-4 sm:p-6 lg:p-8 relative">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={currentSlide}
+                initial={{ opacity: 0, scale: 0.8, rotate: 0 }}
+                animate={{ opacity: 1, scale: 1, rotate: 0 }}
+                exit={{ opacity: 0, scale: 0.8, rotate: 0 }}
+                transition={{ duration: 0.6, ease: "easeInOut" }}
+                className="relative"
+              >
+                <motion.div
+                  transition={{ 
+                    duration: 4,
+                    repeat: Infinity,
+                    ease: "easeInOut"
+                  }}
+                  className="relative"
+                >
+                  <img
+                    src={slides[currentSlide].image}
+                    alt={slides[currentSlide].title}
+                    className="w-auto h-auto object-contain drop-shadow-2xl"
+                  />
                 </motion.div>
               </motion.div>
             </AnimatePresence>

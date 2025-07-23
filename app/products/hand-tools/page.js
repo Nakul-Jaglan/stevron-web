@@ -210,7 +210,7 @@ function HandPage() {
                     {/* Product Image */}
                     <div className="relative w-full mb-4 sm:mb-6 rounded-2xl overflow-hidden">
                       <img
-                        src={imageErrors[product.code] ? "/square/p4.png" : product.image}
+                        src={imageErrors[product.code] ? "/hand-tools/BCP7X180.webp" : product.image}
                         alt={product.name}
                         className="w-full h-48 sm:h-56 object-cover transition-transform duration-500 group-hover:scale-95"
                         onError={() => handleImageError(product.code)}
@@ -296,7 +296,7 @@ function HandPage() {
                 <div className="space-y-4 sm:space-y-6">
                   <div className="relative w-full h-64 sm:h-90 md:h-96 rounded-2xl overflow-hidden bg-gradient-to-br from-gray-800 to-gray-900">
                     <img
-                      src={imageErrors[selectedProduct.code] ? "/square/p4.png" : selectedProduct.image}
+                      src={imageErrors[selectedProduct.code] ? "/hand-tools/BCP7X180.webp" : selectedProduct.image}
                       alt={selectedProduct.name}
                       className="w-full h-full object-cover"
                       onError={() => handleImageError(selectedProduct.code)}
