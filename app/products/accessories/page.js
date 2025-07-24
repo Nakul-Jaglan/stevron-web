@@ -1,5 +1,5 @@
 "use client";
-import BgLayout from "@/components/templates/bgLayout";
+import BgLayout from "../../../components/templates/bgLayout";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import Image from "next/image";
