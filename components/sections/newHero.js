@@ -28,7 +28,7 @@ function NewHero() {
       description: "Unleash your potential with our advanced DC power tools. Maximum portability without compromising on power and precision.",
       cta: {
         primary: { text: "Explore DC Tools", href: "/products/dc-tools" },
-        secondary: { text: "Compare Models", href: "/compare/dc-tools" }
+        secondary: { text: "View Catalog", href: "/catalog/dc-tools" }
       },
       image: "/square/p4.png",
       bgGradient: "from-green-600/20 via-teal-600/20 to-blue-600/20"
@@ -40,7 +40,7 @@ function NewHero() {
       description: "Master every detail with our premium hand tools collection. Precision-engineered for professionals who demand excellence.",
       cta: {
         primary: { text: "Browse Hand Tools", href: "/products/hand-tools" },
-        secondary: { text: "Tool Sets", href: "/products/hand-tools/sets" }
+        secondary: { text: "View Catalog", href: "/catalog/hand-tools" }
       },
       image: "/hand-tools/BCP7X180.webp",
     //   bgGradient: "from-green-600/20 via-purple-600/20 to-blue-600/20"
@@ -53,7 +53,7 @@ function NewHero() {
       description: "Enhance your workflow with our comprehensive range of accessories. Every component designed to maximize your tool's potential.",
       cta: {
         primary: { text: "Shop Accessories", href: "/products/accessories" },
-        secondary: { text: "Bundle Deals", href: "/deals/accessories" }
+        secondary: { text: "View Catalog", href: "/catalog/accessories" }
       },
       image: "/accessories/BWCB150M.webp",
     //   bgGradient: "from-purple-600/20 via-indigo-600/20 to-blue-600/20"

@@ -165,7 +165,7 @@ function One() {
                   whileHover={{ scale: 1.02, y: -5 }}
                 >
                   <div className="flex items-center space-x-4">
-                    <div className="text-3xl">{feature.icon}</div>
+                    <div className="text-3xl hidden sm:block">{feature.icon}</div>
                     <div className="flex-1">
                       <div className="flex items-center justify-between mb-2">
                         <h3 className="text-lg font-semibold text-white group-hover:text-[#989b2e] transition-colors">

@@ -237,14 +237,14 @@ function NewHeader() {
             >
               <motion.button
                 onClick={() => setIsLangDropdownOpen(!isLangDropdownOpen)}
-                className="flex items-center space-x-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full px-4 py-2 text-white transition-all duration-300"
+                className="flex items-center space-x-2 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full px-3 py-1 text-white transition-all duration-300"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 aria-label="Language selector"
                 aria-expanded={isLangDropdownOpen}
                 aria-haspopup="true"
               >
-                <span className="text-lg font-medium">{selectedLanguage}</span>
+                <span className="text-base lg:text-lg font-medium">{selectedLanguage}</span>
                 <motion.svg
                   className="w-4 h-4"
                   fill="none"
@@ -353,9 +353,9 @@ function NewHeader() {
                     role="none"
                   >
                     {item.hasDropdown ? (
-                      <div className="space-y-2">
+                      <div className="">
                         <Link href={item.href}>
-                          <div className="text-white/90 text-lg hover:text-white hover:bg-white/10 rounded-lg font-medium py-2 px-4 transition-all duration-300">
+                          <div className="text-white/90 text-lg hover:text-white hover:bg-white/10 rounded-lg font-medium py-1 px-4 transition-all duration-300">
                             {item.name}
                           </div>
                         </Link>
@@ -364,7 +364,7 @@ function NewHeader() {
                             <Link
                               key={category.name}
                               href={category.href}
-                              className="flex items-center space-x-3 text-white/70 hover:text-white text-base py-2 px-4 rounded-lg hover:bg-white/10 transition-all duration-300"
+                              className="flex items-center space-x-3 text-white/70 hover:text-white text-base py-1 px-4 rounded-lg hover:bg-white/10 transition-all duration-300"
                               onClick={() => setIsMenuOpen(false)}
                               role="menuitem"
                             >
@@ -375,6 +375,12 @@ function NewHeader() {
                                   className="w-6 h-6 object-contain"
                                 />
                               </div> */}
+                              <motion.span
+                                animate={{ x: [0, 5, 0] }}
+                                transition={{ duration: 1.5, repeat: Infinity }}
+                              >
+                                →
+                              </motion.span>
                               <motion.span
                                 whileHover={{ x: 4 }}
                                 transition={{ type: "spring", stiffness: 300 }}
@@ -388,7 +394,7 @@ function NewHeader() {
                     ) : (
                       <Link
                         href={item.href}
-                        className="block text-white/90 hover:text-white text-lg font-medium py-2 px-4 rounded-lg hover:bg-white/10 transition-all duration-300"
+                        className="block text-white/90 hover:text-white text-lg font-medium  px-4 rounded-lg hover:bg-white/10 transition-all duration-300"
                         onClick={() => setIsMenuOpen(false)}
                         role="menuitem"
                       >
