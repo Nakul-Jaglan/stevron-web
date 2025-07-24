@@ -1,0 +1,155 @@
+# Stevron Tools - Professional Tool Manufacturing Website
+
+## Project Overview
+Stevron Tools is a professional tool manufacturing and distribution company specializing in AC tools, DC tools, hand tools, and accessories. This website serves as the primary digital presence for the company, showcasing their product catalog and company information.
+
+## Technology Stack
+- **Framework**: Next.js 15.3.5 (App Router)
+- **Styling**: Tailwind CSS with custom design system
+- **Animations**: Framer Motion for smooth interactions
+- **3D Graphics**: Three.js with React Three Fiber
+- **Icons**: Tabler Icons, React Icons
+- **Form Handling**: FormSubmit.co integration
+- **Deployment**: Optimized for production deployment
+
+## Project Structure
+```
+frontend/
+├── app/                          # Next.js App Router pages
+│   ├── layout.js                # Root layout with SEO metadata
+│   ├── page.js                  # Homepage
+│   ├── about/                   # About page (server + client components)
+│   ├── contact/                 # Contact page
+│   ├── products/                # Product catalog
+│   │   ├── ac-tools/           # AC tools category
+│   │   └── hand-tools/         # Hand tools category
+│   ├── not-found.js            # 404 error page
+│   ├── loading.js              # Loading state
+│   ├── sitemap.ts              # Dynamic sitemap generation
+│   └── robots.txt              # SEO crawler instructions
+├── components/                  # Reusable React components
+│   ├── layouts/                # Header, footer, navigation
+│   ├── sections/               # Page sections (hero, products, etc.)
+│   └── templates/              # Layout templates
+├── public/                     # Static assets
+│   ├── ac-tools/              # AC tool product images
+│   ├── dc-tools/              # DC tool product images
+│   ├── manifest.json          # PWA manifest
+│   └── .htaccess              # Server configuration
+└── ui/                        # UI components
+```
+
+## Key Features
+
+### Design System
+- **Color Scheme**: Dark theme with gradient accents
+  - Primary: Dark grays (#1f2937, #111827)
+  - Accent: Yellow to pink gradients (#fbbf24 to #ec4899)
+  - Text: White with opacity variations
+- **Typography**: Modern sans-serif with bold headings
+- **Layout**: Mobile-first responsive design
+- **Effects**: Glassmorphism cards, backdrop blur, smooth animations
+
+### Components Architecture
+- **BgLayout**: Main layout wrapper with dark gradient background
+- **NewHeader**: Modern navigation with glassmorphism effect
+- **NewHero**: Hero section with mobile-first responsive design
+- **Product Sections**: Dynamic product catalogs with filtering
+- **Footer**: Comprehensive site navigation and company info
+
+### SEO Optimization
+- Comprehensive metadata for all pages
+- Open Graph and Twitter Card integration
+- Structured data (JSON-LD) for organization and products
+- Dynamic sitemap generation
+- Optimized robots.txt
+- PWA manifest for mobile optimization
+
+### Performance Features
+- Next.js Image optimization with WebP/AVIF formats
+- Lazy loading and code splitting
+- Optimized bundle sizes
+- Browser caching strategies
+- Compression and minification
+
+## Product Categories
+
+### AC Tools (Corded Power Tools)
+- Angle Grinders (750W, 950W, 2200W, 2400W)
+- Impact Drills (710W, 850W, 1100W)
+- Rotary Hammers (800W, 1500W)
+- Circular Saws (1400W 185mm)
+- Marble Cutters (1400W)
+- Cut Off Saws (2400W)
+- Polishers (1400W)
+- Palm Sanders (240W)
+- Trimmers (350W)
+- Routers
+- Jigsaws (600W)
+- Standard Drills (500W)
+
+### DC Tools (Cordless Tools)
+- Compact Drivers (45Nm, 60Nm)
+- Impact Wrenches (600Nm, 800Nm)
+- Rotary Hammers (20J)
+- Angular Grinders
+- Circular Saws
+- Palm Sanders (125mm)
+- Blowers
+- Battery Systems (2Ah, 4Ah, 5Ah)
+- Chargers (Single, Dual)
+
+### Hand Tools
+- Precision instruments
+- Manual equipment
+- Measuring tools
+- Workshop accessories
+
+## Brand Identity
+- **Company**: Stevron Tools
+- **Tagline**: "Professional Grade Tools"
+- **Mission**: Delivering power, simplified
+- **Values**: Precision engineering, uncompromising quality, innovation first
+- **Platform**: ONE Battery System for DC tools
+
+## Development Guidelines
+
+### Component Patterns
+- Use server components for static content and SEO
+- Use client components for interactivity and animations
+- Separate metadata exports from client components
+- Follow mobile-first responsive design principles
+
+### Styling Conventions
+- Use Tailwind CSS utility classes
+- Follow the established color system
+- Implement consistent spacing and typography
+- Use Framer Motion for smooth animations
+
+### SEO Best Practices
+- All pages have comprehensive metadata
+- Use semantic HTML structure
+- Optimize images with proper alt text
+- Implement structured data where applicable
+- Maintain clean URL structure
+
+## Contact & Business Info
+- **Website**: stevrontools.com
+- **Global Reach**: 21+ countries
+- **Client Base**: 5M+ professionals worldwide
+- **Product Range**: 4500+ tools and accessories
+- **Retail Network**: 15000+ partners
+
+## Form Integration
+- Contact forms use FormSubmit.co
+- Quote request functionality for products
+- Newsletter subscription capability
+- Professional inquiry handling
+
+## Deployment Notes
+- Optimized for static export if needed
+- Environment variables for production URLs
+- Performance monitoring and analytics ready
+- CDN optimization for global reach
+
+This is a professional B2B tool manufacturing website focused on showcasing quality products and enabling customer connections through modern web technologies and comprehensive SEO optimization.

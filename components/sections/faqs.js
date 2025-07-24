@@ -224,10 +224,6 @@ function Faqs() {
 
             <div className="relative z-10">
               <motion.div
-                animate={{
-                  scale: [1, 1.05, 1],
-                  rotate: [0, 2, -2, 0]
-                }}
                 transition={{
                   duration: 6,
                   repeat: Infinity,
@@ -285,7 +281,7 @@ function Faqs() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.8 }}
-                className="mt-8 flex flex-col space-y-6 md:flex-row items-center justify-center space-x-6 text-white/60 text-sm"
+                className="mt-8 flex flex-col space-y-6 md:space-y-0 md:flex-row items-center justify-center space-x-6 text-white/60 text-sm"
               >
                 <div className="flex items-center space-x-2">
                   <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>

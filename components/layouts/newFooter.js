@@ -28,17 +28,17 @@ function NewFooter() {
       links: [
         { name: "About Us", href: "/about" },
         { name: "Our Story", href: "/about#story" },
-        { name: "Careers", href: "/careers" },
-        { name: "Press", href: "/press" }
+        // { name: "Careers", href: "/careers" },
+        // { name: "Press", href: "/press" }
       ]
     },
     {
       title: "Support",
       links: [
         { name: "Contact Us", href: "/contact" },
-        { name: "Help Center", href: "/help" },
-        { name: "Warranty", href: "/warranty" },
-        { name: "Returns", href: "/returns" }
+        // { name: "Help Center", href: "/help" },
+        { name: "Warranty", href: "https://bonhoeffermachines.com/en/warranty-registration" },
+        // { name: "Returns", href: "/returns" }
       ]
     },
     // {
