@@ -10,8 +10,8 @@ function NewHero() {
   const slides = [
     {
       id: 1,
-      title: "Dominate Every Project with Stevron AC Tools",
-      subtitle: "",
+      title: "",
+      subtitle: "Dominate Every Project with Stevron AC Tools",
       description: "Precision. Power. Built for Pros. ",
       cta: {
         primary: { text: "Explore AC Tools", href: "/products/ac-tools" },
