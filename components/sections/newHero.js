@@ -10,8 +10,8 @@ function NewHero() {
   const slides = [
     {
       id: 1,
-      title: "Master AC Tools",
-      subtitle: "Power Through Every Project",
+      title: "Dominate Every Project with Stevron AC Tools",
+      subtitle: "Precision. Power. Built for Pros.",
       description: "Experience unmatched precision with our professional-grade AC power tools. ",
       cta: {
         primary: { text: "Explore AC Tools", href: "/products/ac-tools" },
@@ -23,8 +23,8 @@ function NewHero() {
     },
     {
       id: 2,
-      title: "Reliable DC Tools",
-      subtitle: "Cordless Freedom",
+      title: "Unmatched Power, Anywhere You Build",
+      subtitle: "Stevron cordless DC tools—built to conquer every job site, every day.",
       description: "Unleash your potential with our advanced DC power tools. Maximum portability without compromising on power and precision.",
       cta: {
         primary: { text: "Explore DC Tools", href: "/products/dc-tools" },
@@ -35,8 +35,8 @@ function NewHero() {
     },
     {
       id: 3,
-      title: "Essential Hand Tools",
-      subtitle: "Crafted for Perfection",
+      title: "Tools You Trust. Comfort You Feel.",
+      subtitle: "Every Stevron hand tool delivers unmatched grip, flawless balance, and lasting comfort",
       description: "Master every detail with our premium hand tools collection. Precision-engineered for professionals who demand excellence.",
       cta: {
         primary: { text: "Browse Hand Tools", href: "/products/hand-tools" },
@@ -48,8 +48,8 @@ function NewHero() {
     },
     {
       id: 4,
-      title: "Quality Accessories",
-      subtitle: "Complete Your Toolkit",
+      title: "Complete Your Toolkit with Stevron Accessories",
+      subtitle: "Boost efficiency and extend tool life—our quality accessories make every job smoother.",
       description: "Enhance your workflow with our comprehensive range of accessories. Every component designed to maximize your tool's potential.",
       cta: {
         primary: { text: "Explore Accessories", href: "/products/accessories" },
