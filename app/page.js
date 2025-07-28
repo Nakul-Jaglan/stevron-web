@@ -1,3 +1,4 @@
+import House from "../components/sections/house";
 import AboutSec from "../components/sections/aboutSec";
 import Faqs from "../components/sections/faqs";
 import Hero from "../components/sections/hero";
@@ -55,6 +56,7 @@ export default function Home() {
         <div className="">
           <NewHero/>
         </div>
+        <House/>
         <One/>
         <HomeProducts/>
         <AboutSec/>
