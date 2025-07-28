@@ -7,7 +7,7 @@ function House() {
   const brands = [
     {
       name: "Bonhoeffer Machines",
-      description: "Parent Company",
+      description: "Intensive Use",
       website: "https://bonhoeffermachines.com",
       logo: "/logos/bonhoeffer_logo.png", 
       gradient: "from-green-500 to-teal-600",
@@ -15,7 +15,7 @@ function House() {
     },
     {
       name: "Mechnova Machines", 
-      description: "Affordable Products",
+      description: "Occasionally Use",
       website: "https://mechnovamachines.com",
       logo: "/logos/mechnova_logo.png",
       gradient: "from-blue-500 to-purple-600",
@@ -23,7 +23,7 @@ function House() {
     },
     {
       name: "Stronwell",
-      description: "Indian Division", 
+      description: "Frequently Use", 
       website: "https://stronwell.com",
       logo: "/logos/stronwell_logo.png", 
       gradient: "from-orange-500 to-red-600",
