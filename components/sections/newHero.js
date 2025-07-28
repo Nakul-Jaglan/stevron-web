@@ -24,8 +24,8 @@ function NewHero() {
     {
       id: 2,
       title: "Unmatched Power, Anywhere You Build",
-      subtitle: "Stevron cordless DC tools—built to conquer every job site, every day.",
-      description: "Unleash your potential with our advanced DC power tools. Maximum portability without compromising on power and precision.",
+      subtitle: "",
+      description: "Stevron cordless DC tools—built to conquer every job site, every day.",
       cta: {
         primary: { text: "Explore DC Tools", href: "/products/dc-tools" },
         secondary: { text: "View Catalog", href: "https://www.flipsnack.com/66BE5ECC5A8/stevron-tools-hardware-accesories-2025/full-view.html" }
