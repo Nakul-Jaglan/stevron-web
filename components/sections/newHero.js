@@ -14,7 +14,7 @@ function NewHero() {
       subtitle: "Power Through Every Project",
       description: "Experience unmatched precision with our professional-grade AC power tools. ",
       cta: {
-        primary: { text: "Shop AC Tools", href: "/products/ac-tools" },
+        primary: { text: "Explore AC Tools", href: "/products/ac-tools" },
         secondary: { text: "View Catalog", href: "https://www.flipsnack.com/66BE5ECC5A8/stevron-tools-hardware-accesories-2025/full-view.html" }
       },
       image: "/ac-tools/BNIMD710.webp",
@@ -52,7 +52,7 @@ function NewHero() {
       subtitle: "Complete Your Toolkit",
       description: "Enhance your workflow with our comprehensive range of accessories. Every component designed to maximize your tool's potential.",
       cta: {
-        primary: { text: "Shop Accessories", href: "/products/accessories" },
+        primary: { text: "Explore Accessories", href: "/products/accessories" },
         secondary: { text: "View Catalog", href: "https://www.flipsnack.com/66BE5ECC5A8/stevron-tools-hardware-accesories-2025/full-view.html" }
       },
       image: "/accessories/BWCB150M.webp",
