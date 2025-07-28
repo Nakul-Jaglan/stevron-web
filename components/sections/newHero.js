@@ -36,8 +36,8 @@ function NewHero() {
     {
       id: 3,
       title: "Tools You Trust. Comfort You Feel.",
-      subtitle: "Every Stevron hand tool delivers unmatched grip, flawless balance, and lasting comfort",
-      description: "Master every detail with our premium hand tools collection. Precision-engineered for professionals who demand excellence.",
+      subtitle: "",
+      description: "Every Stevron hand tool delivers unmatched grip, flawless balance, and lasting comfort.",
       cta: {
         primary: { text: "Browse Hand Tools", href: "/products/hand-tools" },
         secondary: { text: "View Catalog", href: "https://www.flipsnack.com/66BE5ECC5A8/stevron-tools-hardware-accesories-2025/full-view.html" }
