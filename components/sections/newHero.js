@@ -11,8 +11,8 @@ function NewHero() {
     {
       id: 1,
       title: "Dominate Every Project with Stevron AC Tools",
-      subtitle: "Precision. Power. Built for Pros.",
-      description: "Experience unmatched precision with our professional-grade AC power tools. ",
+      subtitle: "",
+      description: "Precision. Power. Built for Pros. ",
       cta: {
         primary: { text: "Explore AC Tools", href: "/products/ac-tools" },
         secondary: { text: "View Catalog", href: "https://www.flipsnack.com/66BE5ECC5A8/stevron-tools-hardware-accesories-2025/full-view.html" }
