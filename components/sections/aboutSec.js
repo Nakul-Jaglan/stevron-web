@@ -251,13 +251,13 @@ function AboutSec() {
           {/* Main Heading */}
           <motion.div variants={itemVariants} className="space-y-6">
             <h2 className="text-5xl md:text-6xl font-bold text-white leading-tight">
-              Where{" "}
+              Why{" "}
               <span className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text text-transparent">
-                Power
+                Pros
               </span>{" "}
-              Meets{" "}
+              Choose{" "}
               <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                Purpose
+                Stevron
               </span>
             </h2>
             
@@ -266,21 +266,21 @@ function AboutSec() {
                 variants={itemVariants}
                 className="text-xl text-white/90 leading-relaxed"
               >
-                Stevron builds powerful, reliable tools for professionals who demand performance.
+                At Stevron, we don’t just make tools—we make tough, reliable helpers for your busiest days and tricky jobs. From the strong punch of our AC impact driver to the quiet confidence of our cordless saws, our tools are built for people who get things done.
               </motion.p>
               
               <motion.p
                 variants={itemVariants}
                 className="text-lg text-white/80 leading-relaxed"
               >
-                From corded and cordless machines to precision hand tools, we design for durability, comfort, and results—every time.
+                Need great performance? Check. Built to last? Absolutely. Tools you can count on? You got it.
               </motion.p>
               
               <motion.p
                 variants={itemVariants}
                 className="text-lg text-yellow-400 font-semibold"
               >
-                Powered by our 1ne Battery Platform, Stevron is where power meets purpose.
+                Powered by 1ne Battery Platform
               </motion.p>
               
               <motion.div
