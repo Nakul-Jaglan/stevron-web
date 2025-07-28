@@ -23,8 +23,8 @@ function NewHero() {
     },
     {
       id: 2,
-      title: "Unmatched Power, Anywhere You Build",
-      subtitle: "",
+      title: "",
+      subtitle: "Unmatched Power, Anywhere You Build",
       description: "Stevron cordless DC tools—built to conquer every job site, every day.",
       cta: {
         primary: { text: "Explore DC Tools", href: "/products/dc-tools" },
@@ -35,8 +35,8 @@ function NewHero() {
     },
     {
       id: 3,
-      title: "Tools You Trust. Comfort You Feel.",
-      subtitle: "",
+      title: "",
+      subtitle: "Tools You Trust. Comfort You Feel.",
       description: "Every Stevron hand tool delivers unmatched grip, flawless balance, and lasting comfort.",
       cta: {
         primary: { text: "Browse Hand Tools", href: "/products/hand-tools" },
@@ -48,9 +48,9 @@ function NewHero() {
     },
     {
       id: 4,
-      title: "Complete Your Toolkit with Stevron Accessories",
-      subtitle: "Boost efficiency and extend tool life—our quality accessories make every job smoother.",
-      description: "Enhance your workflow with our comprehensive range of accessories. Every component designed to maximize your tool's potential.",
+      title: "",
+      subtitle: "Complete Your Toolkit with Stevron Accessories",
+      description: "Boost efficiency and extend tool life—our quality accessories make every job smoother.",
       cta: {
         primary: { text: "Explore Accessories", href: "/products/accessories" },
         secondary: { text: "View Catalog", href: "https://www.flipsnack.com/66BE5ECC5A8/stevron-tools-hardware-accesories-2025/full-view.html" }
