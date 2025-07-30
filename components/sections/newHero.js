@@ -10,11 +10,11 @@ function NewHero() {
   const slides = [
     {
       id: 1,
-      title: "Master AC Tools",
-      subtitle: "Power Through Every Project",
-      description: "Experience unmatched precision with our professional-grade AC power tools. ",
+      title: "",
+      subtitle: "Dominate Every Project with Stevron AC Tools",
+      description: "Precision. Power. Built for Pros. ",
       cta: {
-        primary: { text: "Shop AC Tools", href: "/products/ac-tools" },
+        primary: { text: "Explore AC Tools", href: "/products/ac-tools" },
         secondary: { text: "View Catalog", href: "https://www.flipsnack.com/66BE5ECC5A8/stevron-tools-hardware-accesories-2025/full-view.html" }
       },
       image: "/ac-tools/BNIMD710.webp",
@@ -23,9 +23,9 @@ function NewHero() {
     },
     {
       id: 2,
-      title: "Reliable DC Tools",
-      subtitle: "Cordless Freedom",
-      description: "Unleash your potential with our advanced DC power tools. Maximum portability without compromising on power and precision.",
+      title: "",
+      subtitle: "Unmatched Power, Anywhere You Build",
+      description: "Stevron cordless DC tools—built to conquer every job site, every day.",
       cta: {
         primary: { text: "Explore DC Tools", href: "/products/dc-tools" },
         secondary: { text: "View Catalog", href: "https://www.flipsnack.com/66BE5ECC5A8/stevron-tools-hardware-accesories-2025/full-view.html" }
@@ -35,9 +35,9 @@ function NewHero() {
     },
     {
       id: 3,
-      title: "Essential Hand Tools",
-      subtitle: "Crafted for Perfection",
-      description: "Master every detail with our premium hand tools collection. Precision-engineered for professionals who demand excellence.",
+      title: "",
+      subtitle: "Tools You Trust. Comfort You Feel.",
+      description: "Every Stevron hand tool delivers unmatched grip, flawless balance, and lasting comfort.",
       cta: {
         primary: { text: "Browse Hand Tools", href: "/products/hand-tools" },
         secondary: { text: "View Catalog", href: "https://www.flipsnack.com/66BE5ECC5A8/stevron-tools-hardware-accesories-2025/full-view.html" }
@@ -48,11 +48,11 @@ function NewHero() {
     },
     {
       id: 4,
-      title: "Quality Accessories",
-      subtitle: "Complete Your Toolkit",
-      description: "Enhance your workflow with our comprehensive range of accessories. Every component designed to maximize your tool's potential.",
+      title: "",
+      subtitle: "Complete Your Toolkit with Stevron Accessories",
+      description: "Boost efficiency and extend tool life—our quality accessories make every job smoother.",
       cta: {
-        primary: { text: "Shop Accessories", href: "/products/accessories" },
+        primary: { text: "Explore Accessories", href: "/products/accessories" },
         secondary: { text: "View Catalog", href: "https://www.flipsnack.com/66BE5ECC5A8/stevron-tools-hardware-accesories-2025/full-view.html" }
       },
       image: "/accessories/BWCB150M.webp",

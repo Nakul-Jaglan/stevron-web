@@ -198,7 +198,7 @@ function One() {
                   //   className="bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
                     className="bg-[#989b2e] text-white text-xl font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer"
                   >
-                    Shop DC Tools
+                    Explore DC Tools
                   </motion.button>
                 </Link>
               </div>

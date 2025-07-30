@@ -181,9 +181,9 @@ function HomeProducts() {
             variants={itemVariants}
             className="text-5xl md:text-6xl font-bold text-white mb-6 leading-tight"
           >
-            Professional{" "}
+            Our{" "}
             <span className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text text-transparent">
-              Power Tools
+              Lineup
             </span>
           </motion.h2>
 
@@ -191,8 +191,7 @@ function HomeProducts() {
             variants={itemVariants}
             className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed"
           >
-            Discover our comprehensive range of professional-grade tools designed for demanding projects. 
-            Built with precision, engineered for performance.
+            Take a glance at Stevron’s power tools lineup—compact, tough and built for every challenge on site or at home.
           </motion.p>
         </motion.div>
 

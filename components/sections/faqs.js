@@ -11,7 +11,7 @@ function Faqs() {
   const faqs = [
     {
       question: "What makes Stevron tools different from other brands?",
-      answer: "Stevron tools are built for professionals—combining industrial-grade performance, ergonomic design, and long-term durability at a value-driven price."
+      answer: "From our AC to cordless DC tools, every handle, motor, and battery platform is engineered for real-world chaos—gritty worksites, long hours, relentless jobs—where shortcuts aren’t allowed and second chances are rare. We sweat the details others overlook: comfort that actually makes a 12-hour day bearable, quality you can literally feel in the grip, and resilience that doesn't fade after a single tough week."
     },
     {
       question: "Are Stevron cordless tools compatible with the same battery?",
@@ -23,7 +23,7 @@ function Faqs() {
     },
     {
       question: "Do Stevron tools come with a warranty?",
-      answer: "Absolutely. All power tools and batteries come with a limited warranty covering manufacturing defects. Warranty terms vary by product—please refer to individual listings."
+      answer: "Absolutely. All power tools and batteries come with a warranty covering manufacturing defects. Warranty terms vary by product—please refer to individual listings."
     },
     {
       question: "Who are Stevron tools designed for?",
