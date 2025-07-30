@@ -357,7 +357,7 @@ function AboutSec() {
         </motion.div>
 
         {/* Features Grid */}
-        <motion.div
+        {/* <motion.div
           variants={containerVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
@@ -381,7 +381,7 @@ function AboutSec() {
               </p>
             </motion.div>
           ))}
-        </motion.div>
+        </motion.div> */}
       </div>
       
     </section>

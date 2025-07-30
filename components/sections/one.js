@@ -203,7 +203,7 @@ function One() {
                 </Link>
               </div>
               <div className="z-100">
-                <Link href="/technology/one-battery">
+                <Link href="/contact">
                   <motion.button
                     whileHover={{ scale: 1.05, borderColor: "#989b2e" }}
                     whileTap={{ scale: 0.95 }}

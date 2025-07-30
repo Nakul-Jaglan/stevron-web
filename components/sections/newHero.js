@@ -10,9 +10,9 @@ function NewHero() {
   const slides = [
     {
       id: 1,
-      title: "",
-      subtitle: "Dominate Every Project with Stevron AC Tools",
-      description: "Precision. Power. Built for Pros. ",
+      title: "AC Tools",
+      subtitle: "Precision. Power. Built for Pros.",
+      description: "Dominate Every Project with Stevron AC Tools",
       cta: {
         primary: { text: "Explore AC Tools", href: "/products/ac-tools" },
         secondary: { text: "View Catalog", href: "https://www.flipsnack.com/66BE5ECC5A8/stevron-tools-hardware-accesories-2025/full-view.html" }
@@ -23,7 +23,7 @@ function NewHero() {
     },
     {
       id: 2,
-      title: "",
+      title: "DC Tools",
       subtitle: "Unmatched Power, Anywhere You Build",
       description: "Stevron cordless DC tools—built to conquer every job site, every day.",
       cta: {
@@ -35,7 +35,7 @@ function NewHero() {
     },
     {
       id: 3,
-      title: "",
+      title: "Hand Tools",
       subtitle: "Tools You Trust. Comfort You Feel.",
       description: "Every Stevron hand tool delivers unmatched grip, flawless balance, and lasting comfort.",
       cta: {
@@ -48,7 +48,7 @@ function NewHero() {
     },
     {
       id: 4,
-      title: "",
+      title: "Accessories",
       subtitle: "Complete Your Toolkit with Stevron Accessories",
       description: "Boost efficiency and extend tool life—our quality accessories make every job smoother.",
       cta: {
