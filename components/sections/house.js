@@ -7,7 +7,7 @@ function House() {
   const brands = [
     {
       name: "Bonhoeffer Machines",
-      description: "Intensive Use",
+      description: "Heavy-duty equipment engineered for the toughest farms and construction sites.",
       website: "https://bonhoeffermachines.com",
       logo: "/logos/bonhoeffer_logo.png", 
       gradient: "from-green-500 to-teal-600",
@@ -15,7 +15,7 @@ function House() {
     },
     {
       name: "Mechnova Machines", 
-      description: "Occasionally Use",
+      description: "For weekend or occasional outdoor tasks. Simple, reliable, and built to last",
       website: "https://mechnovamachines.com",
       logo: "/logos/mechnova_logo.png",
       gradient: "from-blue-500 to-purple-600",
@@ -23,7 +23,7 @@ function House() {
     },
     {
       name: "Stronwell",
-      description: "Frequently Use", 
+      description: "Powerful, durable machines to handle your daily, demanding work.", 
       website: "https://stronwell.com",
       logo: "/logos/stronwell_logo.png", 
       gradient: "from-orange-500 to-red-600",
@@ -86,9 +86,9 @@ function House() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
           >
-            From the House of{" "}
-            <span className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text text-transparent">
-              Bonhoeffer Machines
+            Find Your Perfect Fit{" "}
+            <span className="block bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 bg-clip-text text-transparent">
+              Meet the Brands Built for You
             </span>
           </motion.h2>
 
@@ -98,8 +98,7 @@ function House() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            A trusted ecosystem of brands delivering excellence across diverse markets, 
-            united by our commitment to innovation and quality.
+            Wondering how these brands differ when they all come from the same Bonhoeffer family? Each one serves a unique purpose and audience—from the everyday home gardener to the heavy-duty industrial operator.
           </motion.p>
         </motion.div>
 
@@ -122,7 +121,7 @@ function House() {
                 <div className="relative z-10 flex flex-col items-center text-center h-full">
                   {/* Logo Container */}
                   <motion.div
-                    className="w-full h-[50%] mb-6 flex items-center justify-center bg-white/10 rounded-xl backdrop-blur-sm group-hover:bg-white/20 transition-all duration-300"
+                    className="w-full h-[50%] mb-6 flex items-center justify-center bg-white rounded-xl backdrop-blur-sm group-hover:bg-white/20 transition-all duration-300"
                     whileHover={{ scale: 1.05 }}
                   >
                     <img
@@ -138,7 +137,7 @@ function House() {
                     <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 group-hover:text-yellow-400 transition-colors duration-300">
                       {brand.name}
                     </h3>
-                    <p className="text-white/70 mb-6 text-lg">
+                    <p className="text-white/70 mb-6 text-base">
                       {brand.description}
                     </p>
                   </div>
