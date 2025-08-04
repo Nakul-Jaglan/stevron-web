@@ -115,13 +115,13 @@ function House() {
               {/* Card */}
               <div className="bg-black/40 backdrop-blur-xl border border-white/20 rounded-2xl p-6 sm:p-8 hover:bg-black/60 transition-all duration-500 relative overflow-hidden h-full">
                 {/* Gradient Overlay */}
-                <div className={`absolute inset-0 bg-gradient-to-br ${brand.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-500 rounded-2xl`}></div>
+                {/* <div className={`absolute inset-0 bg-gradient-to-br ${brand.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-500 rounded-2xl`}></div> */}
                 
                 {/* Content */}
                 <div className="relative z-10 flex flex-col items-center text-center h-full">
                   {/* Logo Container */}
                   <motion.div
-                    className="w-full h-[50%] mb-6 flex items-center justify-center bg-white rounded-xl backdrop-blur-sm group-hover:bg-white/20 transition-all duration-300"
+                    className="w-full h-[50%] mb-6 flex items-center justify-center bg-white/90 rounded-xl group-hover:cursor-pointer backdrop-blur-sm group-hover:bg-white transition-all duration-300"
                     whileHover={{ scale: 1.05 }}
                   >
                     <img
@@ -134,10 +134,10 @@ function House() {
 
                   {/* Brand Info */}
                   <div className="flex-grow">
-                    <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 group-hover:text-yellow-400 transition-colors duration-300">
+                    {/* <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 group-hover:text-yellow-400 transition-colors duration-300">
                       {brand.name}
-                    </h3>
-                    <p className="text-white/70 mb-6 text-base">
+                    </h3> */}
+                    <p className="text-white/70 mb-6 text-xl">
                       {brand.description}
                     </p>
                   </div>
@@ -150,11 +150,11 @@ function House() {
                     className="w-full"
                   >
                     <motion.button
-                      className={`w-full cursor-pointer text-lg bg-gradient-to-r ${brand.gradient} hover:bg-gradient-to-r hover:${brand.hoverGradient} text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 transform group-hover:shadow-lg group-hover:shadow-yellow-400/20`}
+                      className={`w-full cursor-pointer text-xl bg-gradient-to-r ${brand.gradient} hover:bg-gradient-to-r hover:${brand.hoverGradient} text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 transform group-hover:shadow-lg group-hover:shadow-yellow-400/20`}
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                     >
-                      Visit Website
+                      {brand.name}
                     </motion.button>
                   </Link>
                 </div>
