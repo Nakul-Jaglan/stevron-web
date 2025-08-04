@@ -68,8 +68,8 @@ function House() {
         className="max-w-7xl mx-auto relative z-10"
       >
         {/* Header */}
-        <motion.div variants={itemVariants} className="text-center mb-12 sm:mb-16 lg:mb-20">
-          <motion.div
+        <motion.div variants={itemVariants} className="text-center mb-10">
+          {/* <motion.div
             className="inline-flex items-center space-x-2 bg-gradient-to-r from-yellow-400/20 to-orange-500/20 border border-yellow-400/30 rounded-full px-4 sm:px-6 py-2 sm:py-3 mb-6 sm:mb-8"
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 300 }}
@@ -78,7 +78,7 @@ function House() {
             <span className="text-yellow-400 text-xs sm:text-sm font-semibold tracking-wider uppercase">
               Our Family
             </span>
-          </motion.div>
+          </motion.div> */}
 
           <motion.h2
             className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 sm:mb-6 leading-tight"
@@ -154,7 +154,12 @@ function House() {
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                     >
-                      {brand.name}
+                      <div className="flex items-center justify-center">
+                        {brand.name}
+                        <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
+                      </div>
                     </motion.button>
                   </Link>
                 </div>
