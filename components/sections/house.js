@@ -13,14 +13,7 @@ function House() {
       gradient: "from-green-500 to-teal-600",
       hoverGradient: "from-green-400 to-teal-500"
     },
-    {
-      name: "Mechnova Machines", 
-      description: "Home Use",
-      website: "https://mechnovamachines.com",
-      logo: "/logos/mechnova_logo.png",
-      gradient: "from-blue-500 to-purple-600",
-      hoverGradient: "from-blue-400 to-purple-500"
-    },
+   
     {
       name: "Stronwell",
       description: "Powerful, durable machines to handle your daily, demanding work.", 
@@ -28,6 +21,14 @@ function House() {
       logo: "/logos/stronwell_logo.png", 
       gradient: "from-orange-500 to-red-600",
       hoverGradient: "from-orange-400 to-red-500"
+    },
+    {
+      name: "Mechnova Machines", 
+      description: "Home Use",
+      website: "https://mechnovamachines.com",
+      logo: "/logos/mechnova_logo.png",
+      gradient: "from-blue-500 to-purple-600",
+      hoverGradient: "from-blue-400 to-purple-500"
     }
   ];
 
