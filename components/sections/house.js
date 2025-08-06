@@ -35,8 +35,8 @@ function House() {
   const brands2 = [
     {
       name: "Stevron Tools",
-      description: "Premium hardware solutions for every home and business.",
-      website: "https://stevron.com",
+      description: "Premium Tools for Professionals",
+      website: "https://stevrontools.com",
       logo: "/logo.png",
       gradient: "from-yellow-500 to-orange-600",
       hoverGradient: "from-yellow-400 to-orange-500"
@@ -150,7 +150,7 @@ function House() {
                     {/* <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 group-hover:text-yellow-400 transition-colors duration-300">
                       {brand.name}
                     </h3> */}
-                    <p className="text-white/70 mb-6 text-xl">
+                    <p className="text-white/70 mb-6 text-xl font-semibold">
                       {brand.description}
                     </p>
                   </div>
