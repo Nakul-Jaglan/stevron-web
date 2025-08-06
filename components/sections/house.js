@@ -7,7 +7,7 @@ function House() {
   const brands = [
     {
       name: "Bonhoeffer Machines",
-      description: "Heavy-duty equipment engineered for the toughest farms and construction sites.",
+      description: "Heavy Duty for professional use",
       website: "https://bonhoeffermachines.com",
       logo: "/logos/bonhoeffer_logo.png", 
       gradient: "from-green-500 to-teal-600",
@@ -15,7 +15,7 @@ function House() {
     },
     {
       name: "Mechnova Machines", 
-      description: "For weekend or occasional outdoor tasks. Simple, reliable, and built to last",
+      description: "Home Use",
       website: "https://mechnovamachines.com",
       logo: "/logos/mechnova_logo.png",
       gradient: "from-blue-500 to-purple-600",
