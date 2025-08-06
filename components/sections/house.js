@@ -16,7 +16,7 @@ function House() {
    
     {
       name: "Stronwell",
-      description: "Mid Duty for serious user", 
+      description: "Mid Duty for regular user", 
       website: "https://stronwell.com",
       logo: "/logos/stronwell_logo.png", 
       gradient: "from-orange-500 to-red-600",
