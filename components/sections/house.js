@@ -16,7 +16,7 @@ function House() {
    
     {
       name: "Stronwell",
-      description: "Mid Duty for regular user", 
+      description: "Mid Duty for Regular User", 
       website: "https://stronwell.com",
       logo: "/logos/stronwell_logo.png", 
       gradient: "from-orange-500 to-red-600",
@@ -24,7 +24,7 @@ function House() {
     },
     {
       name: "Mechnova Machines", 
-      description: "Home Use",
+      description: "Light Duty Home Use",
       website: "https://mechnovamachines.com",
       logo: "/logos/mechnova_logo.png",
       gradient: "from-blue-500 to-purple-600",
