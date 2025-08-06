@@ -7,7 +7,7 @@ function House() {
   const brands = [
     {
       name: "Bonhoeffer Machines",
-      description: "Heavy Duty for professional use",
+      description: "Heavy Duty for Professional use",
       website: "https://bonhoeffermachines.com",
       logo: "/logos/bonhoeffer_logo.png", 
       gradient: "from-green-500 to-teal-600",
