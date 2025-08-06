@@ -24,7 +24,7 @@ function House() {
     },
     {
       name: "Mechnova Machines", 
-      description: "Light Duty Home Use",
+      description: "Light Duty for Home Use",
       website: "https://mechnovamachines.com",
       logo: "/logos/mechnova_logo.png",
       gradient: "from-blue-500 to-purple-600",
