@@ -6,7 +6,7 @@ import Link from 'next/link';
 function House() {
   const brands = [
     {
-      name: "Bonhoeffer Machines",
+      name: "Visit Website",
       description: "Heavy Duty for Professional Use",
       website: "https://bonhoeffermachines.com",
       logo: "/logos/bon_letter.png", 
@@ -15,7 +15,7 @@ function House() {
     },
    
     {
-      name: "Stronwell",
+      name: "Visit Website",
       description: "Mid Duty for Regular Use", 
       website: "https://stronwell.com",
       logo: "/logos/stronwell_logo.png", 
@@ -23,7 +23,7 @@ function House() {
       hoverGradient: "from-orange-400 to-red-500"
     },
     {
-      name: "Mechnova Machines", 
+      name: "Visit Website", 
       description: "Light Duty for Home Use",
       website: "https://mechnovamachines.com",
       logo: "/logos/mechnova_logo.png",
@@ -34,7 +34,7 @@ function House() {
 
   const brands2 = [
     {
-      name: "Stevron Tools",
+      name: "Visit Website",
       description: "Premium Tools for Professionals",
       website: "https://stevrontools.com",
       logo: "/logos/stevron_black_logo.png",
