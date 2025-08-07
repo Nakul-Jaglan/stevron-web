@@ -6,7 +6,7 @@ import Link from 'next/link';
 function House() {
   const brands = [
     {
-      name: "Visit Website",
+      name: "Bonhoefffer Machines",
       description: "Heavy Duty for Professional Use",
       website: "https://bonhoeffermachines.com",
       logo: "/logos/bon_letter.png", 
@@ -15,7 +15,7 @@ function House() {
     },
    
     {
-      name: "Visit Website",
+      name: "Stronwell",
       description: "Mid Duty for Regular Use", 
       website: "https://stronwell.com",
       logo: "/logos/stronwell_logo.png", 
@@ -23,7 +23,7 @@ function House() {
       hoverGradient: "from-orange-400 to-red-500"
     },
     {
-      name: "Visit Website", 
+      name: "Mechnova Machines",
       description: "Light Duty for Home Use",
       website: "https://mechnovamachines.com",
       logo: "/logos/mechnova_logo.png",
@@ -34,7 +34,7 @@ function House() {
 
   const brands2 = [
     {
-      name: "Visit Website",
+      name: "Stevron Tools",
       description: "Premium Tools for Professionals",
       website: "https://stevrontools.com",
       logo: "/logos/stevron_black_logo.png",
@@ -126,7 +126,7 @@ function House() {
               transition={{ type: "spring", stiffness: 300 }}
             >
               {/* Card */}
-              <div className="bg-white backdrop-blur-xl border border-white/20 rounded-2xl p-6 sm:p-8 hover:bg-black/60 transition-all duration-500 relative overflow-hidden h-full">
+              <div className="bg-white backdrop-blur-xl border border-white/20 rounded-2xl p-6 sm:p-8 transition-all duration-500 relative overflow-hidden h-full">
                 {/* Gradient Overlay */}
                 {/* <div className={`absolute inset-0 bg-gradient-to-br ${brand.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-500 rounded-2xl`}></div> */}
                 
@@ -134,7 +134,7 @@ function House() {
                 <div className="relative z-10 flex flex-col items-center text-center h-full">
                   {/* Logo Container */}
                   <motion.div
-                    className="w-full h-[50%] mb-6 flex items-center justify-center bg-black/10 rounded-xl group-hover:cursor-pointer backdrop-blur-sm group-hover:bg-white transition-all duration-300"
+                    className="w-full h-[50%] mb-6 flex items-center justify-center bg-black/10 rounded-xl group-hover:cursor-pointer backdrop-blur-sm transition-all duration-300"
                     whileHover={{ scale: 1.05 }}
                   >
                     <img
@@ -233,7 +233,7 @@ function House() {
               transition={{ type: "spring", stiffness: 300 }}
             >
               {/* Card */}
-              <div className="bg-white backdrop-blur-xl border border-white/20 rounded-2xl p-6 sm:p-8 hover:bg-black/60 transition-all duration-500 relative overflow-hidden h-full">
+              <div className="bg-white backdrop-blur-xl border border-white/20 rounded-2xl p-6 sm:p-8 transition-all duration-500 relative overflow-hidden h-full">
                 {/* Gradient Overlay */}
                 {/* <div className={`absolute inset-0 bg-gradient-to-br ${brand.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-500 rounded-2xl`}></div> */}
                 
@@ -241,7 +241,7 @@ function House() {
                 <div className="relative z-10 flex flex-col items-center text-center h-full">
                   {/* Logo Container */}
                   <motion.div
-                    className="w-full h-[50%] mb-6 flex items-center justify-center bg-black/10 rounded-xl group-hover:cursor-pointer backdrop-blur-sm group-hover:bg-white transition-all duration-300"
+                    className="w-full h-[50%] mb-6 flex items-center justify-center bg-black/10 rounded-xl group-hover:cursor-pointer backdrop-blur-sm transition-all duration-300"
                     whileHover={{ scale: 1.05 }}
                   >
                     <img
