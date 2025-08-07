@@ -37,7 +37,7 @@ function House() {
       name: "Visit Website",
       description: "Premium Tools for Professionals",
       website: "https://stevrontools.com",
-      logo: "/logos/stevron_black_logo",
+      logo: "/logos/stevron_black_logo.png",
       gradient: "from-yellow-500 to-orange-600",
       hoverGradient: "from-yellow-400 to-orange-500"
     }
