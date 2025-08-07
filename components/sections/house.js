@@ -9,7 +9,7 @@ function House() {
       name: "Bonhoeffer Machines",
       description: "Heavy Duty for Professional Use",
       website: "https://bonhoeffermachines.com",
-      logo: "/logos/bonhoeffer_logo.png", 
+      logo: "/logos/bon_letter.png", 
       gradient: "from-green-500 to-teal-600",
       hoverGradient: "from-green-400 to-teal-500"
     },
@@ -37,7 +37,7 @@ function House() {
       name: "Stevron Tools",
       description: "Premium Tools for Professionals",
       website: "https://stevrontools.com",
-      logo: "/logo.png",
+      logo: "/logos/stevron_black_logo.png",
       gradient: "from-yellow-500 to-orange-600",
       hoverGradient: "from-yellow-400 to-orange-500"
     }
@@ -126,7 +126,7 @@ function House() {
               transition={{ type: "spring", stiffness: 300 }}
             >
               {/* Card */}
-              <div className="bg-black/40 backdrop-blur-xl border border-white/20 rounded-2xl p-6 sm:p-8 hover:bg-black/60 transition-all duration-500 relative overflow-hidden h-full">
+              <div className="bg-white backdrop-blur-xl border border-white/20 rounded-2xl p-6 sm:p-8 hover:bg-black/60 transition-all duration-500 relative overflow-hidden h-full">
                 {/* Gradient Overlay */}
                 {/* <div className={`absolute inset-0 bg-gradient-to-br ${brand.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-500 rounded-2xl`}></div> */}
                 
@@ -134,7 +134,7 @@ function House() {
                 <div className="relative z-10 flex flex-col items-center text-center h-full">
                   {/* Logo Container */}
                   <motion.div
-                    className="w-full h-[50%] mb-6 flex items-center justify-center bg-white/90 rounded-xl group-hover:cursor-pointer backdrop-blur-sm group-hover:bg-white transition-all duration-300"
+                    className="w-full h-[50%] mb-6 flex items-center justify-center bg-black/10 rounded-xl group-hover:cursor-pointer backdrop-blur-sm group-hover:bg-white transition-all duration-300"
                     whileHover={{ scale: 1.05 }}
                   >
                     <img
@@ -150,7 +150,7 @@ function House() {
                     {/* <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 group-hover:text-yellow-400 transition-colors duration-300">
                       {brand.name}
                     </h3> */}
-                    <p className="text-white/70 mb-6 text-xl font-semibold">
+                    <p className="text-black/90 mb-6 text-xl font-semibold">
                       {brand.description}
                     </p>
                   </div>
@@ -233,7 +233,7 @@ function House() {
               transition={{ type: "spring", stiffness: 300 }}
             >
               {/* Card */}
-              <div className="bg-black/40 backdrop-blur-xl border border-white/20 rounded-2xl p-6 sm:p-8 hover:bg-black/60 transition-all duration-500 relative overflow-hidden h-full">
+              <div className="bg-white backdrop-blur-xl border border-white/20 rounded-2xl p-6 sm:p-8 hover:bg-black/60 transition-all duration-500 relative overflow-hidden h-full">
                 {/* Gradient Overlay */}
                 {/* <div className={`absolute inset-0 bg-gradient-to-br ${brand.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-500 rounded-2xl`}></div> */}
                 
@@ -241,7 +241,7 @@ function House() {
                 <div className="relative z-10 flex flex-col items-center text-center h-full">
                   {/* Logo Container */}
                   <motion.div
-                    className="w-full h-[50%] mb-6 flex items-center justify-center bg-white/90 rounded-xl group-hover:cursor-pointer backdrop-blur-sm group-hover:bg-white transition-all duration-300"
+                    className="w-full h-[50%] mb-6 flex items-center justify-center bg-black/10 rounded-xl group-hover:cursor-pointer backdrop-blur-sm group-hover:bg-white transition-all duration-300"
                     whileHover={{ scale: 1.05 }}
                   >
                     <img
@@ -257,7 +257,7 @@ function House() {
                     {/* <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2 group-hover:text-yellow-400 transition-colors duration-300">
                       {brand.name}
                     </h3> */}
-                    <p className="text-white/70 mb-6 text-xl font-semibold">
+                    <p className="text-black/90 mb-6 text-xl font-semibold">
                       {brand.description}
                     </p>
                   </div>
