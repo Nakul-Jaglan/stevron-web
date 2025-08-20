@@ -223,7 +223,7 @@ function House() {
 
         {/* Brands Grid */}
         {/* <div className="grid grid-cols-1 gap-6 sm:gap-8 lg:gap-10"> */}
-        <div className="flex w-[30%] justify-center items-center mx-auto">
+        <div className="flex md:w-[50%] lg:w-[30%] justify-center items-center mx-auto">
           {brands2.map((brand, index) => (
             <motion.div
               key={brand.name}
