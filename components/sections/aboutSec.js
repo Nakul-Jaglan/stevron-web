@@ -9,7 +9,7 @@ function AboutSec() {
 
   const stats = [
     {
-      number: "21+",
+      number: "22+",
       label: "Countries",
       description: "Global reach and presence"
     },
