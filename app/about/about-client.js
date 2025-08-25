@@ -67,7 +67,7 @@ function AboutPageClient() {
 
   const achievements = [
     {
-      number: "21+",
+      number: "22+",
       label: "Countries",
       description: "Global reach and distribution network"
     },
