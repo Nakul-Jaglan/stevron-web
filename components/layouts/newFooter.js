@@ -17,10 +17,10 @@ function NewFooter() {
     {
       title: "Products",
       links: [
-        { name: "AC Tools", href: "/products/ac-tools" },
-        { name: "DC Tools", href: "/products/dc-tools" },
-        { name: "Hand Tools", href: "/products/hand-tools" },
-        { name: "Accessories", href: "/products/accessories" }
+        { name: "AC Tools", href: "/productos/herramientas-electricas" },
+        { name: "DC Tools", href: "/productos/dc-tools" },
+        { name: "Hand Tools", href: "/productos/hand-tools" },
+        { name: "Accessories", href: "/productos/accessories" }
       ]
     },
     {

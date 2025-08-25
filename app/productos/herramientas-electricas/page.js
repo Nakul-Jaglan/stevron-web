@@ -9,7 +9,7 @@ export const metadata = {
     title: 'Professional AC Tools & HVAC Equipment | Stevron Tools',
     description: 'Premium AC tools and HVAC equipment for professional technicians. Manifold gauges, vacuum pumps, refrigeration tools, and specialized equipment.',
     type: 'website',
-    url: 'https://stevrontools.com/products/ac-tools',
+    url: 'https://stevrontools.com/productos/herramientas-electricas',
     siteName: 'Stevron Tools',
     locale: 'en_US',
     images: [
@@ -33,7 +33,7 @@ export const metadata = {
     follow: true,
   },
   alternates: {
-    canonical: 'https://stevrontools.com/products/ac-tools',
+    canonical: 'https://stevrontools.com/productos/herramientas-electricas',
   },
 };
 

@@ -14,7 +14,7 @@ function NewHero() {
       subtitle: "Precision. Power. Built for Pros.",
       description: "Dominate Every Project with Stevron AC Tools",
       cta: {
-        primary: { text: "Explore AC Tools", href: "/products/ac-tools" },
+        primary: { text: "Explore AC Tools", href: "/productos/herramientas-electricas" },
         secondary: { text: "View Catalog", href: "https://www.flipsnack.com/66BE5ECC5A8/stevron-tools-hardware-accesories-2025/full-view.html" }
       },
       image: "/ac-tools/BNIMD710.webp",
@@ -27,7 +27,7 @@ function NewHero() {
       subtitle: "Unmatched Power, Anywhere You Build",
       description: "Stevron cordless DC tools—built to conquer every job site, every day.",
       cta: {
-        primary: { text: "Explore DC Tools", href: "/products/dc-tools" },
+        primary: { text: "Explore DC Tools", href: "/productos/dc-tools" },
         secondary: { text: "View Catalog", href: "https://www.flipsnack.com/66BE5ECC5A8/stevron-tools-hardware-accesories-2025/full-view.html" }
       },
       image: "/square/p4.png",
@@ -39,7 +39,7 @@ function NewHero() {
       subtitle: "Tools You Trust. Comfort You Feel.",
       description: "Every Stevron hand tool delivers unmatched grip, flawless balance, and lasting comfort.",
       cta: {
-        primary: { text: "Browse Hand Tools", href: "/products/hand-tools" },
+        primary: { text: "Browse Hand Tools", href: "/productos/hand-tools" },
         secondary: { text: "View Catalog", href: "https://www.flipsnack.com/66BE5ECC5A8/stevron-tools-hardware-accesories-2025/full-view.html" }
       },
       image: "/hand-tools/BCP7X180.webp",
@@ -52,7 +52,7 @@ function NewHero() {
       subtitle: "Complete Your Toolkit with Stevron Accessories",
       description: "Boost efficiency and extend tool life—our quality accessories make every job smoother.",
       cta: {
-        primary: { text: "Explore Accessories", href: "/products/accessories" },
+        primary: { text: "Explore Accessories", href: "/productos/accessories" },
         secondary: { text: "View Catalog", href: "https://www.flipsnack.com/66BE5ECC5A8/stevron-tools-hardware-accesories-2025/full-view.html" }
       },
       image: "/accessories/BWCB150M.webp",

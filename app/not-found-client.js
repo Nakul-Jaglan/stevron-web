@@ -59,7 +59,7 @@ export default function NotFoundClient() {
                     Go to Homepage
                   </Link>
                   <Link
-                    href="/products"
+                    href="/productos"
                     className="block w-full border border-white/20 text-white py-3 px-4 rounded-xl hover:bg-white/10 transition-all duration-300 text-center backdrop-blur-sm"
                   >
                     Browse Products
@@ -77,7 +77,7 @@ export default function NotFoundClient() {
                 <h4 className="font-medium text-white mb-3">Popular Categories</h4>
                 <div className="grid grid-cols-1 gap-2">
                   <Link 
-                    href="/products/ac-tools" 
+                    href="/productos/herramientas-electricas" 
                     className="text-white/80 hover:text-white hover:bg-white/5 p-2 rounded-lg transition-all duration-300"
                   >
                     <motion.span
@@ -90,7 +90,7 @@ export default function NotFoundClient() {
                     AC Tools & HVAC Equipment
                   </Link>
                   <Link 
-                    href="/products/hand-tools" 
+                    href="/productos/hand-tools" 
                     className="text-white/80 hover:text-white hover:bg-white/5 p-2 rounded-lg transition-all duration-300"
                   >
                     <motion.span

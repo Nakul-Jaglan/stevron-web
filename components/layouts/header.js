@@ -15,7 +15,7 @@ export default function Header() {
     },
     {
       name: "Products",
-      link: "/products",
+      link: "/productos",
     },
     {
       name: "Contact Us",

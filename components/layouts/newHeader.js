@@ -17,7 +17,7 @@ function NewHeader() {
   const navItems = [
     { name: "Home", href: "/" },
     { name: "About Us", href: "/about" },
-    { name: "Products", href: "/products", hasDropdown: true },
+    { name: "Products", href: "/productos", hasDropdown: true },
     // { name: "Blog", href: "/blog" },
     { name: "Contact Us", href: "/contact" }
   ];
@@ -25,25 +25,25 @@ function NewHeader() {
   const productCategories = [
     { 
       name: "AC Tools", 
-      href: "/products/ac-tools", 
+      href: "/productos/herramientas-electricas", 
       image: "/ac-tools/BNIMD710.webp",
       description: "Alternating current power tools"
     },
     { 
       name: "DC Tools", 
-      href: "/products/dc-tools", 
+      href: "/productos/dc-tools", 
       image: "/dc-tools/20J Rotary Hammer.png",
       description: "Direct current power tools"
     },
     { 
       name: "Hand Tools", 
-      href: "/products/hand-tools", 
+      href: "/productos/hand-tools", 
       image: "/hand-tools/BCP7X180.webp",
       description: "Manual hand tools"
     },
     { 
       name: "Accessories", 
-      href: "/products/accessories", 
+      href: "/productos/accessories", 
       image: "/accessories/BWCB125M.webp",
       description: "Tool accessories & parts"
     }

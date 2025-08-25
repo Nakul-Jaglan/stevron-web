@@ -17,7 +17,7 @@ export const metadata = {
     title: 'Professional Tools & Equipment Catalog | Stevron Tools',
     description: 'Browse our extensive catalog of professional-grade AC tools, hand tools, and electrical equipment. Premium tools for HVAC technicians and contractors.',
     type: 'website',
-    url: 'https://stevrontools.com/products',
+    url: 'https://stevrontools.com/productos',
     siteName: 'Stevron Tools',
     locale: 'en_US',
     images: [
@@ -51,7 +51,7 @@ export const metadata = {
     google: 'verification_token_here',
   },
   alternates: {
-    canonical: 'https://stevrontools.com/products',
+    canonical: 'https://stevrontools.com/productos',
   },
 };
 

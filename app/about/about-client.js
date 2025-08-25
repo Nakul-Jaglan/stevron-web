@@ -136,7 +136,7 @@ function AboutPageClient() {
               variants={itemVariants}
               className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center"
             >
-              <Link href="/products">
+              <Link href="/productos">
                 <motion.button
                   whileHover={{ scale: 1.05, boxShadow: "0 20px 30px #989b2e" }}
                   whileTap={{ scale: 0.95 }}
@@ -437,7 +437,7 @@ function AboutPageClient() {
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
-                  <Link href="/products">
+                  <Link href="/productos">
                     <motion.button
                       whileHover={{ 
                         scale: 1.05, 

@@ -248,7 +248,7 @@ function HomeProducts() {
                         whileHover={{ opacity: 1 }}
                         className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent rounded-xl flex items-end justify-center pb-4"
                       >
-                        <Link href={`/products/${product.category}#${product.code}`}>
+                        <Link href={`/productos/${product.category}#${product.code}`}>
                           <motion.button
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
@@ -324,7 +324,7 @@ function HomeProducts() {
           animate={isInView ? "visible" : "hidden"}
           className="text-center mt-16"
         >
-          <Link href="/products">
+          <Link href="/productos">
             <motion.button
               whileHover={{ scale: 1.05, boxShadow: "0 10px 25px #989b2e" }}
               whileTap={{ scale: 0.95 }}

@@ -9,7 +9,7 @@ export const metadata = {
     title: 'Professional Hand Tools & Manual Equipment | Stevron Tools',
     description: 'Premium hand tools and manual equipment for professionals. Wrenches, pliers, screwdrivers, measuring tools, and precision instruments.',
     type: 'website',
-    url: 'https://stevrontools.com/products/hand-tools',
+    url: 'https://stevrontools.com/productos/hand-tools',
     siteName: 'Stevron Tools',
     locale: 'en_US',
     images: [
@@ -33,7 +33,7 @@ export const metadata = {
     follow: true,
   },
   alternates: {
-    canonical: 'https://stevrontools.com/products/hand-tools',
+    canonical: 'https://stevrontools.com/productos/hand-tools',
   },
 };
 

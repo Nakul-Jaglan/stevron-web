@@ -314,7 +314,7 @@ function AboutSec() {
                 Our Story
               </motion.button>
             </Link>
-            <Link href="/products">
+            <Link href="/productos">
               <motion.button
                 whileHover={{ scale: 1.05, borderColor: "#989b2e" }}
                 whileTap={{ scale: 0.95 }}

@@ -27,22 +27,22 @@ export const FloatingNav = ({ navItems, className }) => {
     {
       name: "AC Tools",
       image: "/ac-tools/Router.png",
-      link: "/products/ac-tools"
+      link: "/productos/herramientas-electricas"
     },
     {
       name: "DC Tools",
       image: "/dc-tools/20J Rotary Hammer.png",
-      link: "/products/dc-tools"
+      link: "/productos/dc-tools"
     },
     {
       name: "Hand Tools",
       image: "/ac-tools/350W-Trimmer.png",
-      link: "/products/hand-tools"
+      link: "/productos/hand-tools"
     },
     {
       name: "Accessories",
       image: "/dc-tools/60Nm.png",
-      link: "/products/accessories"
+      link: "/productos/accessories"
     }
   ];
 

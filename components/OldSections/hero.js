@@ -150,7 +150,7 @@ function Hero() {
             className="mt-6 flex flex-col md:flex-row gap-4"
           >
             <motion.div whileHover={{ scale: 1.07 }} whileTap={{ scale: 0.97 }}>
-              <Link href="/products" className="inline-block bg-[#989b2e] text-white px-6 py-3 text-xl font-semibold rounded-lg hover:bg-[#7a7c23] transition-colors">
+              <Link href="/productos" className="inline-block bg-[#989b2e] text-white px-6 py-3 text-xl font-semibold rounded-lg hover:bg-[#7a7c23] transition-colors">
                 Explore Products
               </Link>
             </motion.div>

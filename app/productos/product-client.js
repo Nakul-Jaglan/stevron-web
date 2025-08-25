@@ -41,7 +41,7 @@ function ProductsClient() {
       title: "AC Tools",
       description: "Corded power tools for max performance and reliability in demanding applications",
       image: "/ac-tools/BNIMD710.webp",
-      href: "/products/ac-tools",
+      href: "/productos/herramientas-electricas",
       features: ["Consistent Power", "Heavy-Duty Performance", "Professional Grade", "Multiple Voltage Options"],
       toolCount: "15+ Tools"
     },
@@ -49,7 +49,7 @@ function ProductsClient() {
       title: "DC Tools",
       description: "Cordless freedom with our own ONE Battery Platform for ultimate mobility",
       image: "/square/p4.png",
-      href: "/products/dc-tools",
+      href: "/productos/dc-tools",
       features: ["ONE Battery Platform", "Cordless Freedom", "Extended Runtime", "Quick Charge Technology"],
       toolCount: "20+ Tools"
     },
@@ -57,7 +57,7 @@ function ProductsClient() {
       title: "Hand Tools",
       description: "Precision hand tools for detailed work and professional craftsmanship",
       image: "/hand-tools/BCP7X180.webp",
-      href: "/products/hand-tools",
+      href: "/productos/hand-tools",
       features: ["Precision Crafted", "Ergonomic Design", "Durable Materials", "Professional Quality"],
       toolCount: "30+ Tools"
     },
@@ -65,7 +65,7 @@ function ProductsClient() {
       title: "Accessories",
       description: "Complete range of accessories, attachments, and replacement spare parts",
       image: "/accessories/BWCB125M.webp",
-      href: "/products/accessories",
+      href: "/productos/accessories",
       features: ["Wide Selection", "Premium Quality", "Universal Compatibility", "Replacement Parts"],
       toolCount: "100+ Items"
     }

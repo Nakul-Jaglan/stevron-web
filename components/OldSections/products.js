@@ -12,7 +12,7 @@ function Products() {
         // handle: "@sarahjohnson",
         borderColor: "#3B82F6",
         gradient: "linear-gradient(145deg, #3B82F6, #000)",
-        url: "/products/dc-tools"
+        url: "/productos/dc-tools"
     },
     {
         image: "/ac-tools/Router.png",
@@ -21,7 +21,7 @@ function Products() {
         // handle: "@mikechen",
         borderColor: "#10B981",
         gradient: "linear-gradient(180deg, #10B981, #000)",
-        url: "/products/ac-tools"
+        url: "/productos/herramientas-electricas"
     }
     ];
   return (
