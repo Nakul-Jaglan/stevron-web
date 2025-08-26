@@ -90,7 +90,7 @@ export default function NotFoundClient() {
                     AC Tools & HVAC Equipment
                   </Link>
                   <Link 
-                    href="/productos/hand-tools" 
+                    href="/productos/herramientas-manuales" 
                     className="text-white/80 hover:text-white hover:bg-white/5 p-2 rounded-lg transition-all duration-300"
                   >
                     <motion.span

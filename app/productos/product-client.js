@@ -49,7 +49,7 @@ function ProductsClient() {
       title: "DC Tools",
       description: "Cordless freedom with our own ONE Battery Platform for ultimate mobility",
       image: "/square/p4.png",
-      href: "/productos/dc-tools",
+      href: "/productos/herramientas-baterias",
       features: ["ONE Battery Platform", "Cordless Freedom", "Extended Runtime", "Quick Charge Technology"],
       toolCount: "20+ Tools"
     },
@@ -57,7 +57,7 @@ function ProductsClient() {
       title: "Hand Tools",
       description: "Precision hand tools for detailed work and professional craftsmanship",
       image: "/hand-tools/BCP7X180.webp",
-      href: "/productos/hand-tools",
+      href: "/productos/herramientas-manuales",
       features: ["Precision Crafted", "Ergonomic Design", "Durable Materials", "Professional Quality"],
       toolCount: "30+ Tools"
     },
@@ -65,7 +65,7 @@ function ProductsClient() {
       title: "Accessories",
       description: "Complete range of accessories, attachments, and replacement spare parts",
       image: "/accessories/BWCB125M.webp",
-      href: "/productos/accessories",
+      href: "/productos/abrasivos-y-accessorios",
       features: ["Wide Selection", "Premium Quality", "Universal Compatibility", "Replacement Parts"],
       toolCount: "100+ Items"
     }

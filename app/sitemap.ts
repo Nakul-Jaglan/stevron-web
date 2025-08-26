@@ -35,19 +35,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/productos/dc-tools`,
+      url: `${baseUrl}/productos/herramientas-baterias`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/productos/hand-tools`,
+      url: `${baseUrl}/productos/herramientas-manuales`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/productos/accessories`,
+      url: `${baseUrl}/productos/abrasivos-y-accessorios`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,

@@ -18,9 +18,9 @@ function NewFooter() {
       title: "Products",
       links: [
         { name: "AC Tools", href: "/productos/herramientas-electricas" },
-        { name: "DC Tools", href: "/productos/dc-tools" },
-        { name: "Hand Tools", href: "/productos/hand-tools" },
-        { name: "Accessories", href: "/productos/accessories" }
+        { name: "DC Tools", href: "/productos/herramientas-baterias" },
+        { name: "Hand Tools", href: "/productos/herramientas-manuales" },
+        { name: "Accessories", href: "/productos/abrasivos-y-accessorios" }
       ]
     },
     {

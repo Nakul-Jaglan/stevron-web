@@ -31,19 +31,19 @@ function NewHeader() {
     },
     { 
       name: "DC Tools", 
-      href: "/productos/dc-tools", 
+      href: "/productos/herramientas-baterias", 
       image: "/dc-tools/20J Rotary Hammer.png",
       description: "Direct current power tools"
     },
     { 
       name: "Hand Tools", 
-      href: "/productos/hand-tools", 
+      href: "/productos/herramientas-manuales", 
       image: "/hand-tools/BCP7X180.webp",
       description: "Manual hand tools"
     },
     { 
       name: "Accessories", 
-      href: "/productos/accessories", 
+      href: "/productos/abrasivos-y-accessorios", 
       image: "/accessories/BWCB125M.webp",
       description: "Tool accessories & parts"
     }

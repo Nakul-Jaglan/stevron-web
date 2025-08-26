@@ -191,7 +191,7 @@ function One() {
               className="flex flex-wrap gap-4 pt-6"
             >
               <div className="z-100">
-                <Link href="/productos/dc-tools">
+                <Link href="/productos/herramientas-baterias">
                   <motion.button
                     whileHover={{ scale: 1.05, boxShadow: "0 20px 40px #989b2e" }}
                     whileTap={{ scale: 0.95 }}

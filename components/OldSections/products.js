@@ -12,7 +12,7 @@ function Products() {
         // handle: "@sarahjohnson",
         borderColor: "#3B82F6",
         gradient: "linear-gradient(145deg, #3B82F6, #000)",
-        url: "/productos/dc-tools"
+        url: "/productos/herramientas-baterias"
     },
     {
         image: "/ac-tools/Router.png",
