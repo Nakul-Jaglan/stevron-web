@@ -40,7 +40,7 @@ function NewHero() {
       description: "Every Stevron hand tool delivers unmatched grip, flawless balance, and lasting comfort.",
       cta: {
         primary: { text: "Browse Hand Tools", href: "/productos/herramientas-manuales" },
-        secondary: { text: "View Catalog", href: "https://www.flipsnack.com/66BE5ECC5A8/stevron-tools-hardware-accesories-2025/full-view.html" }
+        secondary: { text: "View Catalog", href: "https://www.flipsnack.com/66BE5ECC5A8/stevron-hand-tools-catalog/full-view.html" }
       },
       image: "/hand-tools/BCP7X180.webp",
     //   bgGradient: "from-green-600/20 via-purple-600/20 to-blue-600/20"
@@ -230,7 +230,7 @@ function NewHero() {
                       {slides[currentSlide].cta.primary.text}
                     </motion.button>
                   </Link>
-                  <Link href={slides[currentSlide].cta.secondary.href}>
+                  <Link href={slides[currentSlide].cta.secondary.href} target="_blank">
                     <motion.button
                       whileHover={{ scale: 1.05, borderColor: "rgba(255,255,255,0.8)" }}
                       whileTap={{ scale: 0.95 }}
