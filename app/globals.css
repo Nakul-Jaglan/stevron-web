@@ -16,3 +16,26 @@ body {
   color: var(--foreground);
   font-family: var(--font-titillium-web);
 }
+
+/* Chatbot Styles */
+.chatbot-container {
+  z-index: 9999;
+}
+
+/* Mobile responsive chatbot */
+@media (max-width: 640px) {
+  .chatbot-container {
+    position: fixed !important;
+    top: 10px !important;
+    left: 16px !important;
+    right: 16px !important;
+    bottom: 80px !important;
+  }
+  
+  .chatbot-container > div {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    max-height: none !important;
+  }
+}

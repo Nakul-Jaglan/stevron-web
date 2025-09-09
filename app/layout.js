@@ -1,5 +1,6 @@
 import { Titillium_Web } from "next/font/google";
 import "./globals.css";
+import ChatbaseBot from "../components/ChatbaseBot";
 
 const titilliumWeb = Titillium_Web({
   variable: "--font-titillium-web",
@@ -174,6 +175,7 @@ export default function RootLayout({ children }) {
         className={`${titilliumWeb.variable} antialiased`}
       >
         {children}
+        <ChatbaseBot />
       </body>
     </html>
   );
